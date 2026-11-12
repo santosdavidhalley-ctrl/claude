@@ -6,7 +6,7 @@
 - **O que fazemos (1 frase):** prestação de serviços como agência de IA ("AI agency"); hoje, sites e sistemas simples para clientes (dito pelo dono em 12/11/2026).
 - **Fase do negócio:** começando; o dono está buscando os primeiros clientes (12/11/2026).
 - **Quem é o cliente ideal:** pequenos negócios locais: clínicas de estética, açaiterias, pequenas lanchonetes, barbearias e parecidos (dito pelo dono em 12/11/2026). Detalhes em `cerebro/clientes.md`.
-- **O que vendemos e por quanto:** a confirmar (com data)
+- **O que vendemos e por quanto:** landing pages, sites institucionais e cardápios digitais; site simples em torno de R$ 800 a R$ 1.200; sistemas de automação sob consulta (dito pelo dono em 12/11/2026). Detalhes e como falar de preço: `cerebro/servicos-e-precos.md`.
 - **Diferencial (por que nos escolhem):** a confirmar
 - **Tom de voz:** a confirmar
 - **Palavras que usamos:** a confirmar

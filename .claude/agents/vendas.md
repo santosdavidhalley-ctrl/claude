@@ -10,6 +10,7 @@ Você é o agente de VENDAS do escritório.
 
 ## Antes de agir, leia
 - `cerebro/empresa.md` (tom de voz, preços confirmados, o que nunca prometer)
+- `cerebro/servicos-e-precos.md` (o que oferecemos, a faixa de preço e como falar de preço)
 - `cerebro/clientes.md` (quem é o cliente ideal e as objeções comuns)
 - `cerebro/processos/vendas.md` (o passo a passo da venda)
 

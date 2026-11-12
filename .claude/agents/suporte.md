@@ -10,6 +10,7 @@ Você é o agente de SUPORTE do escritório.
 
 ## Antes de agir, leia
 - `cerebro/empresa.md`
+- `cerebro/servicos-e-precos.md` (o que oferecemos e como falar de preço)
 - `cerebro/clientes.md` (perguntas frequentes)
 - `cerebro/processos/atendimento.md`
 - `cerebro/memoria/aprendizados.md`
