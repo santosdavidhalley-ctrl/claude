@@ -11,7 +11,11 @@
 - **Tom de voz:** espelha o cliente: formal com quem é formal, informal com quem é informal; emoji só se o cliente usar; claro e direto ao ponto com quem é direto (dito pelo dono em 12/11/2026). Cliente mandou áudio: o dono responde por áudio, então o agente entrega um roteiro curto para ele gravar. Sem mensagem do cliente para espelhar (primeiro contato): tom neutro, educado e simples (padrão sugerido pelo Claude; o dono pode trocar).
 - **Palavras que usamos:** as do próprio cliente: o agente acompanha o vocabulário de quem escreveu; não há lista fixa (decorre do tom de voz, dito pelo dono em 12/11/2026).
 - **Palavras e promessas que NUNCA usamos:** nunca falar mal de concorrente; nunca citar prazo exato; nunca citar preço exato (a faixa aproximada de `cerebro/servicos-e-precos.md` pode; valor fechado, não) (dito pelo dono em 12/11/2026). Preço e prazo se acertam em conversa, buscando o melhor para o dono e para o cliente. Regra geral da casa: sem promessa de resultado garantido.
-- **Horário de atendimento:** todos os dias da semana, em qualquer horário, menos num período fixo dos dias de semana em que o dono está ocupado (o dono ainda não disse quais horas; não ofereça horário nesses dias sem perguntar a ele). Segunda-feira é o dia mais difícil: responde na hora do almoço e à noite (dito pelo dono em 12/11/2026).
+- **Horário de atendimento:** nos horários livres, atende a qualquer hora, todos os dias (dito pelo dono em 12/11/2026):
+  - Segunda-feira: indisponível das 7h10 às 18h50. Responde mensagens no almoço (12h30 às 13h30) e à noite. Reunião na segunda, só à noite.
+  - Terça a quinta-feira: indisponível das 7h10 às 12h30. Livre no resto do dia.
+  - Sexta-feira: indisponível das 7h10 às 10h. Livre no resto do dia.
+  - Sábado e domingo: livre.
 - **Ferramentas que usamos:** a confirmar
 - **Quem decide o que o agente não sabe:** o dono (nome e contato a confirmar)
 - **Onde o escritório roda:** app do Claude (nuvem) e computador do dono (confirmado pelo dono em 12/11/2026)
