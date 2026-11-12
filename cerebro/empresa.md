@@ -18,6 +18,7 @@
   - Sábado e domingo: livre.
 - **Ferramentas que usamos:** Claude Code (desenvolver sites, sistemas e apps); WhatsApp, Instagram e e-mail (conversa com clientes); GitHub (guardar os projetos); Vercel (hospedar os sites). Não usa Canva. Planilha: ainda não usa; achou boa ideia (dito pelo dono em 12/11/2026). Nenhuma delas está conectada aos agentes: eles só rascunham.
 - **Como os clientes chegam:** hoje é o dono que vai até eles: faz prospecção, busca leads e manda a proposta; ainda tem pouca visibilidade (dito pelo dono em 12/11/2026).
+- **Contato ativo (prospecção):** os contatos vêm de três lugares: busca do próprio dono no Instagram (perfis de negócios), indicações e sugestões de leads dadas por IA. Lead sugerido por IA pode ter dado inventado: o dono confere cada um no perfil público antes de usar. Canais: DM do Instagram e WhatsApp (dito pelo dono em 12/11/2026). Base para o contato: o dono ainda não decidiu; até lá o agente `prospeccao` qualifica, mas não rascunha a mensagem (`cerebro/processos/contato-ativo.md`).
 - **Quem decide o que o agente não sabe:** o dono, sozinho. É ele também quem fecha com o cliente: combina valor, assina e recebe (dito pelo dono em 12/11/2026). Nas mensagens, diga "o responsável". O nome e o contato dele ficam fora deste arquivo de propósito: o repositório é público.
 - **Onde o escritório roda:** app do Claude (nuvem) e computador do dono (confirmado pelo dono em 12/11/2026)
 
