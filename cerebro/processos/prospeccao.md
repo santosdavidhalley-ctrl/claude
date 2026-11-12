@@ -16,7 +16,9 @@
 
 ## 3. Primeira mensagem (o agente rascunha; o dono envia)
 - Canal e regras: `cerebro/processos/contato-ativo.md`.
+- A mensagem sai do perfil do próprio dono: escreva em primeira pessoa ("Sou [seu nome], faço sites..."), deixando [seu nome] para ele preencher. Nunca "sou assistente de...".
 - Até 5 linhas, em tom neutro, educado e simples. Sem nome de empresa (ainda não há).
+- Indicação: antes de enviar, o dono confirma com quem indicou se pode citar o nome.
 - Tem de ter: quem é você e o que faz; onde achou o contato, ou quem indicou; uma observação específica e verdadeira sobre o negócio; UMA pergunta; uma forma simples de parar de receber.
 - Não pode ter: preço, prazo exato, promessa de resultado, crítica ao que o negócio faz hoje, texto igual para todos.
 

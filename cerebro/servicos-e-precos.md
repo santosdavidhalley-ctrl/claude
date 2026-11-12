@@ -9,7 +9,7 @@
 - Manutenção mensal de sites (planos abaixo)
 - Integrações com outras ferramentas (quais, o dono avalia em cada caso)
 - Sistemas de automação: sob consulta. O dono avalia caso a caso; não prometa que dá para fazer nem prazo.
-- Aplicativo de celular: o dono ainda não fez nenhum, mas aceita avaliar o pedido. Não diga que fazemos nem que não fazemos: diga que o responsável avalia a ideia.
+- Aplicativo de celular: o dono ainda não fez nenhum, mas aceita avaliar o pedido. Não diga que fazemos nem que não fazemos: diga que dá para avaliar a ideia ("posso avaliar a sua ideia e te dizer como seria").
 
 ## Preços dos projetos (ditos pelo dono em 12/11/2026)
 - Site simples: em torno de R$ 800 a R$ 1.200.
@@ -42,7 +42,7 @@
 ## Como falar de preço
 - Pode citar a faixa do site simples como referência ("em torno de"), nunca como valor fechado.
 - Antes de falar em valor, entenda o que o cliente precisa: tipo de site, funcionalidades e acabamento.
-- Fora da faixa ou em dúvida: "preciso confirmar com o responsável".
+- Fora da faixa ou em dúvida: "vou confirmar e já te respondo", e avise o dono do que falta.
 - Cliente achou caro: ofereça ver uma versão mais simples do projeto, que caiba no orçamento. Pode dizer que há espaço para conversar sobre o valor. Quanto de desconto: só o dono decide; não cite percentual nem valor.
 
 _Última revisão: 12/11/2026_
