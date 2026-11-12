@@ -22,7 +22,12 @@
 - Fora da faixa ou em dúvida: "preciso confirmar com o responsável".
 - Cliente achou caro: ofereça ver uma versão mais simples do projeto, que caiba no orçamento. Pode dizer que há espaço para conversar sobre o valor. Quanto de desconto: só o dono decide; não cite percentual nem valor.
 
+## Pagamento (dito pelo dono em 12/11/2026)
+O cliente escolhe uma de duas opções:
+- 50% do valor no início e 50% na entrega do projeto (a que o dono considera melhor para os dois lados); ou
+- 100% do valor no início.
+
 ## Falta o dono dizer
-- Forma de cobrança e de pagamento, prazo de entrega em dias, valor da manutenção e o que não está incluso (domínio, hospedagem, textos, fotos, manutenção). Até lá, a resposta é "preciso confirmar com o responsável".
+- Meio de pagamento (Pix, cartão, boleto), prazo de entrega em dias, valor da manutenção e o que não está incluso (domínio, hospedagem, textos, fotos, manutenção). Até lá, a resposta é "preciso confirmar com o responsável".
 
 _Última revisão: 12/11/2026_
