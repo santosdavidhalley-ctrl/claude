@@ -16,7 +16,8 @@
   - Terça a quinta-feira: indisponível das 7h10 às 12h30. Livre no resto do dia.
   - Sexta-feira: indisponível das 7h10 às 10h. Livre no resto do dia.
   - Sábado e domingo: livre.
-- **Ferramentas que usamos:** a confirmar
+- **Ferramentas que usamos:** Claude Code (desenvolver sites, sistemas e apps); WhatsApp, Instagram e e-mail (conversa com clientes); GitHub (guardar os projetos); Vercel (hospedar os sites). Não usa Canva. Planilha: ainda não usa; achou boa ideia (dito pelo dono em 12/11/2026). Nenhuma delas está conectada aos agentes: eles só rascunham.
+- **Como os clientes chegam:** hoje é o dono que vai até eles: faz prospecção, busca leads e manda a proposta; ainda tem pouca visibilidade (dito pelo dono em 12/11/2026).
 - **Quem decide o que o agente não sabe:** o dono (nome e contato a confirmar)
 - **Onde o escritório roda:** app do Claude (nuvem) e computador do dono (confirmado pelo dono em 12/11/2026)
 
