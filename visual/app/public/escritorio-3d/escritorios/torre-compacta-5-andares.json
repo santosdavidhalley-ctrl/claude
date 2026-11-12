@@ -1,0 +1,4682 @@
+{
+ "id": "torre-compacta-5-andares",
+ "nome": "Torre compacta 5 andares",
+ "descricao": "Cabe em 14 × 10 m: recepção e café, 2 andares de operação, criação e diretoria. Elevador e 65+ lugares.",
+ "origem": "layouts prontos",
+ "arquivo": "escritorios/torre-compacta-5-andares.glb",
+ "previa": "escritorios/torre-compacta-5-andares.webp",
+ "andares": 5,
+ "altura_do_andar": 3.1,
+ "terreno": {
+  "w": 14,
+  "d": 10
+ },
+ "tamanho": {
+  "x": 16,
+  "y": 16.21,
+  "z": 12,
+  "min": [
+   -1,
+   -0.04,
+   -1
+  ],
+  "max": [
+   15,
+   16.16,
+   11
+  ]
+ },
+ "mb": 1.43,
+ "moveis": 302,
+ "postos_de_trabalho": 71,
+ "assentos": [
+  {
+   "id": "torre-compacta-5-andares-i1:0",
+   "andar": 0,
+   "x": 0.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i4:0",
+   "andar": 0,
+   "x": 2.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i7:0",
+   "andar": 0,
+   "x": 3.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i10:0",
+   "andar": 0,
+   "x": 5.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i13:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i16:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i19:0",
+   "andar": 0,
+   "x": 1.25,
+   "y": 0.12,
+   "z": 2.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i22:0",
+   "andar": 0,
+   "x": 2.75,
+   "y": 0.12,
+   "z": 2.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i25:0",
+   "andar": 0,
+   "x": 4.25,
+   "y": 0.12,
+   "z": 2.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i28:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 2.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i31:0",
+   "andar": 0,
+   "x": 7.25,
+   "y": 0.12,
+   "z": 2.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i34:0",
+   "andar": 0,
+   "x": 1.25,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i37:0",
+   "andar": 0,
+   "x": 2.75,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i40:0",
+   "andar": 0,
+   "x": 4.25,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i43:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i46:0",
+   "andar": 0,
+   "x": 7.25,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i57:0",
+   "andar": 0,
+   "x": 4.5,
+   "y": 0.12,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Recepção",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-i59:0",
+   "andar": 0,
+   "x": 1.1,
+   "y": 0.12,
+   "z": 8.95,
+   "yaw": 1.571,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "torre-compacta-5-andares-i59:1",
+   "andar": 0,
+   "x": 1.1,
+   "y": 0.12,
+   "z": 8.05,
+   "yaw": 1.571,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "torre-compacta-5-andares-i67:0",
+   "andar": 0,
+   "x": 10.5,
+   "y": 0.12,
+   "z": 6.5,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-i68:0",
+   "andar": 0,
+   "x": 10.5,
+   "y": 0.12,
+   "z": 8.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-i69:0",
+   "andar": 0,
+   "x": 9.5,
+   "y": 0.12,
+   "z": 7.5,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-i70:0",
+   "andar": 0,
+   "x": 11.5,
+   "y": 0.12,
+   "z": 7.5,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i1:0",
+   "andar": 1,
+   "x": 0.75,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i4:0",
+   "andar": 1,
+   "x": 2.25,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i7:0",
+   "andar": 1,
+   "x": 3.75,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i10:0",
+   "andar": 1,
+   "x": 5.25,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i13:0",
+   "andar": 1,
+   "x": 6.75,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i16:0",
+   "andar": 1,
+   "x": 8.25,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i19:0",
+   "andar": 1,
+   "x": 1.25,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i22:0",
+   "andar": 1,
+   "x": 2.75,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i25:0",
+   "andar": 1,
+   "x": 4.25,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i28:0",
+   "andar": 1,
+   "x": 5.75,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i31:0",
+   "andar": 1,
+   "x": 7.25,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i34:0",
+   "andar": 1,
+   "x": 1.25,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i37:0",
+   "andar": 1,
+   "x": 2.75,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i40:0",
+   "andar": 1,
+   "x": 4.25,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i43:0",
+   "andar": 1,
+   "x": 5.75,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i46:0",
+   "andar": 1,
+   "x": 7.25,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i49:0",
+   "andar": 1,
+   "x": 1.25,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i52:0",
+   "andar": 1,
+   "x": 2.75,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i55:0",
+   "andar": 1,
+   "x": 4.25,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i58:0",
+   "andar": 1,
+   "x": 5.75,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i61:0",
+   "andar": 1,
+   "x": 7.25,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i64:0",
+   "andar": 1,
+   "x": 1.25,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i67:0",
+   "andar": 1,
+   "x": 2.75,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i70:0",
+   "andar": 1,
+   "x": 4.25,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i73:0",
+   "andar": 1,
+   "x": 5.75,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i76:0",
+   "andar": 1,
+   "x": 7.25,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação A",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i88:0",
+   "andar": 1,
+   "x": 12,
+   "y": 3.22,
+   "z": 7.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i89:0",
+   "andar": 1,
+   "x": 12,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i90:0",
+   "andar": 1,
+   "x": 11,
+   "y": 3.22,
+   "z": 8.25,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i91:0",
+   "andar": 1,
+   "x": 13,
+   "y": 3.22,
+   "z": 8.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i1:0",
+   "andar": 2,
+   "x": 1.75,
+   "y": 6.32,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 1",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i2:0",
+   "andar": 2,
+   "x": 3.25,
+   "y": 6.32,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 1",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i3:0",
+   "andar": 2,
+   "x": 1.75,
+   "y": 6.32,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 1",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i4:0",
+   "andar": 2,
+   "x": 3.25,
+   "y": 6.32,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Squad 1",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i10:0",
+   "andar": 2,
+   "x": 6.75,
+   "y": 6.32,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 2",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i11:0",
+   "andar": 2,
+   "x": 8.25,
+   "y": 6.32,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 2",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i12:0",
+   "andar": 2,
+   "x": 6.75,
+   "y": 6.32,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 2",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i13:0",
+   "andar": 2,
+   "x": 8.25,
+   "y": 6.32,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Squad 2",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i19:0",
+   "andar": 2,
+   "x": 1.75,
+   "y": 6.32,
+   "z": 6.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 3",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i20:0",
+   "andar": 2,
+   "x": 3.25,
+   "y": 6.32,
+   "z": 6.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 3",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i21:0",
+   "andar": 2,
+   "x": 1.75,
+   "y": 6.32,
+   "z": 8.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 3",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i22:0",
+   "andar": 2,
+   "x": 3.25,
+   "y": 6.32,
+   "z": 8.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Squad 3",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i28:0",
+   "andar": 2,
+   "x": 6.75,
+   "y": 6.32,
+   "z": 6.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 4",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i29:0",
+   "andar": 2,
+   "x": 8.25,
+   "y": 6.32,
+   "z": 6.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 4",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i30:0",
+   "andar": 2,
+   "x": 6.75,
+   "y": 6.32,
+   "z": 8.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Squad 4",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i31:0",
+   "andar": 2,
+   "x": 8.25,
+   "y": 6.32,
+   "z": 8.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Squad 4",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i46:0",
+   "andar": 2,
+   "x": 12,
+   "y": 6.32,
+   "z": 7.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i47:0",
+   "andar": 2,
+   "x": 12,
+   "y": 6.32,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i48:0",
+   "andar": 2,
+   "x": 11,
+   "y": 6.32,
+   "z": 8.25,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i49:0",
+   "andar": 2,
+   "x": 13,
+   "y": 6.32,
+   "z": 8.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i0:0",
+   "andar": 3,
+   "x": 0.65,
+   "y": 9.42,
+   "z": 1.2,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Criação",
+   "movel": "mesa-l"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i2:0",
+   "andar": 3,
+   "x": 2.65,
+   "y": 9.42,
+   "z": 1.2,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Criação",
+   "movel": "mesa-l"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i4:0",
+   "andar": 3,
+   "x": 4.65,
+   "y": 9.42,
+   "z": 1.2,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Criação",
+   "movel": "mesa-l"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i6:0",
+   "andar": 3,
+   "x": 1.35,
+   "y": 9.42,
+   "z": 3.8,
+   "yaw": 6.283,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Criação",
+   "movel": "mesa-l"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i8:0",
+   "andar": 3,
+   "x": 3.35,
+   "y": 9.42,
+   "z": 3.8,
+   "yaw": 6.283,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Criação",
+   "movel": "mesa-l"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i12:0",
+   "andar": 3,
+   "x": 8,
+   "y": 9.42,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de ideias",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i13:0",
+   "andar": 3,
+   "x": 8,
+   "y": 9.42,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de ideias",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i14:0",
+   "andar": 3,
+   "x": 7,
+   "y": 9.42,
+   "z": 2.25,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de ideias",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i15:0",
+   "andar": 3,
+   "x": 9,
+   "y": 9.42,
+   "z": 2.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de ideias",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i18:0",
+   "andar": 3,
+   "x": 2.45,
+   "y": 9.42,
+   "z": 9.4,
+   "yaw": 3.142,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge criativo",
+   "movel": "sofa"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i18:1",
+   "andar": 3,
+   "x": 1.55,
+   "y": 9.42,
+   "z": 9.4,
+   "yaw": 3.142,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge criativo",
+   "movel": "sofa"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i19:0",
+   "andar": 3,
+   "x": 5.45,
+   "y": 9.42,
+   "z": 9.4,
+   "yaw": 3.142,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge criativo",
+   "movel": "sofa"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i19:1",
+   "andar": 3,
+   "x": 4.55,
+   "y": 9.42,
+   "z": 9.4,
+   "yaw": 3.142,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge criativo",
+   "movel": "sofa"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i20:0",
+   "andar": 3,
+   "x": 7.5,
+   "y": 9.42,
+   "z": 9.05,
+   "yaw": 0,
+   "altura": 0.34,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge criativo",
+   "movel": "puff"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i30:0",
+   "andar": 3,
+   "x": 12,
+   "y": 9.42,
+   "z": 7.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i31:0",
+   "andar": 3,
+   "x": 12,
+   "y": 9.42,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i32:0",
+   "andar": 3,
+   "x": 11,
+   "y": 9.42,
+   "z": 8.25,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i33:0",
+   "andar": 3,
+   "x": 13,
+   "y": 9.42,
+   "z": 8.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i1:0",
+   "andar": 4,
+   "x": 3,
+   "y": 12.52,
+   "z": 0.75,
+   "yaw": 0,
+   "altura": 0.48,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-diretor"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i3:0",
+   "andar": 4,
+   "x": 2.5,
+   "y": 12.52,
+   "z": 2.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i4:0",
+   "andar": 4,
+   "x": 3.5,
+   "y": 12.52,
+   "z": 2.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i6:0",
+   "andar": 4,
+   "x": 1.95,
+   "y": 12.52,
+   "z": 4.4,
+   "yaw": 3.142,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Diretoria",
+   "movel": "sofa"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i6:1",
+   "andar": 4,
+   "x": 1.05,
+   "y": 12.52,
+   "z": 4.4,
+   "yaw": 3.142,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Diretoria",
+   "movel": "sofa"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i12:0",
+   "andar": 4,
+   "x": 6.75,
+   "y": 12.52,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Assessoria",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i15:0",
+   "andar": 4,
+   "x": 8.25,
+   "y": 12.52,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Assessoria",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i18:0",
+   "andar": 4,
+   "x": 6.75,
+   "y": 12.52,
+   "z": 3.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Assessoria",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i21:0",
+   "andar": 4,
+   "x": 9.25,
+   "y": 12.52,
+   "z": 3.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Assessoria",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i25:0",
+   "andar": 4,
+   "x": 2.75,
+   "y": 12.52,
+   "z": 6.5,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i26:0",
+   "andar": 4,
+   "x": 2.75,
+   "y": 12.52,
+   "z": 8.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i27:0",
+   "andar": 4,
+   "x": 3.75,
+   "y": 12.52,
+   "z": 6.5,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i28:0",
+   "andar": 4,
+   "x": 3.75,
+   "y": 12.52,
+   "z": 8.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i29:0",
+   "andar": 4,
+   "x": 4.75,
+   "y": 12.52,
+   "z": 6.5,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i30:0",
+   "andar": 4,
+   "x": 4.75,
+   "y": 12.52,
+   "z": 8.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i32:0",
+   "andar": 4,
+   "x": 5.75,
+   "y": 12.52,
+   "z": 6.5,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i33:0",
+   "andar": 4,
+   "x": 5.75,
+   "y": 12.52,
+   "z": 8.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i34:0",
+   "andar": 4,
+   "x": 6.75,
+   "y": 12.52,
+   "z": 6.5,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i35:0",
+   "andar": 4,
+   "x": 6.75,
+   "y": 12.52,
+   "z": 8.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i36:0",
+   "andar": 4,
+   "x": 7.75,
+   "y": 12.52,
+   "z": 6.5,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i37:0",
+   "andar": 4,
+   "x": 7.75,
+   "y": 12.52,
+   "z": 8.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i38:0",
+   "andar": 4,
+   "x": 2,
+   "y": 12.52,
+   "z": 7.5,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i39:0",
+   "andar": 4,
+   "x": 8.5,
+   "y": 12.52,
+   "z": 7.5,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i47:0",
+   "andar": 4,
+   "x": 13.4,
+   "y": 12.52,
+   "z": 7.55,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge executivo",
+   "movel": "sofa"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i47:1",
+   "andar": 4,
+   "x": 13.4,
+   "y": 12.52,
+   "z": 8.45,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge executivo",
+   "movel": "sofa"
+  }
+ ],
+ "pontos": [
+  {
+   "id": "torre-compacta-5-andares-i55:0",
+   "andar": 0,
+   "x": 13.75,
+   "y": 0.12,
+   "z": 3.55,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Hall dos elevadores",
+   "movel": "bebedouro"
+  },
+  {
+   "id": "torre-compacta-5-andares-i63:0",
+   "andar": 0,
+   "x": 9.6,
+   "y": 0.12,
+   "z": 8.65,
+   "yaw": 6.283,
+   "tipo": "cafe",
+   "par": null,
+   "atividade": "Pegando um café",
+   "sala": "Café",
+   "movel": "balcao-cafe"
+  },
+  {
+   "id": "torre-compacta-5-andares-i63:1",
+   "andar": 0,
+   "x": 8.4,
+   "y": 0.12,
+   "z": 8.65,
+   "yaw": 6.283,
+   "tipo": "cafe",
+   "par": null,
+   "atividade": "Pegando um café",
+   "sala": "Café",
+   "movel": "balcao-cafe"
+  },
+  {
+   "id": "torre-compacta-5-andares-i64:0",
+   "andar": 0,
+   "x": 13.5,
+   "y": 0.12,
+   "z": 8.7,
+   "yaw": 6.283,
+   "tipo": "geladeira",
+   "par": null,
+   "atividade": "Pegando um lanche",
+   "sala": "Café",
+   "movel": "geladeira"
+  },
+  {
+   "id": "torre-compacta-5-andares-i65:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 10.3,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": null,
+   "movel": "bebedouro"
+  },
+  {
+   "id": "torre-compacta-5-andares-a1-i85:0",
+   "andar": 1,
+   "x": 13.75,
+   "y": 3.22,
+   "z": 3.55,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Hall dos elevadores",
+   "movel": "bebedouro"
+  },
+  {
+   "id": "torre-compacta-5-andares-a2-i43:0",
+   "andar": 2,
+   "x": 13.75,
+   "y": 6.32,
+   "z": 3.55,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Hall dos elevadores",
+   "movel": "bebedouro"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i16:0",
+   "andar": 3,
+   "x": 6.8,
+   "y": 9.42,
+   "z": 4.13,
+   "yaw": 5.983,
+   "tipo": "quadro",
+   "par": null,
+   "atividade": "Rabiscando ideias no quadro",
+   "sala": "Sala de ideias",
+   "movel": "quadro-branco"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i22:0",
+   "andar": 3,
+   "x": 7.84,
+   "y": 9.42,
+   "z": 7,
+   "yaw": 1.571,
+   "tipo": "papo",
+   "par": "torre-compacta-5-andares-a3-i22:1",
+   "atividade": "Batendo papo",
+   "sala": "Lounge criativo",
+   "movel": "mesa-alta"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i22:1",
+   "andar": 3,
+   "x": 9.16,
+   "y": 9.42,
+   "z": 7,
+   "yaw": -1.571,
+   "tipo": "papo",
+   "par": "torre-compacta-5-andares-a3-i22:0",
+   "atividade": "Batendo papo",
+   "sala": "Lounge criativo",
+   "movel": "mesa-alta"
+  },
+  {
+   "id": "torre-compacta-5-andares-a3-i28:0",
+   "andar": 3,
+   "x": 13.75,
+   "y": 9.42,
+   "z": 3.55,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Hall dos elevadores",
+   "movel": "bebedouro"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i5:0",
+   "andar": 4,
+   "x": 0.8,
+   "y": 12.52,
+   "z": 1.4,
+   "yaw": 4.712,
+   "tipo": "livros",
+   "par": null,
+   "atividade": "Procurando um livro",
+   "sala": "Diretoria",
+   "movel": "estante"
+  },
+  {
+   "id": "torre-compacta-5-andares-a4-i46:0",
+   "andar": 4,
+   "x": 13.75,
+   "y": 12.52,
+   "z": 3.55,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Hall dos elevadores",
+   "movel": "bebedouro"
+  }
+ ],
+ "salas": [
+  {
+   "andar": 0,
+   "nome": "Operação",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 10,
+   "d": 6,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Hall dos elevadores",
+   "tipo": "corredor",
+   "x": 10,
+   "z": 0,
+   "w": 4,
+   "d": 6,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 0,
+   "nome": "Recepção",
+   "tipo": "recepcao",
+   "x": 0,
+   "z": 6,
+   "w": 6,
+   "d": 4,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 0,
+   "nome": "Café",
+   "tipo": "cafe",
+   "x": 6,
+   "z": 6,
+   "w": 8,
+   "d": 4,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 1,
+   "nome": "Operação A",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 10,
+   "d": 10,
+   "piso": "carpete"
+  },
+  {
+   "andar": 1,
+   "nome": "Hall dos elevadores",
+   "tipo": "corredor",
+   "x": 10,
+   "z": 0,
+   "w": 4,
+   "d": 6,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 1,
+   "nome": "Sala de reunião",
+   "tipo": "reuniao",
+   "x": 10,
+   "z": 6,
+   "w": 4,
+   "d": 4,
+   "piso": "madeira"
+  },
+  {
+   "andar": 2,
+   "nome": "Squad 1",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 5,
+   "d": 5,
+   "piso": "carpete"
+  },
+  {
+   "andar": 2,
+   "nome": "Squad 2",
+   "tipo": "trabalho",
+   "x": 5,
+   "z": 0,
+   "w": 5,
+   "d": 5,
+   "piso": "carpete"
+  },
+  {
+   "andar": 2,
+   "nome": "Squad 3",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 5,
+   "w": 5,
+   "d": 5,
+   "piso": "carpete"
+  },
+  {
+   "andar": 2,
+   "nome": "Squad 4",
+   "tipo": "trabalho",
+   "x": 5,
+   "z": 5,
+   "w": 5,
+   "d": 5,
+   "piso": "carpete"
+  },
+  {
+   "andar": 2,
+   "nome": "Hall dos elevadores",
+   "tipo": "corredor",
+   "x": 10,
+   "z": 0,
+   "w": 4,
+   "d": 6,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 2,
+   "nome": "Sala de reunião",
+   "tipo": "reuniao",
+   "x": 10,
+   "z": 6,
+   "w": 4,
+   "d": 4,
+   "piso": "madeira"
+  },
+  {
+   "andar": 3,
+   "nome": "Criação",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 6,
+   "d": 5,
+   "piso": "madeira"
+  },
+  {
+   "andar": 3,
+   "nome": "Sala de ideias",
+   "tipo": "reuniao",
+   "x": 6,
+   "z": 0,
+   "w": 4,
+   "d": 5,
+   "piso": "carpete"
+  },
+  {
+   "andar": 3,
+   "nome": "Lounge criativo",
+   "tipo": "descanso",
+   "x": 0,
+   "z": 5,
+   "w": 10,
+   "d": 5,
+   "piso": "carpete"
+  },
+  {
+   "andar": 3,
+   "nome": "Hall dos elevadores",
+   "tipo": "corredor",
+   "x": 10,
+   "z": 0,
+   "w": 4,
+   "d": 6,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 3,
+   "nome": "Sala de reunião",
+   "tipo": "reuniao",
+   "x": 10,
+   "z": 6,
+   "w": 4,
+   "d": 4,
+   "piso": "madeira"
+  },
+  {
+   "andar": 4,
+   "nome": "Diretoria",
+   "tipo": "diretoria",
+   "x": 0,
+   "z": 0,
+   "w": 6,
+   "d": 5,
+   "piso": "madeira"
+  },
+  {
+   "andar": 4,
+   "nome": "Assessoria",
+   "tipo": "trabalho",
+   "x": 6,
+   "z": 0,
+   "w": 4,
+   "d": 5,
+   "piso": "carpete"
+  },
+  {
+   "andar": 4,
+   "nome": "Sala do conselho",
+   "tipo": "reuniao",
+   "x": 0,
+   "z": 5,
+   "w": 10,
+   "d": 5,
+   "piso": "madeira"
+  },
+  {
+   "andar": 4,
+   "nome": "Hall dos elevadores",
+   "tipo": "corredor",
+   "x": 10,
+   "z": 0,
+   "w": 4,
+   "d": 6,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 4,
+   "nome": "Lounge executivo",
+   "tipo": "descanso",
+   "x": 10,
+   "z": 6,
+   "w": 4,
+   "d": 4,
+   "piso": "carpete"
+  }
+ ],
+ "planta": {
+  "version": 1,
+  "terreno": {
+   "w": 14,
+   "d": 10
+  },
+  "floors": [
+   {
+    "andar": 0,
+    "rooms": [
+     {
+      "id": "torre-compacta-5-andares-r0",
+      "nome": "Operação",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 10,
+      "d": 6,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-r1",
+      "nome": "Hall dos elevadores",
+      "tipo": "corredor",
+      "x": 10,
+      "z": 0,
+      "w": 4,
+      "d": 6,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-r2",
+      "nome": "Recepção",
+      "tipo": "recepcao",
+      "x": 0,
+      "z": 6,
+      "w": 6,
+      "d": 4,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-r3",
+      "nome": "Café",
+      "tipo": "cafe",
+      "x": 6,
+      "z": 6,
+      "w": 8,
+      "d": 4,
+      "piso": "porcelanato",
+      "corParede": 0,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "torre-compacta-5-andares-d0",
+      "x": 3,
+      "z": 10,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-d1",
+      "x": 3,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-d2",
+      "x": 8,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-d3",
+      "x": 12,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-d4",
+      "x": 6,
+      "z": 8,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-d5",
+      "x": 10,
+      "z": 3,
+      "eixo": "z",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "torre-compacta-5-andares-i0",
+      "catalogId": "mesa-reta",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i1",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i2",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i3",
+      "catalogId": "mesa-reta",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i4",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i5",
+      "catalogId": "monitor",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i6",
+      "catalogId": "mesa-reta",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i7",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i8",
+      "catalogId": "laptop",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i9",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i10",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i11",
+      "catalogId": "monitor",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i12",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i14",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i15",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i16",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i17",
+      "catalogId": "laptop",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i18",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 3,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i19",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i20",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 3,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i21",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 3,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i22",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i23",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 3,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i24",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 3,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i25",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i26",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 3,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i27",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 3,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i28",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i29",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 3,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i30",
+      "catalogId": "mesa-reta",
+      "x": 7.25,
+      "z": 3,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i31",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i32",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 3,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i33",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 4,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i34",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i35",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i36",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 4,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i37",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i38",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i39",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 4,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i40",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i41",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i42",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 4,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i43",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i44",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i45",
+      "catalogId": "mesa-reta",
+      "x": 7.25,
+      "z": 4,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i46",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i47",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i48",
+      "catalogId": "relogio-parede",
+      "x": 5,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i49",
+      "catalogId": "tv-parede",
+      "x": 0.31,
+      "z": 3.5,
+      "rot": 90
+     },
+     {
+      "id": "torre-compacta-5-andares-i50",
+      "catalogId": "vaso-ficus",
+      "x": 9.75,
+      "z": 5.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i51",
+      "catalogId": "palmeira",
+      "x": 0.5,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i52",
+      "catalogId": "elevador",
+      "x": 12,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i53",
+      "catalogId": "palmeira",
+      "x": 13.5,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i54",
+      "catalogId": "vaso-ficus",
+      "x": 10.25,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i55",
+      "catalogId": "bebedouro",
+      "x": 13.75,
+      "z": 3,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i56",
+      "catalogId": "mesa-reta",
+      "x": 4.5,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 2
+     },
+     {
+      "id": "torre-compacta-5-andares-i57",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.5,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i58",
+      "catalogId": "monitor",
+      "x": 4.5,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i59",
+      "catalogId": "sofa",
+      "x": 1,
+      "z": 8.5,
+      "rot": 90,
+      "cor": 4
+     },
+     {
+      "id": "torre-compacta-5-andares-i60",
+      "catalogId": "mesa-centro",
+      "x": 1.75,
+      "z": 8.5,
+      "rot": 90
+     },
+     {
+      "id": "torre-compacta-5-andares-i61",
+      "catalogId": "vaso-ficus",
+      "x": 0.25,
+      "z": 6.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i62",
+      "catalogId": "palmeira",
+      "x": 5.5,
+      "z": 9.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i63",
+      "catalogId": "balcao-cafe",
+      "x": 9,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i64",
+      "catalogId": "geladeira",
+      "x": 13.5,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-i65",
+      "catalogId": "bebedouro",
+      "x": 6.75,
+      "z": 9.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i66",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 10.5,
+      "z": 7.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-i67",
+      "catalogId": "cadeira-reuniao",
+      "x": 10.5,
+      "z": 6.5,
+      "rot": 0,
+      "cor": 6
+     },
+     {
+      "id": "torre-compacta-5-andares-i68",
+      "catalogId": "cadeira-reuniao",
+      "x": 10.5,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 6
+     },
+     {
+      "id": "torre-compacta-5-andares-i69",
+      "catalogId": "cadeira-reuniao",
+      "x": 9.5,
+      "z": 7.5,
+      "rot": 90,
+      "cor": 6
+     },
+     {
+      "id": "torre-compacta-5-andares-i70",
+      "catalogId": "cadeira-reuniao",
+      "x": 11.5,
+      "z": 7.5,
+      "rot": 270,
+      "cor": 6
+     },
+     {
+      "id": "torre-compacta-5-andares-i71",
+      "catalogId": "vaso-ficus",
+      "x": 13.75,
+      "z": 6.25,
+      "rot": 0
+     }
+    ]
+   },
+   {
+    "andar": 1,
+    "rooms": [
+     {
+      "id": "torre-compacta-5-andares-a1-r0",
+      "nome": "Operação A",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 10,
+      "d": 10,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-r1",
+      "nome": "Hall dos elevadores",
+      "tipo": "corredor",
+      "x": 10,
+      "z": 0,
+      "w": 4,
+      "d": 6,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-r2",
+      "nome": "Sala de reunião",
+      "tipo": "reuniao",
+      "x": 10,
+      "z": 6,
+      "w": 4,
+      "d": 4,
+      "piso": "madeira",
+      "corParede": 2,
+      "vidro": true
+     }
+    ],
+    "doors": [
+     {
+      "id": "torre-compacta-5-andares-a1-d0",
+      "x": 10,
+      "z": 3,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-d1",
+      "x": 10,
+      "z": 8,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-d2",
+      "x": 12,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "torre-compacta-5-andares-a1-i0",
+      "catalogId": "mesa-reta",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i1",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i2",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i3",
+      "catalogId": "mesa-reta",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i4",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i5",
+      "catalogId": "monitor",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i6",
+      "catalogId": "mesa-reta",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i7",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i8",
+      "catalogId": "laptop",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i9",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i10",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i11",
+      "catalogId": "monitor",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i12",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i14",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i15",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i16",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i17",
+      "catalogId": "laptop",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i18",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i19",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i20",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i21",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i22",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i23",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i24",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i25",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i26",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i27",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i28",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i29",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i30",
+      "catalogId": "mesa-reta",
+      "x": 7.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i31",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i32",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i33",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i34",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i35",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i36",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i37",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i38",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i39",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i40",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i41",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i42",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i43",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i44",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i45",
+      "catalogId": "mesa-reta",
+      "x": 7.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i46",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i47",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i48",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i49",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i50",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i51",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i52",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i53",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i54",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i55",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i56",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i57",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i58",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i59",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i60",
+      "catalogId": "mesa-reta",
+      "x": 7.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i61",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i62",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i63",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i64",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i65",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i66",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i67",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i68",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i69",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i70",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i71",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i72",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i73",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i74",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i75",
+      "catalogId": "mesa-reta",
+      "x": 7.25,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i76",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i77",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i78",
+      "catalogId": "relogio-parede",
+      "x": 5,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i79",
+      "catalogId": "tv-parede",
+      "x": 0.31,
+      "z": 6,
+      "rot": 90
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i80",
+      "catalogId": "vaso-ficus",
+      "x": 9.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i81",
+      "catalogId": "palmeira",
+      "x": 9.25,
+      "z": 9.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i82",
+      "catalogId": "elevador",
+      "x": 12,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i83",
+      "catalogId": "palmeira",
+      "x": 13.5,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i84",
+      "catalogId": "vaso-ficus",
+      "x": 10.25,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i85",
+      "catalogId": "bebedouro",
+      "x": 13.75,
+      "z": 3,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i86",
+      "catalogId": "impressora",
+      "x": 13.75,
+      "z": 4.5,
+      "rot": 270
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i87",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 12,
+      "z": 8.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i88",
+      "catalogId": "cadeira-reuniao",
+      "x": 12,
+      "z": 7.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i89",
+      "catalogId": "cadeira-reuniao",
+      "x": 12,
+      "z": 9.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i90",
+      "catalogId": "cadeira-reuniao",
+      "x": 11,
+      "z": 8.25,
+      "rot": 90,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i91",
+      "catalogId": "cadeira-reuniao",
+      "x": 13,
+      "z": 8.25,
+      "rot": 270,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a1-i92",
+      "catalogId": "tv-parede",
+      "x": 13.69,
+      "z": 8.25,
+      "rot": 270
+     }
+    ]
+   },
+   {
+    "andar": 2,
+    "rooms": [
+     {
+      "id": "torre-compacta-5-andares-a2-r0",
+      "nome": "Squad 1",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 5,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": true
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-r1",
+      "nome": "Squad 2",
+      "tipo": "trabalho",
+      "x": 5,
+      "z": 0,
+      "w": 5,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": true
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-r2",
+      "nome": "Squad 3",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 5,
+      "w": 5,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": true
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-r3",
+      "nome": "Squad 4",
+      "tipo": "trabalho",
+      "x": 5,
+      "z": 5,
+      "w": 5,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": true
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-r4",
+      "nome": "Hall dos elevadores",
+      "tipo": "corredor",
+      "x": 10,
+      "z": 0,
+      "w": 4,
+      "d": 6,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-r5",
+      "nome": "Sala de reunião",
+      "tipo": "reuniao",
+      "x": 10,
+      "z": 6,
+      "w": 4,
+      "d": 4,
+      "piso": "madeira",
+      "corParede": 2,
+      "vidro": true
+     }
+    ],
+    "doors": [
+     {
+      "id": "torre-compacta-5-andares-a2-d0",
+      "x": 5,
+      "z": 2.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-d1",
+      "x": 2.5,
+      "z": 5,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-d2",
+      "x": 7.5,
+      "z": 5,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-d3",
+      "x": 5,
+      "z": 7.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-d4",
+      "x": 10,
+      "z": 3,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-d5",
+      "x": 10,
+      "z": 8,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-d6",
+      "x": 12,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "torre-compacta-5-andares-a2-i0",
+      "catalogId": "mesa-bancada",
+      "x": 2.5,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i1",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i2",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i3",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i4",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i5",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i6",
+      "catalogId": "monitor",
+      "x": 3.25,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i7",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i8",
+      "catalogId": "laptop",
+      "x": 3.25,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i9",
+      "catalogId": "mesa-bancada",
+      "x": 7.5,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i10",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i11",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i12",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i14",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i15",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i16",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i17",
+      "catalogId": "laptop",
+      "x": 8.25,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i18",
+      "catalogId": "mesa-bancada",
+      "x": 2.5,
+      "z": 7.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i19",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 6.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i20",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 6.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i21",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 8.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i22",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 8.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i23",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 7,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i24",
+      "catalogId": "monitor",
+      "x": 3.25,
+      "z": 7,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i25",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 7.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i26",
+      "catalogId": "laptop",
+      "x": 3.25,
+      "z": 7.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i27",
+      "catalogId": "mesa-bancada",
+      "x": 7.5,
+      "z": 7.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i28",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 6.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i29",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 6.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i30",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 8.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i31",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 8.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i32",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 7,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i33",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 7,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i34",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 7.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i35",
+      "catalogId": "laptop",
+      "x": 8.25,
+      "z": 7.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i36",
+      "catalogId": "tv-parede",
+      "x": 0.31,
+      "z": 2.5,
+      "rot": 90
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i37",
+      "catalogId": "tv-parede",
+      "x": 7.5,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i38",
+      "catalogId": "vaso-ficus",
+      "x": 0.25,
+      "z": 4.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i39",
+      "catalogId": "vaso-ficus",
+      "x": 9.75,
+      "z": 9.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i40",
+      "catalogId": "elevador",
+      "x": 12,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i41",
+      "catalogId": "palmeira",
+      "x": 13.5,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i42",
+      "catalogId": "vaso-ficus",
+      "x": 10.25,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i43",
+      "catalogId": "bebedouro",
+      "x": 13.75,
+      "z": 3,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i44",
+      "catalogId": "impressora",
+      "x": 13.75,
+      "z": 4.5,
+      "rot": 270
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i45",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 12,
+      "z": 8.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i46",
+      "catalogId": "cadeira-reuniao",
+      "x": 12,
+      "z": 7.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i47",
+      "catalogId": "cadeira-reuniao",
+      "x": 12,
+      "z": 9.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i48",
+      "catalogId": "cadeira-reuniao",
+      "x": 11,
+      "z": 8.25,
+      "rot": 90,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i49",
+      "catalogId": "cadeira-reuniao",
+      "x": 13,
+      "z": 8.25,
+      "rot": 270,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a2-i50",
+      "catalogId": "tv-parede",
+      "x": 13.69,
+      "z": 8.25,
+      "rot": 270
+     }
+    ]
+   },
+   {
+    "andar": 3,
+    "rooms": [
+     {
+      "id": "torre-compacta-5-andares-a3-r0",
+      "nome": "Criação",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 6,
+      "d": 5,
+      "piso": "madeira",
+      "corParede": 4,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-r1",
+      "nome": "Sala de ideias",
+      "tipo": "reuniao",
+      "x": 6,
+      "z": 0,
+      "w": 4,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 2,
+      "vidro": true
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-r2",
+      "nome": "Lounge criativo",
+      "tipo": "descanso",
+      "x": 0,
+      "z": 5,
+      "w": 10,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 3,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-r3",
+      "nome": "Hall dos elevadores",
+      "tipo": "corredor",
+      "x": 10,
+      "z": 0,
+      "w": 4,
+      "d": 6,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-r4",
+      "nome": "Sala de reunião",
+      "tipo": "reuniao",
+      "x": 10,
+      "z": 6,
+      "w": 4,
+      "d": 4,
+      "piso": "madeira",
+      "corParede": 11,
+      "vidro": true
+     }
+    ],
+    "doors": [
+     {
+      "id": "torre-compacta-5-andares-a3-d0",
+      "x": 6,
+      "z": 2.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-d1",
+      "x": 5,
+      "z": 5,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-d2",
+      "x": 9,
+      "z": 5,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-d3",
+      "x": 10,
+      "z": 2.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-d4",
+      "x": 10,
+      "z": 8,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-d5",
+      "x": 12,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "torre-compacta-5-andares-a3-i0",
+      "catalogId": "mesa-l",
+      "x": 1,
+      "z": 0.75,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i1",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i2",
+      "catalogId": "mesa-l",
+      "x": 3,
+      "z": 0.75,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i3",
+      "catalogId": "monitor-duplo",
+      "x": 2.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i4",
+      "catalogId": "mesa-l",
+      "x": 5,
+      "z": 0.75,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i5",
+      "catalogId": "monitor",
+      "x": 4.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i6",
+      "catalogId": "mesa-l",
+      "x": 1,
+      "z": 4.25,
+      "rot": 180,
+      "cor": 2
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i7",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i8",
+      "catalogId": "mesa-l",
+      "x": 3,
+      "z": 4.25,
+      "rot": 180,
+      "cor": 2
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i9",
+      "catalogId": "monitor",
+      "x": 3.25,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i10",
+      "catalogId": "vaso-ficus",
+      "x": 0.25,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i11",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 8,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i12",
+      "catalogId": "cadeira-reuniao",
+      "x": 8,
+      "z": 1.25,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i13",
+      "catalogId": "cadeira-reuniao",
+      "x": 8,
+      "z": 3.25,
+      "rot": 180,
+      "cor": 2
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i14",
+      "catalogId": "cadeira-reuniao",
+      "x": 7,
+      "z": 2.25,
+      "rot": 90,
+      "cor": 2
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i15",
+      "catalogId": "cadeira-reuniao",
+      "x": 9,
+      "z": 2.25,
+      "rot": 270,
+      "cor": 2
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i16",
+      "catalogId": "quadro-branco",
+      "x": 7,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i17",
+      "catalogId": "quadro-parede",
+      "x": 8,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i18",
+      "catalogId": "sofa",
+      "x": 2,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 5
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i19",
+      "catalogId": "sofa",
+      "x": 5,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 9
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i20",
+      "catalogId": "puff",
+      "x": 7.5,
+      "z": 9,
+      "rot": 0,
+      "cor": 9
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i21",
+      "catalogId": "tapete",
+      "x": 3.5,
+      "z": 7.5,
+      "rot": 0,
+      "cor": 7
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i22",
+      "catalogId": "mesa-alta",
+      "x": 8.5,
+      "z": 7,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i23",
+      "catalogId": "palmeira",
+      "x": 0.5,
+      "z": 5.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i24",
+      "catalogId": "quadro-arte",
+      "x": 0.31,
+      "z": 8,
+      "rot": 90
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i25",
+      "catalogId": "elevador",
+      "x": 12,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i26",
+      "catalogId": "palmeira",
+      "x": 13.5,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i27",
+      "catalogId": "vaso-ficus",
+      "x": 10.25,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i28",
+      "catalogId": "bebedouro",
+      "x": 13.75,
+      "z": 3,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i29",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 12,
+      "z": 8.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i30",
+      "catalogId": "cadeira-reuniao",
+      "x": 12,
+      "z": 7.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i31",
+      "catalogId": "cadeira-reuniao",
+      "x": 12,
+      "z": 9.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i32",
+      "catalogId": "cadeira-reuniao",
+      "x": 11,
+      "z": 8.25,
+      "rot": 90,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i33",
+      "catalogId": "cadeira-reuniao",
+      "x": 13,
+      "z": 8.25,
+      "rot": 270,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a3-i34",
+      "catalogId": "tv-parede",
+      "x": 13.69,
+      "z": 8.25,
+      "rot": 270
+     }
+    ]
+   },
+   {
+    "andar": 4,
+    "rooms": [
+     {
+      "id": "torre-compacta-5-andares-a4-r0",
+      "nome": "Diretoria",
+      "tipo": "diretoria",
+      "x": 0,
+      "z": 0,
+      "w": 6,
+      "d": 5,
+      "piso": "madeira",
+      "corParede": 4,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-r1",
+      "nome": "Assessoria",
+      "tipo": "trabalho",
+      "x": 6,
+      "z": 0,
+      "w": 4,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-r2",
+      "nome": "Sala do conselho",
+      "tipo": "reuniao",
+      "x": 0,
+      "z": 5,
+      "w": 10,
+      "d": 5,
+      "piso": "madeira",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-r3",
+      "nome": "Hall dos elevadores",
+      "tipo": "corredor",
+      "x": 10,
+      "z": 0,
+      "w": 4,
+      "d": 6,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-r4",
+      "nome": "Lounge executivo",
+      "tipo": "descanso",
+      "x": 10,
+      "z": 6,
+      "w": 4,
+      "d": 4,
+      "piso": "carpete",
+      "corParede": 3,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "torre-compacta-5-andares-a4-d0",
+      "x": 6,
+      "z": 2.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-d1",
+      "x": 4,
+      "z": 5,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-d2",
+      "x": 8,
+      "z": 5,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-d3",
+      "x": 10,
+      "z": 2.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-d4",
+      "x": 10,
+      "z": 8,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-d5",
+      "x": 12,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "torre-compacta-5-andares-a4-i0",
+      "catalogId": "mesa-diretor",
+      "x": 3,
+      "z": 1.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i1",
+      "catalogId": "cadeira-diretor",
+      "x": 3,
+      "z": 0.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i2",
+      "catalogId": "laptop",
+      "x": 3,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i3",
+      "catalogId": "cadeira-reuniao",
+      "x": 2.5,
+      "z": 2.5,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i4",
+      "catalogId": "cadeira-reuniao",
+      "x": 3.5,
+      "z": 2.5,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i5",
+      "catalogId": "estante",
+      "x": 0.25,
+      "z": 1.5,
+      "rot": 90
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i6",
+      "catalogId": "sofa",
+      "x": 1.5,
+      "z": 4.5,
+      "rot": 180,
+      "cor": 4
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i7",
+      "catalogId": "mesa-centro",
+      "x": 1.5,
+      "z": 3.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i8",
+      "catalogId": "luminaria-arco",
+      "x": 5.5,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i9",
+      "catalogId": "vaso-ficus",
+      "x": 5.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i10",
+      "catalogId": "quadro-arte",
+      "x": 3,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i11",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i12",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i13",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i14",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i15",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i16",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i17",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 4.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i18",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 3.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i19",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 4.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i20",
+      "catalogId": "mesa-reta",
+      "x": 9.25,
+      "z": 4.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i21",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.25,
+      "z": 3.75,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i22",
+      "catalogId": "monitor",
+      "x": 9.25,
+      "z": 4.5,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i23",
+      "catalogId": "arquivo",
+      "x": 9.75,
+      "z": 1.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i24",
+      "catalogId": "mesa-reuniao-longa",
+      "x": 3.75,
+      "z": 7.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i25",
+      "catalogId": "cadeira-reuniao",
+      "x": 2.75,
+      "z": 6.5,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i26",
+      "catalogId": "cadeira-reuniao",
+      "x": 2.75,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i27",
+      "catalogId": "cadeira-reuniao",
+      "x": 3.75,
+      "z": 6.5,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i28",
+      "catalogId": "cadeira-reuniao",
+      "x": 3.75,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i29",
+      "catalogId": "cadeira-reuniao",
+      "x": 4.75,
+      "z": 6.5,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i30",
+      "catalogId": "cadeira-reuniao",
+      "x": 4.75,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i31",
+      "catalogId": "mesa-reuniao-longa",
+      "x": 6.75,
+      "z": 7.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i32",
+      "catalogId": "cadeira-reuniao",
+      "x": 5.75,
+      "z": 6.5,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i33",
+      "catalogId": "cadeira-reuniao",
+      "x": 5.75,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i34",
+      "catalogId": "cadeira-reuniao",
+      "x": 6.75,
+      "z": 6.5,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i35",
+      "catalogId": "cadeira-reuniao",
+      "x": 6.75,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i36",
+      "catalogId": "cadeira-reuniao",
+      "x": 7.75,
+      "z": 6.5,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i37",
+      "catalogId": "cadeira-reuniao",
+      "x": 7.75,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i38",
+      "catalogId": "cadeira-reuniao",
+      "x": 2,
+      "z": 7.5,
+      "rot": 90,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i39",
+      "catalogId": "cadeira-reuniao",
+      "x": 8.5,
+      "z": 7.5,
+      "rot": 270,
+      "cor": 3
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i40",
+      "catalogId": "tv-parede",
+      "x": 5,
+      "z": 9.69,
+      "rot": 180
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i41",
+      "catalogId": "quadro-parede",
+      "x": 0.31,
+      "z": 7.5,
+      "rot": 90
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i42",
+      "catalogId": "palmeira",
+      "x": 0.5,
+      "z": 9.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i43",
+      "catalogId": "elevador",
+      "x": 12,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i44",
+      "catalogId": "palmeira",
+      "x": 13.5,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i45",
+      "catalogId": "vaso-ficus",
+      "x": 10.25,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i46",
+      "catalogId": "bebedouro",
+      "x": 13.75,
+      "z": 3,
+      "rot": 0
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i47",
+      "catalogId": "sofa",
+      "x": 13.5,
+      "z": 8,
+      "rot": 270,
+      "cor": 4
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i48",
+      "catalogId": "tapete-redondo",
+      "x": 12,
+      "z": 8,
+      "rot": 0,
+      "cor": 7
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i49",
+      "catalogId": "mesa-centro",
+      "x": 12,
+      "z": 8,
+      "rot": 90
+     },
+     {
+      "id": "torre-compacta-5-andares-a4-i50",
+      "catalogId": "palmeira",
+      "x": 13.5,
+      "z": 9.5,
+      "rot": 0
+     }
+    ]
+   }
+  ],
+  "presetId": "torre-compacta-5-andares"
+ }
+}

@@ -1,0 +1,2258 @@
+{
+ "versao": 1,
+ "unidade": "metro",
+ "eixos": "y para cima; origem no centro da pegada, no chão; frente do móvel para +z",
+ "cores_do_material_cor_variavel": [
+  "#d2b48c",
+  "#6e4f3a",
+  "#f1eee9",
+  "#2e333b",
+  "#3e4a61",
+  "#6b7f6e",
+  "#c66b4e",
+  "#d9c7a7",
+  "#8e6e9e",
+  "#b98d52",
+  "#5f7f8f",
+  "#8a2f3c"
+ ],
+ "camadas": {
+  "chao": "fica no piso",
+  "piso": "tapete",
+  "sobre": "vai em cima de uma mesa (altura = superficie da mesa)",
+  "parede": "pendurado na parede"
+ },
+ "moveis": [
+  {
+   "id": "mesa-reta",
+   "nome": "Mesa reta",
+   "categoria": "mesas",
+   "arquivo": "moveis/mesa-reta.glb",
+   "kb": 8,
+   "pegada": {
+    "w": 1.5,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.4,
+    "y": 0.74,
+    "z": 0.7
+   },
+   "camada": "chao",
+   "superficie": 0.74,
+   "posto_de_trabalho": true,
+   "aceita_cor": true,
+   "cor_padrao": "#D2B48C",
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "mesa-bancada",
+   "nome": "Bancada para 4",
+   "categoria": "mesas",
+   "arquivo": "moveis/mesa-bancada.glb",
+   "kb": 12,
+   "pegada": {
+    "w": 3,
+    "d": 1.5
+   },
+   "tamanho": {
+    "x": 2.8,
+    "y": 1.1,
+    "z": 1.4
+   },
+   "camada": "chao",
+   "superficie": 0.74,
+   "posto_de_trabalho": true,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "mesa-diretor",
+   "nome": "Mesa de diretoria",
+   "categoria": "mesas",
+   "arquivo": "moveis/mesa-diretor.glb",
+   "kb": 10,
+   "pegada": {
+    "w": 2,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.92,
+    "y": 0.783,
+    "z": 0.85
+   },
+   "camada": "chao",
+   "superficie": 0.76,
+   "posto_de_trabalho": true,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "mesa-l",
+   "nome": "Mesa em L com cadeira",
+   "categoria": "mesas",
+   "arquivo": "moveis/mesa-l.glb",
+   "kb": 28,
+   "pegada": {
+    "w": 2,
+    "d": 1.5
+   },
+   "tamanho": {
+    "x": 1.9,
+    "y": 1.048,
+    "z": 1.492
+   },
+   "camada": "chao",
+   "superficie": 0.74,
+   "posto_de_trabalho": true,
+   "aceita_cor": true,
+   "cor_padrao": "#F1EEE9",
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": -0.35,
+     "z": 0.45,
+     "yaw": 3.142,
+     "altura": 0.47,
+     "pose": "type"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "mesa-em-pe",
+   "nome": "Mesa regulável em pé",
+   "categoria": "mesas",
+   "arquivo": "moveis/mesa-em-pe.glb",
+   "kb": 9,
+   "pegada": {
+    "w": 1.5,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.4,
+    "y": 1.04,
+    "z": 1.13
+   },
+   "camada": "chao",
+   "superficie": 1.04,
+   "posto_de_trabalho": true,
+   "aceita_cor": false,
+   "cor_padrao": "#D2B48C",
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": 0,
+     "z": 0.42,
+     "yaw": 3.142,
+     "altura": 0,
+     "pose": "stand"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "cadeira-escritorio",
+   "nome": "Cadeira de escritório",
+   "categoria": "cadeiras",
+   "arquivo": "moveis/cadeira-escritorio.glb",
+   "kb": 18,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.593,
+    "y": 1.048,
+    "z": 0.622
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": true,
+   "cor_padrao": "#2E333B",
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": 0,
+     "z": 0,
+     "yaw": 0,
+     "altura": 0.47,
+     "pose": "type"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "cadeira-reuniao",
+   "nome": "Cadeira de reunião",
+   "categoria": "cadeiras",
+   "arquivo": "moveis/cadeira-reuniao.glb",
+   "kb": 13,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.48,
+    "y": 0.909,
+    "z": 0.497
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": true,
+   "cor_padrao": "#D8D0C4",
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": 0,
+     "z": 0,
+     "yaw": 0,
+     "altura": 0.47,
+     "pose": "rest"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "cadeira-diretor",
+   "nome": "Cadeira de diretoria",
+   "categoria": "cadeiras",
+   "arquivo": "moveis/cadeira-diretor.glb",
+   "kb": 18,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.63,
+    "y": 1.391,
+    "z": 0.639
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": 0,
+     "z": 0,
+     "yaw": 0,
+     "altura": 0.48,
+     "pose": "type"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "poltrona",
+   "nome": "Poltrona",
+   "categoria": "cadeiras",
+   "arquivo": "moveis/poltrona.glb",
+   "kb": 24,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.84,
+    "y": 0.871,
+    "z": 0.816
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": true,
+   "cor_padrao": "#C66B4E",
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": 0,
+     "z": 0.08,
+     "yaw": 0,
+     "altura": 0.5,
+     "pose": "lounge"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "cadeira-gamer",
+   "nome": "Cadeira gamer",
+   "categoria": "cadeiras",
+   "arquivo": "moveis/cadeira-gamer.glb",
+   "kb": 27,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.605,
+    "y": 1.437,
+    "z": 0.669
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": true,
+   "cor_padrao": "#4F7CFF",
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": 0,
+     "z": 0,
+     "yaw": 0,
+     "altura": 0.48,
+     "pose": "type"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "banqueta",
+   "nome": "Banqueta alta",
+   "categoria": "cadeiras",
+   "arquivo": "moveis/banqueta.glb",
+   "kb": 8,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.4,
+    "y": 0.73,
+    "z": 0.4
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": 0,
+     "z": 0,
+     "yaw": 0,
+     "altura": 0.73,
+     "pose": "rest"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "monitor",
+   "nome": "Monitor",
+   "categoria": "tecnologia",
+   "arquivo": "moveis/monitor.glb",
+   "kb": 17,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.63,
+    "y": 0.478,
+    "z": 0.375
+   },
+   "camada": "sobre",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 6,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "laptop",
+   "nome": "Notebook",
+   "categoria": "tecnologia",
+   "arquivo": "moveis/laptop.glb",
+   "kb": 11,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.34,
+    "y": 0.235,
+    "z": 0.317
+   },
+   "camada": "sobre",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 4,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "computador",
+   "nome": "Computador",
+   "categoria": "tecnologia",
+   "arquivo": "moveis/computador.glb",
+   "kb": 8,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.225,
+    "y": 0.48,
+    "z": 0.444
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "impressora",
+   "nome": "Impressora",
+   "categoria": "tecnologia",
+   "arquivo": "moveis/impressora.glb",
+   "kb": 13,
+   "pegada": {
+    "w": 1,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.9,
+    "y": 0.98,
+    "z": 0.58
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "tv-pedestal",
+   "nome": "Painel ao vivo com pedestal",
+   "categoria": "tecnologia",
+   "arquivo": "moveis/tv-pedestal.glb",
+   "kb": 4,
+   "pegada": {
+    "w": 2,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.77,
+    "y": 1.923,
+    "z": 0.42
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "monitor-duplo",
+   "nome": "Monitor duplo",
+   "categoria": "tecnologia",
+   "arquivo": "moveis/monitor-duplo.glb",
+   "kb": 28,
+   "pegada": {
+    "w": 1,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.98,
+    "y": 0.42,
+    "z": 0.383
+   },
+   "camada": "sobre",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 3,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "tv-parede",
+   "nome": "TV de parede ao vivo",
+   "categoria": "tecnologia",
+   "arquivo": "moveis/tv-parede.glb",
+   "kb": 3,
+   "pegada": {
+    "w": 2,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.86,
+    "y": 2.135,
+    "z": 0.09
+   },
+   "camada": "parede",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "servidor",
+   "nome": "Rack de servidores",
+   "categoria": "tecnologia",
+   "arquivo": "moveis/servidor.glb",
+   "kb": 27,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.72,
+    "y": 2,
+    "z": 0.895
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "painel-dashboard",
+   "nome": "Parede de resultados",
+   "categoria": "tecnologia",
+   "arquivo": "moveis/painel-dashboard.glb",
+   "kb": 3,
+   "pegada": {
+    "w": 3,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 2.96,
+    "y": 2.5,
+    "z": 0.1
+   },
+   "camada": "parede",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "mesa-reuniao-redonda",
+   "nome": "Mesa redonda",
+   "categoria": "reuniao",
+   "arquivo": "moveis/mesa-reuniao-redonda.glb",
+   "kb": 5,
+   "pegada": {
+    "w": 1.5,
+    "d": 1.5
+   },
+   "tamanho": {
+    "x": 1.209,
+    "y": 0.74,
+    "z": 1.24
+   },
+   "camada": "chao",
+   "superficie": 0.74,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "quadro-branco",
+   "nome": "Quadro branco com rodas",
+   "categoria": "reuniao",
+   "arquivo": "moveis/quadro-branco.glb",
+   "kb": 22,
+   "pegada": {
+    "w": 1.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.44,
+    "y": 1.9,
+    "z": 0.45
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": 0.2,
+     "z": 0.62,
+     "yaw": 2.842,
+     "tipo": "quadro"
+    }
+   ]
+  },
+  {
+   "id": "quadro-parede",
+   "nome": "Quadro branco de parede",
+   "categoria": "reuniao",
+   "arquivo": "moveis/quadro-parede.glb",
+   "kb": 16,
+   "pegada": {
+    "w": 2,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.86,
+    "y": 2.03,
+    "z": 0.09
+   },
+   "camada": "parede",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "mesa-reuniao-longa",
+   "nome": "Mesa de reunião longa",
+   "categoria": "reuniao",
+   "arquivo": "moveis/mesa-reuniao-longa.glb",
+   "kb": 8,
+   "pegada": {
+    "w": 3,
+    "d": 1.5
+   },
+   "tamanho": {
+    "x": 2.8,
+    "y": 0.762,
+    "z": 1.2
+   },
+   "camada": "chao",
+   "superficie": 0.74,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "mesa-centro",
+   "nome": "Mesa de centro",
+   "categoria": "descanso",
+   "arquivo": "moveis/mesa-centro.glb",
+   "kb": 10,
+   "pegada": {
+    "w": 1,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.92,
+    "y": 0.515,
+    "z": 0.46
+   },
+   "camada": "chao",
+   "superficie": 0.42,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "sofa",
+   "nome": "Sofá",
+   "categoria": "descanso",
+   "arquivo": "moveis/sofa.glb",
+   "kb": 28,
+   "pegada": {
+    "w": 2,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.9,
+    "y": 0.85,
+    "z": 0.87
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": true,
+   "cor_padrao": "#3E4A61",
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": -0.45,
+     "z": 0.1,
+     "yaw": 0,
+     "altura": 0.5,
+     "pose": "lounge"
+    },
+    {
+     "x": 0.45,
+     "z": 0.1,
+     "yaw": 0,
+     "altura": 0.5,
+     "pose": "lounge"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "puff",
+   "nome": "Puff",
+   "categoria": "descanso",
+   "arquivo": "moveis/puff.glb",
+   "kb": 9,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.84,
+    "y": 0.57,
+    "z": 0.819
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": true,
+   "cor_padrao": "#B98D52",
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": 0,
+     "z": 0.05,
+     "yaw": 0,
+     "altura": 0.34,
+     "pose": "lounge"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "pingue-pongue",
+   "nome": "Mesa de pingue-pongue",
+   "categoria": "descanso",
+   "arquivo": "moveis/pingue-pongue.glb",
+   "kb": 10,
+   "pegada": {
+    "w": 3,
+    "d": 1.5
+   },
+   "tamanho": {
+    "x": 2.74,
+    "y": 0.97,
+    "z": 1.5
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": -1.85,
+     "z": 0,
+     "yaw": 1.571,
+     "tipo": "pingpong"
+    },
+    {
+     "x": 1.85,
+     "z": 0,
+     "yaw": -1.571,
+     "tipo": "pingpong"
+    }
+   ]
+  },
+  {
+   "id": "fliperama",
+   "nome": "Fliperama",
+   "categoria": "descanso",
+   "arquivo": "moveis/fliperama.glb",
+   "kb": 22,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.72,
+    "y": 1.75,
+    "z": 1.004
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": 0,
+     "z": 0.78,
+     "yaw": 3.142,
+     "tipo": "arcade"
+    }
+   ]
+  },
+  {
+   "id": "sofa-couro",
+   "nome": "Sofá de couro",
+   "categoria": "descanso",
+   "arquivo": "moveis/sofa-couro.glb",
+   "kb": 60,
+   "pegada": {
+    "w": 2.5,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 2.4,
+    "y": 0.85,
+    "z": 0.91
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": -0.75,
+     "z": 0.1,
+     "yaw": 0,
+     "altura": 0.5,
+     "pose": "lounge"
+    },
+    {
+     "x": 0,
+     "z": 0.1,
+     "yaw": 0,
+     "altura": 0.5,
+     "pose": "lounge"
+    },
+    {
+     "x": 0.75,
+     "z": 0.1,
+     "yaw": 0,
+     "altura": 0.5,
+     "pose": "lounge"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "estante",
+   "nome": "Estante de livros",
+   "categoria": "decoracao",
+   "arquivo": "moveis/estante.glb",
+   "kb": 37,
+   "pegada": {
+    "w": 1.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.44,
+    "y": 1.93,
+    "z": 0.36
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": 0.1,
+     "z": 0.55,
+     "yaw": 3.142,
+     "tipo": "livros"
+    }
+   ]
+  },
+  {
+   "id": "arquivo",
+   "nome": "Arquivo",
+   "categoria": "decoracao",
+   "arquivo": "moveis/arquivo.glb",
+   "kb": 9,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.44,
+    "y": 1.02,
+    "z": 0.5
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "quadro-arte",
+   "nome": "Quadro abstrato",
+   "categoria": "decoracao",
+   "arquivo": "moveis/quadro-arte.glb",
+   "kb": 9,
+   "pegada": {
+    "w": 1,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.92,
+    "y": 1.94,
+    "z": 0.041
+   },
+   "camada": "parede",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 2,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "relogio-parede",
+   "nome": "Relógio de parede",
+   "categoria": "decoracao",
+   "arquivo": "moveis/relogio-parede.glb",
+   "kb": 11,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.37,
+    "y": 2.14,
+    "z": 0.056
+   },
+   "camada": "parede",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "relogio-digital",
+   "nome": "Relógio digital",
+   "categoria": "decoracao",
+   "arquivo": "moveis/relogio-digital.glb",
+   "kb": 5,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.46,
+    "y": 2.05,
+    "z": 0.05
+   },
+   "camada": "parede",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "divisoria",
+   "nome": "Divisória acústica",
+   "categoria": "decoracao",
+   "arquivo": "moveis/divisoria.glb",
+   "kb": 8,
+   "pegada": {
+    "w": 2,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.9,
+    "y": 1.425,
+    "z": 0.4
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": true,
+   "cor_padrao": "#6B7F6E",
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "tapete",
+   "nome": "Tapete",
+   "categoria": "decoracao",
+   "arquivo": "moveis/tapete.glb",
+   "kb": 2,
+   "pegada": {
+    "w": 2,
+    "d": 1.5
+   },
+   "tamanho": {
+    "x": 2,
+    "y": 0.018,
+    "z": 1.5
+   },
+   "camada": "piso",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": true,
+   "cor_padrao": "#D7CBB8",
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "tapete-redondo",
+   "nome": "Tapete redondo",
+   "categoria": "decoracao",
+   "arquivo": "moveis/tapete-redondo.glb",
+   "kb": 4,
+   "pegada": {
+    "w": 2,
+    "d": 2
+   },
+   "tamanho": {
+    "x": 1.891,
+    "y": 0.018,
+    "z": 1.94
+   },
+   "camada": "piso",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": true,
+   "cor_padrao": "#C9A98A",
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "estante-trofeus",
+   "nome": "Estante de troféus",
+   "categoria": "decoracao",
+   "arquivo": "moveis/estante-trofeus.glb",
+   "kb": 64,
+   "pegada": {
+    "w": 1.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.44,
+    "y": 1.93,
+    "z": 0.36
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "parede-premios",
+   "nome": "Parede de prêmios",
+   "categoria": "decoracao",
+   "arquivo": "moveis/parede-premios.glb",
+   "kb": 8,
+   "pegada": {
+    "w": 2,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.9,
+    "y": 2.2,
+    "z": 0.075
+   },
+   "camada": "parede",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "aquario",
+   "nome": "Aquário",
+   "categoria": "decoracao",
+   "arquivo": "moveis/aquario.glb",
+   "kb": 33,
+   "pegada": {
+    "w": 1.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.4,
+    "y": 1.44,
+    "z": 0.44
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": 0.3,
+     "z": 0.62,
+     "yaw": 3.142,
+     "tipo": "aquario"
+    }
+   ]
+  },
+  {
+   "id": "escultura",
+   "nome": "Escultura dourada",
+   "categoria": "decoracao",
+   "arquivo": "moveis/escultura.glb",
+   "kb": 10,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.6,
+    "y": 1.624,
+    "z": 0.6
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "planta-mesa",
+   "nome": "Planta de mesa",
+   "categoria": "plantas",
+   "arquivo": "moveis/planta-mesa.glb",
+   "kb": 5,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.195,
+    "y": 0.31,
+    "z": 0.17
+   },
+   "camada": "sobre",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "vaso-ficus",
+   "nome": "Ficus",
+   "categoria": "plantas",
+   "arquivo": "moveis/vaso-ficus.glb",
+   "kb": 38,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.68,
+    "y": 1.809,
+    "z": 0.619
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "espada-sao-jorge",
+   "nome": "Espada-de-são-jorge",
+   "categoria": "plantas",
+   "arquivo": "moveis/espada-sao-jorge.glb",
+   "kb": 11,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.37,
+    "y": 1.198,
+    "z": 0.38
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "costela-adao",
+   "nome": "Costela-de-adão",
+   "categoria": "plantas",
+   "arquivo": "moveis/costela-adao.glb",
+   "kb": 42,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.384,
+    "y": 1.331,
+    "z": 1.515
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "jardineira",
+   "nome": "Jardineira",
+   "categoria": "plantas",
+   "arquivo": "moveis/jardineira.glb",
+   "kb": 44,
+   "pegada": {
+    "w": 2,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.985,
+    "y": 0.986,
+    "z": 0.547
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "palmeira",
+   "nome": "Palmeira",
+   "categoria": "plantas",
+   "arquivo": "moveis/palmeira.glb",
+   "kb": 8,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.578,
+    "y": 2.235,
+    "z": 1.578
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "parede-verde",
+   "nome": "Parede verde",
+   "categoria": "plantas",
+   "arquivo": "moveis/parede-verde.glb",
+   "kb": 196,
+   "pegada": {
+    "w": 2,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.928,
+    "y": 2.4,
+    "z": 0.367
+   },
+   "camada": "parede",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "bebedouro",
+   "nome": "Bebedouro",
+   "categoria": "cozinha",
+   "arquivo": "moveis/bebedouro.glb",
+   "kb": 10,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.34,
+    "y": 1.45,
+    "z": 0.38
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": 0,
+     "z": 0.55,
+     "yaw": 3.142,
+     "tipo": "agua"
+    }
+   ]
+  },
+  {
+   "id": "cafeteira",
+   "nome": "Cafeteira espresso",
+   "categoria": "cozinha",
+   "arquivo": "moveis/cafeteira.glb",
+   "kb": 14,
+   "pegada": {
+    "w": 1,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.94,
+    "y": 1.385,
+    "z": 0.483
+   },
+   "camada": "chao",
+   "superficie": 0.93,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": 0,
+     "z": 0.6,
+     "yaw": 3.142,
+     "tipo": "cafe"
+    }
+   ]
+  },
+  {
+   "id": "balcao-cafe",
+   "nome": "Balcão de café",
+   "categoria": "cozinha",
+   "arquivo": "moveis/balcao-cafe.glb",
+   "kb": 23,
+   "pegada": {
+    "w": 2.5,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 2.5,
+    "y": 1.6,
+    "z": 0.84
+   },
+   "camada": "chao",
+   "superficie": 1.07,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": -0.6,
+     "z": 0.85,
+     "yaw": 3.142,
+     "tipo": "cafe"
+    },
+    {
+     "x": 0.6,
+     "z": 0.85,
+     "yaw": 3.142,
+     "tipo": "cafe"
+    }
+   ]
+  },
+  {
+   "id": "geladeira",
+   "nome": "Geladeira",
+   "categoria": "cozinha",
+   "arquivo": "moveis/geladeira.glb",
+   "kb": 7,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.78,
+    "y": 1.85,
+    "z": 0.77
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": 0,
+     "z": 0.8,
+     "yaw": 3.142,
+     "tipo": "geladeira"
+    }
+   ]
+  },
+  {
+   "id": "mesa-alta",
+   "nome": "Mesa alta",
+   "categoria": "cozinha",
+   "arquivo": "moveis/mesa-alta.glb",
+   "kb": 6,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.819,
+    "y": 1.135,
+    "z": 0.84
+   },
+   "camada": "chao",
+   "superficie": 1.05,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": -0.66,
+     "z": 0,
+     "yaw": 1.571,
+     "tipo": "papo"
+    },
+    {
+     "x": 0.66,
+     "z": 0,
+     "yaw": -1.571,
+     "tipo": "papo"
+    }
+   ]
+  },
+  {
+   "id": "luz-estudio",
+   "nome": "Luz de estúdio",
+   "categoria": "estudio",
+   "arquivo": "moveis/luz-estudio.glb",
+   "kb": 6,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.9,
+    "y": 2.579,
+    "z": 0.674
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "camera-tripe",
+   "nome": "Câmera no tripé",
+   "categoria": "estudio",
+   "arquivo": "moveis/camera-tripe.glb",
+   "kb": 7,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.706,
+    "y": 1.535,
+    "z": 0.612
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": 0,
+     "z": -0.55,
+     "yaw": 0,
+     "tipo": "camera"
+    }
+   ]
+  },
+  {
+   "id": "fundo-infinito",
+   "nome": "Fundo infinito",
+   "categoria": "estudio",
+   "arquivo": "moveis/fundo-infinito.glb",
+   "kb": 8,
+   "pegada": {
+    "w": 3,
+    "d": 1.5
+   },
+   "tamanho": {
+    "x": 3.06,
+    "y": 3.2,
+    "z": 1.55
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "mesa-podcast",
+   "nome": "Mesa de podcast",
+   "categoria": "estudio",
+   "arquivo": "moveis/mesa-podcast.glb",
+   "kb": 18,
+   "pegada": {
+    "w": 2,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.8,
+    "y": 1.198,
+    "z": 0.8
+   },
+   "camada": "chao",
+   "superficie": 0.74,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "luminaria-piso",
+   "nome": "Luminária de piso",
+   "categoria": "iluminacao",
+   "arquivo": "moveis/luminaria-piso.glb",
+   "kb": 5,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.39,
+    "y": 1.69,
+    "z": 0.4
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "luminaria-mesa",
+   "nome": "Luminária de mesa",
+   "categoria": "iluminacao",
+   "arquivo": "moveis/luminaria-mesa.glb",
+   "kb": 9,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.136,
+    "y": 0.48,
+    "z": 0.164
+   },
+   "camada": "sobre",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "luminaria-arco",
+   "nome": "Luminária de arco",
+   "categoria": "iluminacao",
+   "arquivo": "moveis/luminaria-arco.glb",
+   "kb": 17,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.95,
+    "y": 2.231,
+    "z": 0.895
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "elevador",
+   "nome": "Elevador",
+   "categoria": "estrutura",
+   "arquivo": "moveis/elevador.glb",
+   "kb": 12,
+   "pegada": {
+    "w": 2,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 2,
+    "y": 2.6,
+    "z": 1.039
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "banco-jardim",
+   "nome": "Banco de jardim",
+   "categoria": "terraco",
+   "arquivo": "moveis/banco-jardim.glb",
+   "kb": 8,
+   "pegada": {
+    "w": 1.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.5,
+    "y": 0.941,
+    "z": 0.579
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": -0.4,
+     "z": 0.02,
+     "yaw": 0,
+     "altura": 0.45,
+     "pose": "lounge"
+    },
+    {
+     "x": 0.4,
+     "z": 0.02,
+     "yaw": 0,
+     "altura": 0.45,
+     "pose": "lounge"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "mesa-jardim",
+   "nome": "Mesa de jardim com cadeiras",
+   "categoria": "terraco",
+   "arquivo": "moveis/mesa-jardim.glb",
+   "kb": 21,
+   "pegada": {
+    "w": 2,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.94,
+    "y": 0.9,
+    "z": 1
+   },
+   "camada": "chao",
+   "superficie": 0.72,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": [
+    {
+     "x": -0.9,
+     "z": 0,
+     "yaw": 1.571,
+     "tipo": "papo"
+    },
+    {
+     "x": 0.9,
+     "z": 0,
+     "yaw": -1.571,
+     "tipo": "papo"
+    }
+   ]
+  },
+  {
+   "id": "guarda-sol",
+   "nome": "Guarda-sol",
+   "categoria": "terraco",
+   "arquivo": "moveis/guarda-sol.glb",
+   "kb": 12,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.656,
+    "y": 2.475,
+    "z": 1.656
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "espreguicadeira",
+   "nome": "Espreguiçadeira",
+   "categoria": "terraco",
+   "arquivo": "moveis/espreguicadeira.glb",
+   "kb": 13,
+   "pegada": {
+    "w": 1,
+    "d": 2
+   },
+   "tamanho": {
+    "x": 0.72,
+    "y": 0.774,
+    "z": 1.645
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": 0,
+     "z": 0.1,
+     "yaw": 0,
+     "altura": 0.4,
+     "pose": "lounge"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "mesa-diretor-marmore",
+   "nome": "Mesa de diretoria de mármore",
+   "categoria": "mesas",
+   "arquivo": "moveis/mesa-diretor-marmore.glb",
+   "kb": 15,
+   "pegada": {
+    "w": 2,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.98,
+    "y": 0.804,
+    "z": 0.912
+   },
+   "camada": "chao",
+   "superficie": 0.76,
+   "posto_de_trabalho": true,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "sofa-veludo",
+   "nome": "Sofá de veludo",
+   "categoria": "descanso",
+   "arquivo": "moveis/sofa-veludo.glb",
+   "kb": 41,
+   "pegada": {
+    "w": 2.5,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 2.2,
+    "y": 0.882,
+    "z": 0.93
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": true,
+   "cor_padrao": "#2F5A5E",
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": -0.6,
+     "z": 0.1,
+     "yaw": 0,
+     "altura": 0.5,
+     "pose": "lounge"
+    },
+    {
+     "x": 0.6,
+     "z": 0.1,
+     "yaw": 0,
+     "altura": 0.5,
+     "pose": "lounge"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "balcao-bar",
+   "nome": "Balcão de bar",
+   "categoria": "cozinha",
+   "arquivo": "moveis/balcao-bar.glb",
+   "kb": 23,
+   "pegada": {
+    "w": 2.5,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 2.5,
+    "y": 1.73,
+    "z": 0.915
+   },
+   "camada": "chao",
+   "superficie": 1.1,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "luminaria-cristal",
+   "nome": "Luminária de cristal",
+   "categoria": "iluminacao",
+   "arquivo": "moveis/luminaria-cristal.glb",
+   "kb": 20,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.468,
+    "y": 1.67,
+    "z": 0.48
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "recepcao-marmore",
+   "nome": "Balcão de recepção de mármore",
+   "categoria": "mesas",
+   "arquivo": "moveis/recepcao-marmore.glb",
+   "kb": 29,
+   "pegada": {
+    "w": 3,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 3,
+    "y": 1.52,
+    "z": 0.92
+   },
+   "camada": "chao",
+   "superficie": 1.1,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "mesa-reuniao-nobre",
+   "nome": "Mesa de reunião nobre",
+   "categoria": "reuniao",
+   "arquivo": "moveis/mesa-reuniao-nobre.glb",
+   "kb": 14,
+   "pegada": {
+    "w": 3,
+    "d": 1.5
+   },
+   "tamanho": {
+    "x": 2.8,
+    "y": 0.775,
+    "z": 1.2
+   },
+   "camada": "chao",
+   "superficie": 0.74,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "quadro-dourado",
+   "nome": "Quadro com moldura dourada",
+   "categoria": "decoracao",
+   "arquivo": "moveis/quadro-dourado.glb",
+   "kb": 32,
+   "pegada": {
+    "w": 1.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.49,
+    "y": 2.125,
+    "z": 0.093
+   },
+   "camada": "parede",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "monitor-ultrawide",
+   "nome": "Monitor ultrawide",
+   "categoria": "tecnologia",
+   "arquivo": "moveis/monitor-ultrawide.glb",
+   "kb": 16,
+   "pegada": {
+    "w": 1.25,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.08,
+    "y": 0.756,
+    "z": 0.375
+   },
+   "camada": "sobre",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 3,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "cadeira-presidente",
+   "nome": "Cadeira de presidente",
+   "categoria": "cadeiras",
+   "arquivo": "moveis/cadeira-presidente.glb",
+   "kb": 19,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.635,
+    "y": 1.391,
+    "z": 0.639
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [
+    {
+     "x": 0,
+     "z": 0,
+     "yaw": 0,
+     "altura": 0.48,
+     "pose": "type"
+    }
+   ],
+   "pontos": []
+  },
+  {
+   "id": "escultura-platina",
+   "nome": "Troféu de platina",
+   "categoria": "decoracao",
+   "arquivo": "moveis/escultura-platina.glb",
+   "kb": 14,
+   "pegada": {
+    "w": 1,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 0.6,
+    "y": 1.7,
+    "z": 0.6
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "plaquinha-mesa",
+   "nome": "Plaquinha de mesa",
+   "categoria": "decoracao",
+   "arquivo": "moveis/plaquinha-mesa.glb",
+   "kb": 11,
+   "pegada": {
+    "w": 0.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 0.36,
+    "y": 0.106,
+    "z": 0.1
+   },
+   "camada": "sobre",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "piano",
+   "nome": "Piano de cauda",
+   "categoria": "decoracao",
+   "arquivo": "moveis/piano.glb",
+   "kb": 30,
+   "pegada": {
+    "w": 1.5,
+    "d": 2.5
+   },
+   "tamanho": {
+    "x": 1.716,
+    "y": 1.608,
+    "z": 2.693
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "lareira",
+   "nome": "Lareira de pedra",
+   "categoria": "descanso",
+   "arquivo": "moveis/lareira.glb",
+   "kb": 41,
+   "pegada": {
+    "w": 2,
+    "d": 1
+   },
+   "tamanho": {
+    "x": 1.92,
+    "y": 2.225,
+    "z": 0.61
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "mesa-sinuca",
+   "nome": "Mesa de sinuca",
+   "categoria": "descanso",
+   "arquivo": "moveis/mesa-sinuca.glb",
+   "kb": 44,
+   "pegada": {
+    "w": 3,
+    "d": 1.5
+   },
+   "tamanho": {
+    "x": 2.7,
+    "y": 0.99,
+    "z": 1.675
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "fonte-interna",
+   "nome": "Fonte interna",
+   "categoria": "decoracao",
+   "arquivo": "moveis/fonte-interna.glb",
+   "kb": 46,
+   "pegada": {
+    "w": 1.5,
+    "d": 1.5
+   },
+   "tamanho": {
+    "x": 1.443,
+    "y": 1.5,
+    "z": 1.48
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  },
+  {
+   "id": "vitrine",
+   "nome": "Vitrine de vidro",
+   "categoria": "decoracao",
+   "arquivo": "moveis/vitrine.glb",
+   "kb": 17,
+   "pegada": {
+    "w": 1.5,
+    "d": 0.5
+   },
+   "tamanho": {
+    "x": 1.42,
+    "y": 1.9,
+    "z": 0.42
+   },
+   "camada": "chao",
+   "superficie": null,
+   "posto_de_trabalho": false,
+   "aceita_cor": false,
+   "cor_padrao": null,
+   "variantes": 1,
+   "assentos": [],
+   "pontos": []
+  }
+ ]
+}

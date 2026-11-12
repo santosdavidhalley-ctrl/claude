@@ -1,0 +1,370 @@
+{
+ "versao": 1,
+ "escritorios": [
+  {
+   "id": "sede-200",
+   "nome": "Sede 277 lugares (3 andares)",
+   "descricao": "O prédio de vidro da demo: 3 andares, recepção, estúdio, salas de reunião, diretoria e cobertura com terraço. Vazio: os funcionários você adiciona.",
+   "origem": "demo",
+   "arquivo": "escritorios/sede-200.glb",
+   "dados": "escritorios/sede-200.json",
+   "previa": "escritorios/sede-200.webp",
+   "entorno": "escritorios/sede-200-entorno.glb",
+   "andares": 3,
+   "postos_de_trabalho": 277,
+   "assentos": 360,
+   "mb": 9.65,
+   "tamanho": {
+    "x": 48.6,
+    "y": 17.2,
+    "z": 34.51,
+    "min": [
+     -24.3,
+     -0.55,
+     -14.3
+    ],
+    "max": [
+     24.3,
+     16.65,
+     20.21
+    ]
+   }
+  },
+  {
+   "id": "startup-enxuta",
+   "nome": "Startup enxuta",
+   "descricao": "Planta aberta com 7 estações, sala de reunião de vidro e copa.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/startup-enxuta.glb",
+   "dados": "escritorios/startup-enxuta.json",
+   "previa": "escritorios/startup-enxuta.webp",
+   "andares": 1,
+   "postos_de_trabalho": 7,
+   "assentos": 12,
+   "mb": 0.53,
+   "tamanho": {
+    "x": 12,
+    "y": 3.81,
+    "z": 10,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     11,
+     3.77,
+     9
+    ]
+   }
+  },
+  {
+   "id": "agencia-criativa",
+   "nome": "Agência criativa",
+   "descricao": "Estúdio de criação com mesas em L, sala de ideias de vidro e lounge.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/agencia-criativa.glb",
+   "dados": "escritorios/agencia-criativa.json",
+   "previa": "escritorios/agencia-criativa.webp",
+   "andares": 1,
+   "postos_de_trabalho": 6,
+   "assentos": 12,
+   "mb": 0.59,
+   "tamanho": {
+    "x": 12,
+    "y": 3.81,
+    "z": 10,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     11,
+     3.77,
+     9
+    ]
+   }
+  },
+  {
+   "id": "comercial",
+   "nome": "Comercial",
+   "descricao": "Time de vendas com painel ao vivo, sala de fechamento, recepção e copa.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/comercial.glb",
+   "dados": "escritorios/comercial.json",
+   "previa": "escritorios/comercial.webp",
+   "andares": 1,
+   "postos_de_trabalho": 7,
+   "assentos": 15,
+   "mb": 0.52,
+   "tamanho": {
+    "x": 12,
+    "y": 3.81,
+    "z": 10,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     11,
+     3.77,
+     9
+    ]
+   }
+  },
+  {
+   "id": "diretoria-equipe",
+   "nome": "Diretoria + equipe",
+   "descricao": "Sala da diretoria, sala de reunião de vidro e equipe de 6 lugares.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/diretoria-equipe.glb",
+   "dados": "escritorios/diretoria-equipe.json",
+   "previa": "escritorios/diretoria-equipe.webp",
+   "andares": 1,
+   "postos_de_trabalho": 9,
+   "assentos": 12,
+   "mb": 0.52,
+   "tamanho": {
+    "x": 12,
+    "y": 3.81,
+    "z": 10,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     11,
+     3.77,
+     9
+    ]
+   }
+  },
+  {
+   "id": "sede-compacta",
+   "nome": "Sede compacta",
+   "descricao": "Operação para 12, diretoria com sofá, reunião, recepção e café.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/sede-compacta.glb",
+   "dados": "escritorios/sede-compacta.json",
+   "previa": "escritorios/sede-compacta.webp",
+   "andares": 1,
+   "postos_de_trabalho": 14,
+   "assentos": 27,
+   "mb": 0.69,
+   "tamanho": {
+    "x": 16,
+    "y": 3.81,
+    "z": 12,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     15,
+     3.76,
+     11
+    ]
+   }
+  },
+  {
+   "id": "open-space",
+   "nome": "Open space com lounge",
+   "descricao": "13 lugares com mesas em L e em pé, reunião de vidro, lounge e hall.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/open-space.glb",
+   "dados": "escritorios/open-space.json",
+   "previa": "escritorios/open-space.webp",
+   "andares": 1,
+   "postos_de_trabalho": 13,
+   "assentos": 20,
+   "mb": 0.72,
+   "tamanho": {
+    "x": 16,
+    "y": 3.81,
+    "z": 12,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     15,
+     3.76,
+     11
+    ]
+   }
+  },
+  {
+   "id": "open-space-grande",
+   "nome": "Open space grande",
+   "descricao": "33 lugares em ilhas, reunião de vidro, lounge, recepção e café. Para equipes grandes.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/open-space-grande.glb",
+   "dados": "escritorios/open-space-grande.json",
+   "previa": "escritorios/open-space-grande.webp",
+   "andares": 1,
+   "postos_de_trabalho": 34,
+   "assentos": 53,
+   "mb": 0.7,
+   "tamanho": {
+    "x": 22,
+    "y": 3.81,
+    "z": 16,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     21,
+     3.77,
+     15
+    ]
+   }
+  },
+  {
+   "id": "central-operacoes",
+   "nome": "Central de operações",
+   "descricao": "41 lugares em bancadas, reunião, diretoria, recepção, café e lounge. Para operação grande.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/central-operacoes.glb",
+   "dados": "escritorios/central-operacoes.json",
+   "previa": "escritorios/central-operacoes.webp",
+   "andares": 1,
+   "postos_de_trabalho": 45,
+   "assentos": 70,
+   "mb": 0.81,
+   "tamanho": {
+    "x": 26,
+    "y": 3.81,
+    "z": 18,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     25,
+     3.77,
+     17
+    ]
+   }
+  },
+  {
+   "id": "edificio-3-andares",
+   "nome": "Edifício 3 andares",
+   "descricao": "Térreo com recepção e café, operação ampla no 1º andar, diretoria no 2º. Elevador e 60+ lugares.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/edificio-3-andares.glb",
+   "dados": "escritorios/edificio-3-andares.json",
+   "previa": "escritorios/edificio-3-andares.webp",
+   "andares": 3,
+   "postos_de_trabalho": 82,
+   "assentos": 125,
+   "mb": 1.27,
+   "tamanho": {
+    "x": 22,
+    "y": 10.01,
+    "z": 16,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     21,
+     9.97,
+     15
+    ]
+   }
+  },
+  {
+   "id": "torre-5-andares",
+   "nome": "Torre 5 andares",
+   "descricao": "Térreo com recepção, café e lounge; 2 andares de operação; marketing e estúdio; diretoria. Elevador e 180+ lugares.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/torre-5-andares.glb",
+   "dados": "escritorios/torre-5-andares.json",
+   "previa": "escritorios/torre-5-andares.webp",
+   "andares": 5,
+   "postos_de_trabalho": 244,
+   "assentos": 337,
+   "mb": 2.25,
+   "tamanho": {
+    "x": 28,
+    "y": 16.21,
+    "z": 20,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     27,
+     16.16,
+     19
+    ]
+   }
+  },
+  {
+   "id": "edificio-compacto-3-andares",
+   "nome": "Edifício compacto 3 andares",
+   "descricao": "Cabe em 14 × 10 m: térreo com recepção e café, operação no 1º andar, diretoria no 2º. Elevador e 40+ lugares.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/edificio-compacto-3-andares.glb",
+   "dados": "escritorios/edificio-compacto-3-andares.json",
+   "previa": "escritorios/edificio-compacto-3-andares.webp",
+   "andares": 3,
+   "postos_de_trabalho": 50,
+   "assentos": 78,
+   "mb": 1.03,
+   "tamanho": {
+    "x": 16,
+    "y": 10.01,
+    "z": 12,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     15,
+     9.96,
+     11
+    ]
+   }
+  },
+  {
+   "id": "torre-compacta-5-andares",
+   "nome": "Torre compacta 5 andares",
+   "descricao": "Cabe em 14 × 10 m: recepção e café, 2 andares de operação, criação e diretoria. Elevador e 65+ lugares.",
+   "origem": "layouts prontos",
+   "arquivo": "escritorios/torre-compacta-5-andares.glb",
+   "dados": "escritorios/torre-compacta-5-andares.json",
+   "previa": "escritorios/torre-compacta-5-andares.webp",
+   "andares": 5,
+   "postos_de_trabalho": 71,
+   "assentos": 116,
+   "mb": 1.43,
+   "tamanho": {
+    "x": 16,
+    "y": 16.21,
+    "z": 12,
+    "min": [
+     -1,
+     -0.04,
+     -1
+    ],
+    "max": [
+     15,
+     16.16,
+     11
+    ]
+   }
+  }
+ ]
+}

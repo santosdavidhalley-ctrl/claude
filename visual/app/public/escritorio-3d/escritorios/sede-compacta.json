@@ -1,0 +1,1057 @@
+{
+ "id": "sede-compacta",
+ "nome": "Sede compacta",
+ "descricao": "Operação para 12, diretoria com sofá, reunião, recepção e café.",
+ "origem": "layouts prontos",
+ "arquivo": "escritorios/sede-compacta.glb",
+ "previa": "escritorios/sede-compacta.webp",
+ "andares": 1,
+ "altura_do_andar": 3.1,
+ "terreno": {
+  "w": 14,
+  "d": 10
+ },
+ "tamanho": {
+  "x": 16,
+  "y": 3.81,
+  "z": 12,
+  "min": [
+   -1,
+   -0.04,
+   -1
+  ],
+  "max": [
+   15,
+   3.76,
+   11
+  ]
+ },
+ "mb": 0.69,
+ "moveis": 63,
+ "postos_de_trabalho": 14,
+ "assentos": [
+  {
+   "id": "sede-compacta-i4:0",
+   "andar": 0,
+   "x": 1.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i5:0",
+   "andar": 0,
+   "x": 2.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i6:0",
+   "andar": 0,
+   "x": 4.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i7:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i13:0",
+   "andar": 0,
+   "x": 1.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i14:0",
+   "andar": 0,
+   "x": 3.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i15:0",
+   "andar": 0,
+   "x": 1.75,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i16:0",
+   "andar": 0,
+   "x": 3.25,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i22:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i23:0",
+   "andar": 0,
+   "x": 7.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i24:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i25:0",
+   "andar": 0,
+   "x": 7.25,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i37:0",
+   "andar": 0,
+   "x": 11.5,
+   "y": 0.12,
+   "z": 0.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "sede-compacta-i38:0",
+   "andar": 0,
+   "x": 11.5,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "sede-compacta-i39:0",
+   "andar": 0,
+   "x": 10.25,
+   "y": 0.12,
+   "z": 2,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "sede-compacta-i40:0",
+   "andar": 0,
+   "x": 12.75,
+   "y": 0.12,
+   "z": 2,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "sede-compacta-i43:0",
+   "andar": 0,
+   "x": 11.5,
+   "y": 0.12,
+   "z": 5.75,
+   "yaw": 0,
+   "altura": 0.48,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-diretor"
+  },
+  {
+   "id": "sede-compacta-i45:0",
+   "andar": 0,
+   "x": 11,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Diretoria",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "sede-compacta-i46:0",
+   "andar": 0,
+   "x": 12,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Diretoria",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "sede-compacta-i47:0",
+   "andar": 0,
+   "x": 13.4,
+   "y": 0.12,
+   "z": 6.05,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Diretoria",
+   "movel": "sofa"
+  },
+  {
+   "id": "sede-compacta-i47:1",
+   "andar": 0,
+   "x": 13.4,
+   "y": 0.12,
+   "z": 6.95,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Diretoria",
+   "movel": "sofa"
+  },
+  {
+   "id": "sede-compacta-i53:0",
+   "andar": 0,
+   "x": 0.75,
+   "y": 0.12,
+   "z": 7.5,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Recepção",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "sede-compacta-i55:0",
+   "andar": 0,
+   "x": 3.4,
+   "y": 0.12,
+   "z": 7.05,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "sede-compacta-i55:1",
+   "andar": 0,
+   "x": 3.4,
+   "y": 0.12,
+   "z": 7.95,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "sede-compacta-i58:0",
+   "andar": 0,
+   "x": 5.25,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "sede-compacta-i59:0",
+   "andar": 0,
+   "x": 7.75,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "sede-compacta-i60:0",
+   "andar": 0,
+   "x": 6.5,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  }
+ ],
+ "pontos": [
+  {
+   "id": "sede-compacta-i31:0",
+   "andar": 0,
+   "x": 7.85,
+   "y": 0.12,
+   "z": 0.8,
+   "yaw": 3.142,
+   "tipo": "livros",
+   "par": null,
+   "atividade": "Procurando um livro",
+   "sala": "Operação",
+   "movel": "estante"
+  },
+  {
+   "id": "sede-compacta-i48:0",
+   "andar": 0,
+   "x": 13.35,
+   "y": 0.12,
+   "z": 4.8,
+   "yaw": 3.142,
+   "tipo": "livros",
+   "par": null,
+   "atividade": "Procurando um livro",
+   "sala": "Diretoria",
+   "movel": "estante"
+  },
+  {
+   "id": "sede-compacta-i61:0",
+   "andar": 0,
+   "x": 4.25,
+   "y": 0.12,
+   "z": 6.8,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Café",
+   "movel": "bebedouro"
+  }
+ ],
+ "salas": [
+  {
+   "andar": 0,
+   "nome": "Operação",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 9,
+   "d": 6,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Reunião",
+   "tipo": "reuniao",
+   "x": 9,
+   "z": 0,
+   "w": 5,
+   "d": 4,
+   "piso": "madeira"
+  },
+  {
+   "andar": 0,
+   "nome": "Diretoria",
+   "tipo": "diretoria",
+   "x": 9,
+   "z": 4,
+   "w": 5,
+   "d": 5,
+   "piso": "madeira"
+  },
+  {
+   "andar": 0,
+   "nome": "Recepção",
+   "tipo": "recepcao",
+   "x": 0,
+   "z": 6,
+   "w": 4,
+   "d": 3,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 0,
+   "nome": "Café",
+   "tipo": "cafe",
+   "x": 4,
+   "z": 6,
+   "w": 5,
+   "d": 3,
+   "piso": "porcelanato"
+  }
+ ],
+ "planta": {
+  "version": 1,
+  "terreno": {
+   "w": 14,
+   "d": 10
+  },
+  "floors": [
+   {
+    "andar": 0,
+    "rooms": [
+     {
+      "id": "sede-compacta-r0",
+      "nome": "Operação",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 9,
+      "d": 6,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "sede-compacta-r1",
+      "nome": "Reunião",
+      "tipo": "reuniao",
+      "x": 9,
+      "z": 0,
+      "w": 5,
+      "d": 4,
+      "piso": "madeira",
+      "corParede": 2,
+      "vidro": true
+     },
+     {
+      "id": "sede-compacta-r2",
+      "nome": "Diretoria",
+      "tipo": "diretoria",
+      "x": 9,
+      "z": 4,
+      "w": 5,
+      "d": 5,
+      "piso": "madeira",
+      "corParede": 4,
+      "vidro": false
+     },
+     {
+      "id": "sede-compacta-r3",
+      "nome": "Recepção",
+      "tipo": "recepcao",
+      "x": 0,
+      "z": 6,
+      "w": 4,
+      "d": 3,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "sede-compacta-r4",
+      "nome": "Café",
+      "tipo": "cafe",
+      "x": 4,
+      "z": 6,
+      "w": 5,
+      "d": 3,
+      "piso": "porcelanato",
+      "corParede": 0,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "sede-compacta-d0",
+      "x": 2,
+      "z": 9,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "sede-compacta-d1",
+      "x": 2,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "sede-compacta-d2",
+      "x": 6.5,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "sede-compacta-d3",
+      "x": 9,
+      "z": 2,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "sede-compacta-d4",
+      "x": 9,
+      "z": 7.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "sede-compacta-d5",
+      "x": 11.5,
+      "z": 4,
+      "eixo": "x",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "sede-compacta-i0",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "sede-compacta-i1",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "sede-compacta-i2",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "sede-compacta-i3",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "sede-compacta-i4",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i5",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i6",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i7",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i8",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i9",
+      "catalogId": "monitor-duplo",
+      "x": 2.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i10",
+      "catalogId": "monitor",
+      "x": 4.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i11",
+      "catalogId": "laptop",
+      "x": 5.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i12",
+      "catalogId": "mesa-bancada",
+      "x": 2.5,
+      "z": 3.75,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i14",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i15",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i16",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i17",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i18",
+      "catalogId": "monitor",
+      "x": 3.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i19",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i20",
+      "catalogId": "monitor",
+      "x": 3.25,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i21",
+      "catalogId": "mesa-bancada",
+      "x": 6.5,
+      "z": 3.75,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i22",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i23",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i24",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i25",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i26",
+      "catalogId": "laptop",
+      "x": 5.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i27",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i28",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i29",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i30",
+      "catalogId": "tv-pedestal",
+      "x": 8.75,
+      "z": 4,
+      "rot": 270
+     },
+     {
+      "id": "sede-compacta-i31",
+      "catalogId": "estante",
+      "x": 7.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i32",
+      "catalogId": "arquivo",
+      "x": 8.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i33",
+      "catalogId": "vaso-ficus",
+      "x": 0.25,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i34",
+      "catalogId": "palmeira",
+      "x": 8.5,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i35",
+      "catalogId": "relogio-parede",
+      "x": 4.25,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i36",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 11.5,
+      "z": 2,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i37",
+      "catalogId": "cadeira-reuniao",
+      "x": 11.5,
+      "z": 0.75,
+      "rot": 0,
+      "cor": 1
+     },
+     {
+      "id": "sede-compacta-i38",
+      "catalogId": "cadeira-reuniao",
+      "x": 11.5,
+      "z": 3.25,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "sede-compacta-i39",
+      "catalogId": "cadeira-reuniao",
+      "x": 10.25,
+      "z": 2,
+      "rot": 90,
+      "cor": 1
+     },
+     {
+      "id": "sede-compacta-i40",
+      "catalogId": "cadeira-reuniao",
+      "x": 12.75,
+      "z": 2,
+      "rot": 270,
+      "cor": 1
+     },
+     {
+      "id": "sede-compacta-i41",
+      "catalogId": "tv-pedestal",
+      "x": 13.75,
+      "z": 2,
+      "rot": 270
+     },
+     {
+      "id": "sede-compacta-i42",
+      "catalogId": "mesa-diretor",
+      "x": 11.5,
+      "z": 6.5,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i43",
+      "catalogId": "cadeira-diretor",
+      "x": 11.5,
+      "z": 5.75,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i44",
+      "catalogId": "laptop",
+      "x": 11.5,
+      "z": 6.25,
+      "rot": 180
+     },
+     {
+      "id": "sede-compacta-i45",
+      "catalogId": "cadeira-reuniao",
+      "x": 11,
+      "z": 7.75,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "sede-compacta-i46",
+      "catalogId": "cadeira-reuniao",
+      "x": 12,
+      "z": 7.75,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "sede-compacta-i47",
+      "catalogId": "sofa",
+      "x": 13.5,
+      "z": 6.5,
+      "rot": 270,
+      "cor": 4
+     },
+     {
+      "id": "sede-compacta-i48",
+      "catalogId": "estante",
+      "x": 13.25,
+      "z": 4.25,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i49",
+      "catalogId": "tapete",
+      "x": 11.5,
+      "z": 7.75,
+      "rot": 0,
+      "cor": 7
+     },
+     {
+      "id": "sede-compacta-i50",
+      "catalogId": "quadro-arte",
+      "x": 9.31,
+      "z": 5.5,
+      "rot": 90
+     },
+     {
+      "id": "sede-compacta-i51",
+      "catalogId": "luminaria-arco",
+      "x": 13.5,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i52",
+      "catalogId": "mesa-reta",
+      "x": 1.5,
+      "z": 7.5,
+      "rot": 270,
+      "cor": 2
+     },
+     {
+      "id": "sede-compacta-i53",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 7.5,
+      "rot": 90
+     },
+     {
+      "id": "sede-compacta-i54",
+      "catalogId": "monitor",
+      "x": 1.5,
+      "z": 7.5,
+      "rot": 270
+     },
+     {
+      "id": "sede-compacta-i55",
+      "catalogId": "sofa",
+      "x": 3.5,
+      "z": 7.5,
+      "rot": 270,
+      "cor": 4
+     },
+     {
+      "id": "sede-compacta-i56",
+      "catalogId": "vaso-ficus",
+      "x": 0.25,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i57",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 6.5,
+      "z": 7.75,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i58",
+      "catalogId": "cadeira-reuniao",
+      "x": 5.25,
+      "z": 7.75,
+      "rot": 90,
+      "cor": 6
+     },
+     {
+      "id": "sede-compacta-i59",
+      "catalogId": "cadeira-reuniao",
+      "x": 7.75,
+      "z": 7.75,
+      "rot": 270,
+      "cor": 6
+     },
+     {
+      "id": "sede-compacta-i60",
+      "catalogId": "cadeira-reuniao",
+      "x": 6.5,
+      "z": 8.75,
+      "rot": 180,
+      "cor": 6
+     },
+     {
+      "id": "sede-compacta-i61",
+      "catalogId": "bebedouro",
+      "x": 4.25,
+      "z": 6.25,
+      "rot": 0
+     },
+     {
+      "id": "sede-compacta-i62",
+      "catalogId": "costela-adao",
+      "x": 8.5,
+      "z": 6.5,
+      "rot": 0
+     }
+    ]
+   }
+  ],
+  "presetId": "sede-compacta"
+ }
+}

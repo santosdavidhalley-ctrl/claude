@@ -1,0 +1,15 @@
+{
+  "versao": 1,
+  "regra": "Só mude 'passou' de false para true DEPOIS de testar de verdade e de a pessoa confirmar. Nunca apague nem reescreva os critérios. Registre o que foi feito em DIARIO.md.",
+  "etapas": [
+    { "n": 1, "nome": "Preparar o computador", "criterio": "claude --version, git --version e node --version respondem; node scripts/verificar-ambiente.mjs sem FALHA", "passou": false },
+    { "n": 2, "nome": "Regras da casa", "criterio": "CLAUDE.md preenchido; numa conversa nova (/clear) o Claude repete as regras", "passou": false },
+    { "n": 3, "nome": "Primeiro agente", "criterio": "um agente em .claude/agents/ respondeu a um pedido real, salvou o rascunho em saidas/ e disse que não enviou nada", "passou": false },
+    { "n": 4, "nome": "Cérebro", "criterio": "node scripts/brain-lint.mjs sem ERRO e sem aviso de campo em branco em cerebro/empresa.md e cerebro/clientes.md; perguntado algo fora do cérebro, o agente diz que precisa confirmar e, perguntado algo de dentro, cita o arquivo", "passou": false },
+    { "n": 5, "nome": "Skills", "criterio": "pelo menos 2 skills em .claude/skills/ e uma delas foi acionada num pedido real", "passou": false },
+    { "n": 6, "nome": "Conectar agentes", "criterio": "claude --agent orquestrador chamou 2 agentes num pedido; há linhas novas em estado/log.jsonl", "passou": false },
+    { "n": 7, "nome": "Permissões e segurança", "criterio": "node scripts/testar-travas.mjs sem FALHOU; pedir para ler um .env e para apagar uma pasta com rm -r foi NEGADO; a pausa de teste (pausar.mjs --teste 30) negou as ferramentas e voltou sozinha", "passou": false },
+    { "n": 8, "nome": "Escritório visual", "criterio": "node visual/app/server.mjs abre em http://localhost:4700 e mostra os agentes mudando de estado com node scripts/gerar-eventos-teste.mjs", "passou": false },
+    { "n": 9, "nome": "Rotinas e custos", "criterio": "uma rotina rodou sozinha com node scripts/rodar-rotina.mjs e o gasto aparece em node scripts/custo.mjs", "passou": false }
+  ]
+}

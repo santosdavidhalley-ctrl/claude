@@ -1,0 +1,808 @@
+{
+ "id": "open-space",
+ "nome": "Open space com lounge",
+ "descricao": "13 lugares com mesas em L e em pé, reunião de vidro, lounge e hall.",
+ "origem": "layouts prontos",
+ "arquivo": "escritorios/open-space.glb",
+ "previa": "escritorios/open-space.webp",
+ "andares": 1,
+ "altura_do_andar": 3.1,
+ "terreno": {
+  "w": 14,
+  "d": 10
+ },
+ "tamanho": {
+  "x": 16,
+  "y": 3.81,
+  "z": 12,
+  "min": [
+   -1,
+   -0.04,
+   -1
+  ],
+  "max": [
+   15,
+   3.76,
+   11
+  ]
+ },
+ "mb": 0.72,
+ "moveis": 49,
+ "postos_de_trabalho": 13,
+ "assentos": [
+  {
+   "id": "open-space-i0:0",
+   "andar": 0,
+   "x": 0.65,
+   "y": 0.12,
+   "z": 1.2,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "mesa-l"
+  },
+  {
+   "id": "open-space-i1:0",
+   "andar": 0,
+   "x": 2.65,
+   "y": 0.12,
+   "z": 1.2,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "mesa-l"
+  },
+  {
+   "id": "open-space-i2:0",
+   "andar": 0,
+   "x": 4.65,
+   "y": 0.12,
+   "z": 1.2,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "mesa-l"
+  },
+  {
+   "id": "open-space-i6:0",
+   "andar": 0,
+   "x": 7.25,
+   "y": 0.12,
+   "z": 0.92,
+   "yaw": 3.142,
+   "altura": 0,
+   "pose": "stand",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "mesa-em-pe"
+  },
+  {
+   "id": "open-space-i7:0",
+   "andar": 0,
+   "x": 8.75,
+   "y": 0.12,
+   "z": 0.92,
+   "yaw": 3.142,
+   "altura": 0,
+   "pose": "stand",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "mesa-em-pe"
+  },
+  {
+   "id": "open-space-i11:0",
+   "andar": 0,
+   "x": 1.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-i12:0",
+   "andar": 0,
+   "x": 3.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-i13:0",
+   "andar": 0,
+   "x": 1.75,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-i14:0",
+   "andar": 0,
+   "x": 3.25,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-i20:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-i21:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-i22:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-i23:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-i34:0",
+   "andar": 0,
+   "x": 12,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-i35:0",
+   "andar": 0,
+   "x": 12,
+   "y": 0.12,
+   "z": 3.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-i36:0",
+   "andar": 0,
+   "x": 13.25,
+   "y": 0.12,
+   "z": 2.5,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-i37:0",
+   "andar": 0,
+   "x": 10.75,
+   "y": 0.12,
+   "z": 2.5,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-i39:0",
+   "andar": 0,
+   "x": 13.4,
+   "y": 0.12,
+   "z": 6.55,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "open-space-i39:1",
+   "andar": 0,
+   "x": 13.4,
+   "y": 0.12,
+   "z": 7.45,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "open-space-i40:0",
+   "andar": 0,
+   "x": 11.5,
+   "y": 0.12,
+   "z": 6.55,
+   "yaw": 0,
+   "altura": 0.34,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "puff"
+  }
+ ],
+ "pontos": [
+  {
+   "id": "open-space-i44:0",
+   "andar": 0,
+   "x": 13.75,
+   "y": 0.12,
+   "z": 5.8,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Lounge",
+   "movel": "bebedouro"
+  }
+ ],
+ "salas": [
+  {
+   "andar": 0,
+   "nome": "Open space",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 10,
+   "d": 7,
+   "piso": "madeira"
+  },
+  {
+   "andar": 0,
+   "nome": "Sala de reunião",
+   "tipo": "reuniao",
+   "x": 10,
+   "z": 0,
+   "w": 4,
+   "d": 5,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Lounge",
+   "tipo": "descanso",
+   "x": 10,
+   "z": 5,
+   "w": 4,
+   "d": 4,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Hall",
+   "tipo": "corredor",
+   "x": 0,
+   "z": 7,
+   "w": 10,
+   "d": 2,
+   "piso": "porcelanato"
+  }
+ ],
+ "planta": {
+  "version": 1,
+  "terreno": {
+   "w": 14,
+   "d": 10
+  },
+  "floors": [
+   {
+    "andar": 0,
+    "rooms": [
+     {
+      "id": "open-space-r0",
+      "nome": "Open space",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 10,
+      "d": 7,
+      "piso": "madeira",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "open-space-r1",
+      "nome": "Sala de reunião",
+      "tipo": "reuniao",
+      "x": 10,
+      "z": 0,
+      "w": 4,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 2,
+      "vidro": true
+     },
+     {
+      "id": "open-space-r2",
+      "nome": "Lounge",
+      "tipo": "descanso",
+      "x": 10,
+      "z": 5,
+      "w": 4,
+      "d": 4,
+      "piso": "carpete",
+      "corParede": 3,
+      "vidro": false
+     },
+     {
+      "id": "open-space-r3",
+      "nome": "Hall",
+      "tipo": "corredor",
+      "x": 0,
+      "z": 7,
+      "w": 10,
+      "d": 2,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "open-space-d0",
+      "x": 5,
+      "z": 9,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "open-space-d1",
+      "x": 5,
+      "z": 7,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "open-space-d2",
+      "x": 10,
+      "z": 4.25,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "open-space-d3",
+      "x": 10,
+      "z": 6,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "open-space-d4",
+      "x": 10,
+      "z": 8,
+      "eixo": "z",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "open-space-i0",
+      "catalogId": "mesa-l",
+      "x": 1,
+      "z": 0.75,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "open-space-i1",
+      "catalogId": "mesa-l",
+      "x": 3,
+      "z": 0.75,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "open-space-i2",
+      "catalogId": "mesa-l",
+      "x": 5,
+      "z": 0.75,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "open-space-i3",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i4",
+      "catalogId": "monitor-duplo",
+      "x": 2.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i5",
+      "catalogId": "monitor",
+      "x": 4.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i6",
+      "catalogId": "mesa-em-pe",
+      "x": 7.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-i7",
+      "catalogId": "mesa-em-pe",
+      "x": 8.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-i8",
+      "catalogId": "laptop",
+      "x": 7.25,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i9",
+      "catalogId": "laptop",
+      "x": 8.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i10",
+      "catalogId": "mesa-bancada",
+      "x": 2.5,
+      "z": 3.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i11",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i12",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "open-space-i14",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "open-space-i15",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-i16",
+      "catalogId": "monitor",
+      "x": 3.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-i17",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i18",
+      "catalogId": "laptop",
+      "x": 3.25,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i19",
+      "catalogId": "mesa-bancada",
+      "x": 7.5,
+      "z": 3.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i20",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i21",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i22",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "open-space-i23",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 4.75,
+      "rot": 180
+     },
+     {
+      "id": "open-space-i24",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-i25",
+      "catalogId": "laptop",
+      "x": 8.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-i26",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i27",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 4,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i28",
+      "catalogId": "tv-pedestal",
+      "x": 0.25,
+      "z": 3,
+      "rot": 90
+     },
+     {
+      "id": "open-space-i29",
+      "catalogId": "vaso-ficus",
+      "x": 9.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i30",
+      "catalogId": "espada-sao-jorge",
+      "x": 0.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i31",
+      "catalogId": "palmeira",
+      "x": 0.5,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i32",
+      "catalogId": "luminaria-arco",
+      "x": 8.5,
+      "z": 6.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i33",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 12,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i34",
+      "catalogId": "cadeira-reuniao",
+      "x": 12,
+      "z": 1.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "open-space-i35",
+      "catalogId": "cadeira-reuniao",
+      "x": 12,
+      "z": 3.75,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "open-space-i36",
+      "catalogId": "cadeira-reuniao",
+      "x": 13.25,
+      "z": 2.5,
+      "rot": 270,
+      "cor": 3
+     },
+     {
+      "id": "open-space-i37",
+      "catalogId": "cadeira-reuniao",
+      "x": 10.75,
+      "z": 2.5,
+      "rot": 90,
+      "cor": 3
+     },
+     {
+      "id": "open-space-i38",
+      "catalogId": "quadro-parede",
+      "x": 12,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i39",
+      "catalogId": "sofa",
+      "x": 13.5,
+      "z": 7,
+      "rot": 270,
+      "cor": 5
+     },
+     {
+      "id": "open-space-i40",
+      "catalogId": "puff",
+      "x": 11.5,
+      "z": 6.5,
+      "rot": 0,
+      "cor": 9
+     },
+     {
+      "id": "open-space-i41",
+      "catalogId": "mesa-centro",
+      "x": 12.25,
+      "z": 7,
+      "rot": 90
+     },
+     {
+      "id": "open-space-i42",
+      "catalogId": "tapete-redondo",
+      "x": 12,
+      "z": 7,
+      "rot": 0,
+      "cor": 7
+     },
+     {
+      "id": "open-space-i43",
+      "catalogId": "costela-adao",
+      "x": 13.5,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i44",
+      "catalogId": "bebedouro",
+      "x": 13.75,
+      "z": 5.25,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i45",
+      "catalogId": "jardineira",
+      "x": 2,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i46",
+      "catalogId": "jardineira",
+      "x": 8,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i47",
+      "catalogId": "luminaria-piso",
+      "x": 0.25,
+      "z": 7.25,
+      "rot": 0
+     },
+     {
+      "id": "open-space-i48",
+      "catalogId": "quadro-arte",
+      "x": 2,
+      "z": 7.31,
+      "rot": 0
+     }
+    ]
+   }
+  ],
+  "presetId": "open-space"
+ }
+}

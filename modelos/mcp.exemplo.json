@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "arquivos-do-escritorio": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "./saidas"
+      ]
+    },
+    "navegador": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@0.0.83"
+      ]
+    }
+  }
+}

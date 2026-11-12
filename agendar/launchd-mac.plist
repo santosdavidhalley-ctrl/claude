@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- LaunchAgent do macOS. Jeito mais fácil: node scripts/agendar.mjs bom-dia "/bom-dia" --hora 9:07 (gera este arquivo com os SEUS caminhos).
+     À mão: troque /CAMINHO/... (veja `which node` e `which claude`), salve em ~/Library/LaunchAgents/com.escritorio.bom-dia.plist e:
+       Ligar:    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.escritorio.bom-dia.plist
+       Testar:   launchctl kickstart gui/$(id -u)/com.escritorio.bom-dia
+       Desligar: launchctl bootout gui/$(id -u)/com.escritorio.bom-dia   (e apague o arquivo)
+     O launchd NÃO tem o seu PATH: por isso os caminhos completos. Os 5 blocos Weekday = segunda a sexta. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.escritorio.bom-dia</string>
+  <key>WorkingDirectory</key><string>/CAMINHO/DO/ESCRITORIO</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/CAMINHO/node</string>
+    <string>scripts/rodar-rotina.mjs</string>
+    <string>bom-dia</string>
+    <string>/bom-dia</string>
+    <string>--max-usd</string><string>0.5</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>CLAUDE_BIN</key><string>/CAMINHO/claude</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>7</integer></dict>
+    <dict><key>Weekday</key><integer>2</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>7</integer></dict>
+    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>7</integer></dict>
+    <dict><key>Weekday</key><integer>4</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>7</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>7</integer></dict>
+  </array>
+  <key>StandardOutPath</key><string>/CAMINHO/DO/ESCRITORIO/estado/agendador.log</string>
+  <key>StandardErrorPath</key><string>/CAMINHO/DO/ESCRITORIO/estado/agendador.log</string>
+</dict>
+</plist>

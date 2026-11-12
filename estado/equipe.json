@@ -1,0 +1,46 @@
+{
+  "agentes": [
+    {
+      "id": "orquestrador",
+      "nome": "Orquestrador",
+      "funcao": "Recebe o pedido e distribui",
+      "cor": "#3d66e6"
+    },
+    {
+      "id": "vendas",
+      "nome": "Vendas",
+      "funcao": "Responde leads e rascunha propostas",
+      "cor": "#12805c"
+    },
+    {
+      "id": "conteudo",
+      "nome": "Conteúdo",
+      "funcao": "Posts, legendas e e-mails",
+      "cor": "#9a6700"
+    },
+    {
+      "id": "suporte",
+      "nome": "Suporte",
+      "funcao": "Tira dúvidas pelo cérebro",
+      "cor": "#8a3ffc"
+    },
+    {
+      "id": "agenda",
+      "nome": "Agenda",
+      "funcao": "Organiza compromissos",
+      "cor": "#c2410c"
+    },
+    {
+      "id": "automacoes",
+      "nome": "Automações",
+      "funcao": "Desenha automações; não liga nada",
+      "cor": "#0e7490"
+    },
+    {
+      "id": "rotinas",
+      "nome": "Rotinas",
+      "funcao": "Bom dia, fechar o dia e relatório",
+      "cor": "#be185d"
+    }
+  ]
+}

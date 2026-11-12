@@ -1,0 +1,11 @@
+# Exemplo de crontab (Mac e Linux). Jeito mais fácil: deixe o kit gerar a linha certa para a SUA máquina:
+#   node scripts/agendar.mjs bom-dia "/bom-dia" --hora 9:07
+# Montando à mão: troque /CAMINHO/DO/ESCRITORIO, /CAMINHO/node e /CAMINHO/claude (veja com `which node` e `which claude`).
+# Formato: minuto hora dia-do-mês mês dia-da-semana comando. Editar: crontab -e. Desligar: apague a linha.
+# Skill de rotina se chama com barra ("/bom-dia"); "use a skill bom-dia" não funciona nas skills manuais.
+
+# Segunda a sexta, 9h07: bom dia do escritório
+7 9 * * 1-5 cd /CAMINHO/DO/ESCRITORIO && CLAUDE_BIN=/CAMINHO/claude /CAMINHO/node scripts/rodar-rotina.mjs bom-dia "/bom-dia" --max-usd 0.5 >> estado/agendador.log 2>&1
+
+# Sexta, 17h07: relatório semanal
+7 17 * * 5 cd /CAMINHO/DO/ESCRITORIO && CLAUDE_BIN=/CAMINHO/claude /CAMINHO/node scripts/rodar-rotina.mjs relatorio-semanal "/relatorio-semanal" --max-usd 1 >> estado/agendador.log 2>&1

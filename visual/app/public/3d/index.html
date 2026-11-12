@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Escritório de IA · 3D</title>
+<meta name="description" content="O escritório de IA em 3D: cada agente na sua mesa, mostrando ao vivo o que está fazendo. Esta tela só observa.">
+<meta name="theme-color" content="#ece2d6">
+<link rel="stylesheet" href="painel3d.css">
+<script type="importmap">
+{ "imports": { "three": "../escritorio-3d/visualizador/vendor/three.module.min.js", "three/addons/": "../escritorio-3d/visualizador/vendor/addons/" } }
+</script>
+</head>
+<body>
+<div class="app">
+  <section class="palco" id="palco" aria-label="Escritório em 3D">
+    <canvas id="cena" tabindex="0" aria-label="Escritório em 3D com os agentes nas mesas. Arraste para girar; use dois dedos ou a roda do mouse para aproximar. A lista Equipe traz as mesmas informações em texto."></canvas>
+    <div class="rotulos" id="rotulos" aria-hidden="true"></div>
+
+    <header class="ilha topo">
+      <h1>Escritório de IA</h1>
+      <div class="tot">
+        <span class="tag ao-vivo" id="conexao">conectando</span>
+        <span class="tag"><b id="t-ativos">0</b> trabalhando</span>
+        <span class="tag so-largo">Tarefas hoje: <b id="t-tarefas">0</b></span>
+        <span class="tag so-largo">Gasto hoje: <b id="t-custo">US$ 0,00</b></span>
+      </div>
+    </header>
+
+    <div class="ilha base" role="toolbar" aria-label="Controles da cena">
+      <button class="chip" id="enquadrar" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V5h4M20 9V5h-4M4 15v4h4M20 15v4h-4"/></svg>
+        Ver tudo
+      </button>
+      <label class="campo">
+        <span class="sr">Planta do escritório</span>
+        <select id="planta"></select>
+      </label>
+      <a class="chip" href="../">Painel 2D</a>
+    </div>
+
+    <div class="carregando" id="carregando" role="status"><div><i></i><span id="carregando-txt">Carregando…</span></div></div>
+    <div class="recado" id="recado" hidden></div>
+  </section>
+
+  <aside class="lado" id="lado" aria-label="Equipe e atividade">
+    <button class="puxador" id="puxador" type="button" aria-expanded="false" aria-controls="lado-corpo">
+      <span>Equipe e atividade</span>
+      <small id="puxador-resumo"></small>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
+    </button>
+    <div class="lado-corpo" id="lado-corpo">
+      <section class="cartao">
+        <h2>Equipe</h2>
+        <ul class="equipe" id="equipe"></ul>
+      </section>
+      <section class="cartao">
+        <h2>Agora</h2>
+        <div class="feed" id="feed"></div>
+      </section>
+      <section class="cartao">
+        <h2>Gasto de hoje por agente</h2>
+        <div class="barra" id="gastos"></div>
+      </section>
+      <p class="cartao aviso">Esta tela só observa. Para pausar tudo, rode <b>node scripts/pausar.mjs</b> no terminal.</p>
+    </div>
+  </aside>
+</div>
+<noscript><p class="sem-js">Ative o JavaScript para ver o escritório em 3D, ou abra o <a href="../">painel 2D</a>.</p></noscript>
+<script type="module" src="./painel3d.js"></script>
+</body>
+</html>

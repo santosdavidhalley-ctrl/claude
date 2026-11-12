@@ -1,0 +1,581 @@
+{
+ "id": "startup-enxuta",
+ "nome": "Startup enxuta",
+ "descricao": "Planta aberta com 7 estações, sala de reunião de vidro e copa.",
+ "origem": "layouts prontos",
+ "arquivo": "escritorios/startup-enxuta.glb",
+ "previa": "escritorios/startup-enxuta.webp",
+ "andares": 1,
+ "altura_do_andar": 3.1,
+ "terreno": {
+  "w": 10,
+  "d": 8
+ },
+ "tamanho": {
+  "x": 12,
+  "y": 3.81,
+  "z": 10,
+  "min": [
+   -1,
+   -0.04,
+   -1
+  ],
+  "max": [
+   11,
+   3.77,
+   9
+  ]
+ },
+ "mb": 0.53,
+ "moveis": 36,
+ "postos_de_trabalho": 7,
+ "assentos": [
+  {
+   "id": "startup-enxuta-i3:0",
+   "andar": 0,
+   "x": 1.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Área de trabalho",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "startup-enxuta-i4:0",
+   "andar": 0,
+   "x": 2.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Área de trabalho",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "startup-enxuta-i5:0",
+   "andar": 0,
+   "x": 4.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Área de trabalho",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "startup-enxuta-i10:0",
+   "andar": 0,
+   "x": 2.05,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Área de trabalho",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "startup-enxuta-i11:0",
+   "andar": 0,
+   "x": 3.45,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Área de trabalho",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "startup-enxuta-i12:0",
+   "andar": 0,
+   "x": 2.05,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Área de trabalho",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "startup-enxuta-i13:0",
+   "andar": 0,
+   "x": 3.45,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Área de trabalho",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "startup-enxuta-i27:0",
+   "andar": 0,
+   "x": 8.5,
+   "y": 0.12,
+   "z": 0.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "startup-enxuta-i28:0",
+   "andar": 0,
+   "x": 8.5,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "startup-enxuta-i29:0",
+   "andar": 0,
+   "x": 7.5,
+   "y": 0.12,
+   "z": 2,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "startup-enxuta-i33:0",
+   "andar": 0,
+   "x": 9.5,
+   "y": 0.12,
+   "z": 5.75,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Copa",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "startup-enxuta-i34:0",
+   "andar": 0,
+   "x": 8.5,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Copa",
+   "movel": "cadeira-reuniao"
+  }
+ ],
+ "pontos": [
+  {
+   "id": "startup-enxuta-i18:0",
+   "andar": 0,
+   "x": 6.35,
+   "y": 0.12,
+   "z": 0.8,
+   "yaw": 3.142,
+   "tipo": "livros",
+   "par": null,
+   "atividade": "Procurando um livro",
+   "sala": "Área de trabalho",
+   "movel": "estante"
+  },
+  {
+   "id": "startup-enxuta-i31:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 4.8,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Copa",
+   "movel": "bebedouro"
+  }
+ ],
+ "salas": [
+  {
+   "andar": 0,
+   "nome": "Área de trabalho",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 7,
+   "d": 7,
+   "piso": "madeira"
+  },
+  {
+   "andar": 0,
+   "nome": "Sala de reunião",
+   "tipo": "reuniao",
+   "x": 7,
+   "z": 0,
+   "w": 3,
+   "d": 4,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Copa",
+   "tipo": "cafe",
+   "x": 7,
+   "z": 4,
+   "w": 3,
+   "d": 3,
+   "piso": "porcelanato"
+  }
+ ],
+ "planta": {
+  "version": 1,
+  "terreno": {
+   "w": 10,
+   "d": 8
+  },
+  "floors": [
+   {
+    "andar": 0,
+    "rooms": [
+     {
+      "id": "startup-enxuta-r0",
+      "nome": "Área de trabalho",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 7,
+      "d": 7,
+      "piso": "madeira",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "startup-enxuta-r1",
+      "nome": "Sala de reunião",
+      "tipo": "reuniao",
+      "x": 7,
+      "z": 0,
+      "w": 3,
+      "d": 4,
+      "piso": "carpete",
+      "corParede": 2,
+      "vidro": true
+     },
+     {
+      "id": "startup-enxuta-r2",
+      "nome": "Copa",
+      "tipo": "cafe",
+      "x": 7,
+      "z": 4,
+      "w": 3,
+      "d": 3,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "startup-enxuta-d0",
+      "x": 3.5,
+      "z": 7,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "startup-enxuta-d1",
+      "x": 7,
+      "z": 3.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "startup-enxuta-d2",
+      "x": 7,
+      "z": 6.5,
+      "eixo": "z",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "startup-enxuta-i0",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "startup-enxuta-i1",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "startup-enxuta-i2",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "startup-enxuta-i3",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "startup-enxuta-i4",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "startup-enxuta-i5",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "startup-enxuta-i6",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i7",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i8",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i9",
+      "catalogId": "mesa-bancada",
+      "x": 2.75,
+      "z": 4.25,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i10",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.05,
+      "z": 3.25,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i11",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.45,
+      "z": 3.25,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i12",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.05,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "startup-enxuta-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.45,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "startup-enxuta-i14",
+      "catalogId": "monitor",
+      "x": 2.05,
+      "z": 4,
+      "rot": 180
+     },
+     {
+      "id": "startup-enxuta-i15",
+      "catalogId": "monitor",
+      "x": 3.45,
+      "z": 4,
+      "rot": 180
+     },
+     {
+      "id": "startup-enxuta-i16",
+      "catalogId": "monitor",
+      "x": 2.05,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i17",
+      "catalogId": "laptop",
+      "x": 3.45,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i18",
+      "catalogId": "estante",
+      "x": 6.25,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i19",
+      "catalogId": "arquivo",
+      "x": 5.25,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i20",
+      "catalogId": "impressora",
+      "x": 6.75,
+      "z": 5,
+      "rot": 270
+     },
+     {
+      "id": "startup-enxuta-i21",
+      "catalogId": "luminaria-piso",
+      "x": 0.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i22",
+      "catalogId": "quadro-arte",
+      "x": 0.31,
+      "z": 3.5,
+      "rot": 90
+     },
+     {
+      "id": "startup-enxuta-i23",
+      "catalogId": "relogio-parede",
+      "x": 2.75,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i24",
+      "catalogId": "vaso-ficus",
+      "x": 5.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i25",
+      "catalogId": "espada-sao-jorge",
+      "x": 0.25,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i26",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 8.5,
+      "z": 2,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i27",
+      "catalogId": "cadeira-reuniao",
+      "x": 8.5,
+      "z": 0.75,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i28",
+      "catalogId": "cadeira-reuniao",
+      "x": 8.5,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "startup-enxuta-i29",
+      "catalogId": "cadeira-reuniao",
+      "x": 7.5,
+      "z": 2,
+      "rot": 90
+     },
+     {
+      "id": "startup-enxuta-i30",
+      "catalogId": "tv-pedestal",
+      "x": 9.75,
+      "z": 2,
+      "rot": 270
+     },
+     {
+      "id": "startup-enxuta-i31",
+      "catalogId": "bebedouro",
+      "x": 9.75,
+      "z": 4.25,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i32",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 8.5,
+      "z": 5.75,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i33",
+      "catalogId": "cadeira-reuniao",
+      "x": 9.5,
+      "z": 5.75,
+      "rot": 270
+     },
+     {
+      "id": "startup-enxuta-i34",
+      "catalogId": "cadeira-reuniao",
+      "x": 8.5,
+      "z": 4.75,
+      "rot": 0
+     },
+     {
+      "id": "startup-enxuta-i35",
+      "catalogId": "quadro-arte",
+      "x": 8.5,
+      "z": 6.69,
+      "rot": 180
+     }
+    ]
+   }
+  ],
+  "presetId": "startup-enxuta"
+ }
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Escritório 3D · visualizador</title>
+<meta name="description" content="Escolha um escritório em 3D, gire, aproxime e adicione funcionários um por um.">
+<meta name="theme-color" content="#ece2d6">
+<link rel="stylesheet" href="estilo.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.min.js", "three/addons/": "./vendor/addons/" } }
+</script>
+</head>
+<body>
+<canvas id="cena" tabindex="0" aria-label="Escritório em 3D. Arraste para girar, use dois dedos ou a roda do mouse para aproximar."></canvas>
+
+<header class="ilha topo">
+  <a class="marca" id="voltar" href="#" hidden aria-label="Voltar ao guia">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+  </a>
+  <span class="marca-txt">Escritório 3D</span>
+  <label class="campo escolha">
+    <span class="sr">Escritório</span>
+    <select id="escritorio"></select>
+  </label>
+  <a class="btn baixar" id="baixar" hidden aria-label="Baixar o pacote 3D (zip)" download>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg>
+    <span>Baixar pacote</span>
+  </a>
+</header>
+
+<aside class="info" id="info" aria-live="polite"></aside>
+
+<div class="ilha base" role="toolbar" aria-label="Ações">
+  <button class="btn principal" id="mais" type="button">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+    Funcionário
+  </button>
+  <button class="chip" id="mais10" type="button" aria-label="Adicionar 10 funcionários">+10</button>
+  <label class="campo andar" id="campo-andar" hidden>
+    <span class="sr">Andar</span>
+    <select id="andar"></select>
+  </label>
+  <button class="chip" id="teto" type="button" aria-pressed="false">Teto</button>
+  <button class="chip" id="limpar" type="button">Limpar</button>
+  <span class="contagem" id="contagem" aria-live="polite">0 / 0</span>
+</div>
+
+<div class="carregando" id="carregando" role="status"><div><i></i><span id="carregando-txt">Carregando…</span></div></div>
+<div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+<p class="dica" id="dica">Arraste para girar · dois dedos ou roda do mouse para aproximar · toque num funcionário para tirar</p>
+
+<noscript><p class="sem-3d">Ative o JavaScript para ver o escritório em 3D.</p></noscript>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
