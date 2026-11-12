@@ -2,8 +2,9 @@
 
 > Preencha com a pessoa, em conversa. Cada campo vazio vira um "não sei" honesto no agente.
 
-- **Nome:** a confirmar
-- **O que fazemos (1 frase):** a confirmar
+- **Nome:** ainda sem nome definido (dito pelo dono em 12/11/2026). Nas mensagens, não cite nome de empresa.
+- **O que fazemos (1 frase):** prestação de serviços como agência de IA ("AI agency"); hoje, sites e sistemas simples para clientes (dito pelo dono em 12/11/2026).
+- **Fase do negócio:** começando; o dono está buscando os primeiros clientes (12/11/2026).
 - **Quem é o cliente ideal:** a confirmar
 - **O que vendemos e por quanto:** a confirmar (com data)
 - **Diferencial (por que nos escolhem):** a confirmar
