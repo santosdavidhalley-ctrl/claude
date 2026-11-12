@@ -7,9 +7,9 @@
   - "Perco cliente ou pedido porque demoro a responder."
   - "Só tenho Instagram; não tenho um lugar com serviços, endereço e horário."
   - "Meu cardápio é uma foto no WhatsApp e vive desatualizado." (açaiterias e lanchonetes)
-- **Objeções comuns e a resposta aprovada pelo dono:**
+- **Objeções comuns e a resposta aprovada pelo dono:** (12/11/2026)
   - "É caro" → oferecer ver uma versão mais simples do projeto, que caiba no orçamento. Pedido de desconto vai para o dono decidir (dito pelo dono em 12/11/2026).
-  - "Preciso pensar" → a confirmar
+  - "Preciso pensar" → o dono não tem uma resposta própria; escolheu o padrão da skill `follow-up`: respeitar o tempo do cliente e mandar até 3 mensagens leves de acompanhamento, sem pressão e com saída fácil (12/11/2026).
 - **Perguntas frequentes (pergunta → resposta confirmada):**
   - a confirmar
 
