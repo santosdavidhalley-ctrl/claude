@@ -10,5 +10,5 @@ _Respostas do dono na primeira sessão. "A confirmar" = não foi perguntado ou o
 6. **Dado de saúde, jurídico ou financeiro de clientes:** a confirmar. Até a resposta: só leitura, rascunho e tarefas administrativas; nada clínico, jurídico ou fiscal.
 
 **Modo da obra:** rápido (o dono pediu "leia tudo e faça para mim").
-**Repositório:** o dono vai deixar o repositório privado antes do envio.
+**Repositório:** primeiro o dono disse que deixaria o repositório privado; depois decidiu: "pode enviar com ele público" (12/11/2026). O repositório está PÚBLICO.
 **Equipe inicial:** orquestrador, vendas, conteudo, suporte, agenda, automacoes. O kit recomenda começar com 2 ou 3 agentes; o dono escolheu as cinco frentes.

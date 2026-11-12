@@ -26,7 +26,7 @@ Na nuvem, os rascunhos (`saidas/`) e o registro de trabalho somem quando a conve
 - **Preencher o cérebro** (etapa 4). Numa conversa, diga: `Me entreviste, uma pergunta por vez, para preencher cerebro/empresa.md e cerebro/clientes.md.` Sem isso os agentes respondem "preciso confirmar com o dono" para preço, prazo e tom de voz.
 - **Conferir a obra:** `node scripts/obra.mjs` mostra as etapas. Elas foram testadas pelo Claude; a conferência final é sua.
 - **Rotinas agendadas e ferramentas externas** (agenda, e-mail, WhatsApp): nada foi ligado. Leia `guia/05-integracoes.md` e `guia/06-rotinas-e-agendamento.md` antes.
-- Mantenha o repositório **privado**: ele guarda o kit, os modelos 3D e o conhecimento do seu negócio.
+- **O repositório está público** (decisão sua em 12/11/2026): qualquer pessoa vê o que está aqui. Antes de pôr no cérebro preço, dado de cliente ou outra informação reservada, torne-o privado (GitHub > Settings > General > Danger Zone > Change visibility).
 
 ## Onde está cada coisa
 | Pasta | O que é |

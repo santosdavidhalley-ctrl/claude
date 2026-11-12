@@ -32,3 +32,5 @@ _Formato: DD/MM/AAAA — etapa — o que mudou — quem aprovou_
 - Nenhuma rotina agendada e nenhuma ferramenta externa conectada (portão 3 do `COMECE-AQUI.md`): é decisão do dono.
 - Travas extras do computador (sandbox) não testadas ao vivo: só dá para testar no computador, depois de `node scripts/perfil.mjs computador`.
 - `/auditar-escritorio` ainda não rodou.
+
+12/11/2026 — envio — o dono autorizou enviar com o repositório público ("pode enviar com ele público"). O cérebro não tem dado reservado. Antes de preencher o cérebro com preço ou dado de cliente: tornar o repositório privado.
