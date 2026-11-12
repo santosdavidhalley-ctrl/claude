@@ -1,0 +1,10 @@
+[project]
+name = "meu-alfred"
+version = "0.0.1"
+description = "Alfred: assistente pessoal que roda no seu computador"
+requires-python = ">=3.11"
+# Fase 0: nenhuma biblioteca de fora. Só o Python.
+dependencies = []
+
+[tool.uv]
+package = false

@@ -1,0 +1,12 @@
+# Tudo que é seu fica fora do git: memória, registros, perfil, configuração local.
+dados/
+
+# Segredos nunca entram no projeto (a regra é não ter nenhum; isto é a segunda camada).
+.env*
+*.key
+*.pem
+
+# Ambiente e restos do Python
+.venv/
+__pycache__/
+*.pyc

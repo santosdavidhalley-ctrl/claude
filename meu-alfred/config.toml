@@ -1,0 +1,20 @@
+# Configuração do Alfred. Nada aqui é segredo.
+# Para mudar algo só no seu computador, crie dados/config.toml com as mesmas
+# seções: o que estiver lá vale mais do que este arquivo.
+
+[cerebro]
+# Quem pensa. Por enquanto só existe "ollama" (modelo local, dentro do seu PC).
+provedor = "ollama"
+
+# Qual modelo o Ollama usa. Escolhido pelo tamanho do seu computador.
+modelo = "qwen3:4b"
+
+# Onde o Ollama atende. 127.0.0.1 quer dizer "este computador".
+url = "http://127.0.0.1:11434"
+
+# Quantos segundos esperar por uma resposta antes de desistir.
+tempo_limite_s = 300
+
+# Raciocínio longo antes de responder. false = responde mais rápido.
+# Aceita false, true, "low", "medium" ou "high". Apague a linha para não mandar nada.
+pensar = false
