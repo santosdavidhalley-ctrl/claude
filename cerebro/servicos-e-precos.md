@@ -7,6 +7,7 @@
 - Sites institucionais
 - Cardápios digitais
 - Sistemas de automação: sob consulta. O dono avalia caso a caso; não prometa que dá para fazer nem prazo.
+- Manutenção de sites e integrações com outras ferramentas (citadas pelo dono em 12/11/2026; quais integrações e o valor da manutenção ele ainda não disse).
 
 ## Preços (ditos pelo dono em 12/11/2026)
 - Site simples: em torno de R$ 800 a R$ 1.200.
@@ -19,9 +20,9 @@
 - Pode citar a faixa do site simples como referência ("em torno de"), nunca como valor fechado.
 - Antes de falar em valor, entenda o que o cliente precisa: tipo de site, funcionalidades e acabamento.
 - Fora da faixa ou em dúvida: "preciso confirmar com o responsável".
-- Cliente achou caro: ofereça ver uma versão mais simples do projeto, que caiba no orçamento. Pedido de desconto: não prometa nem negue; leve ao dono, que decide.
+- Cliente achou caro: ofereça ver uma versão mais simples do projeto, que caiba no orçamento. Pode dizer que há espaço para conversar sobre o valor. Quanto de desconto: só o dono decide; não cite percentual nem valor.
 
 ## Falta o dono dizer
-- Forma de cobrança e de pagamento, prazo de entrega e o que não está incluso (domínio, hospedagem, textos, fotos, manutenção). Até lá, a resposta é "preciso confirmar com o responsável".
+- Forma de cobrança e de pagamento, prazo de entrega em dias, valor da manutenção e o que não está incluso (domínio, hospedagem, textos, fotos, manutenção). Até lá, a resposta é "preciso confirmar com o responsável".
 
 _Última revisão: 12/11/2026_
