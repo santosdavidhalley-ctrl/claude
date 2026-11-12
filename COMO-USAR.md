@@ -23,7 +23,8 @@ Na nuvem, os rascunhos (`saidas/`) e o registro de trabalho somem quando a conve
 6. Parar tudo: `node scripts/pausar.mjs`. Voltar: `node scripts/pausar.mjs retomar`.
 
 ## O que falta você fazer
-- **Completar o cérebro quando souber:** prazo aproximado de entrega, meio de pagamento, valor da manutenção, o que não está incluso e se faz aplicativo de celular. Até lá os agentes respondem "preciso confirmar com o responsável". Para mudar algo, diga numa conversa: `Atualize o cérebro: [o que mudou].`
+- **Manter o cérebro em dia:** quando mudar preço, prazo ou serviço, diga numa conversa: `Atualize o cérebro: [o que mudou].`
+- **Prospecção:** o agente `prospeccao` só rascunha depois que o cérebro disser de onde vêm os seus contatos. Peça: `Use o agente prospeccao com esta lista: [contatos e de onde vieram].`
 - **Conferir a obra:** `node scripts/obra.mjs` mostra as etapas. Elas foram testadas pelo Claude; a conferência final é sua.
 - **Rotinas agendadas e ferramentas externas** (agenda, e-mail, WhatsApp): nada foi ligado. Leia `guia/05-integracoes.md` e `guia/06-rotinas-e-agendamento.md` antes.
 - **O repositório está público** (decisão sua em 12/11/2026): qualquer pessoa vê o que está aqui. Antes de pôr no cérebro preço, dado de cliente ou outra informação reservada, torne-o privado (GitHub > Settings > General > Danger Zone > Change visibility).
@@ -31,7 +32,7 @@ Na nuvem, os rascunhos (`saidas/`) e o registro de trabalho somem quando a conve
 ## Onde está cada coisa
 | Pasta | O que é |
 |---|---|
-| `.claude/agents/` | Os 7 agentes da equipe |
+| `.claude/agents/` | Os 8 agentes da equipe |
 | `.claude/skills/` | 17 jeitos de fazer prontos (responder cliente, proposta, follow-up, bom dia...) |
 | `cerebro/` | O que o negócio sabe. Os agentes só afirmam o que está aqui |
 | `estado/` | Equipe do painel, andamento da obra e registro de trabalho |

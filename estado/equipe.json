@@ -41,6 +41,12 @@
       "nome": "Rotinas",
       "funcao": "Bom dia, fechar o dia e relatório",
       "cor": "#be185d"
+    },
+    {
+      "id": "prospeccao",
+      "nome": "Prospecção",
+      "funcao": "Listas e primeira mensagem",
+      "cor": "#4d7c0f"
     }
   ]
 }

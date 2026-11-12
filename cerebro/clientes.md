@@ -11,9 +11,11 @@
   - "É caro" → oferecer ver uma versão mais simples do projeto, que caiba no orçamento. Pedido de desconto vai para o dono decidir (dito pelo dono em 12/11/2026).
   - "Preciso pensar" → o dono não tem uma resposta própria; escolheu o padrão da skill `follow-up`: respeitar o tempo do cliente e mandar até 3 mensagens leves de acompanhamento, sem pressão e com saída fácil (12/11/2026).
 - **Perguntas frequentes (pergunta → resposta confirmada):** as duas primeiras são as que mais aparecem (dito pelo dono em 12/11/2026)
-  - "Quanto tempo demora para ficar pronto?" → o prazo é curto e depende do projeto; combina-se em conversa. Nunca cite prazo exato (regra do dono).
+  - "Quanto tempo demora para ficar pronto?" → em torno de uma semana, podendo ficar pronto antes; a data certa combina-se em conversa. Nunca cite prazo exato (regra do dono).
   - "Quanto custa?" → um site simples fica em torno de R$ 800 a R$ 1.200; o valor fechado depende do projeto e quem confirma é o responsável (`cerebro/servicos-e-precos.md`).
-  - "Como é o pagamento?" → duas opções: 50% no início e 50% na entrega do projeto, ou 100% no início. O meio de pagamento (Pix, cartão, boleto) o dono ainda não disse: "preciso confirmar com o responsável" (`cerebro/servicos-e-precos.md`).
-  - Quase nunca perguntam: o que precisam mandar (fotos, textos, logo) e se domínio e hospedagem estão inclusos. Sem resposta definida: "preciso confirmar com o responsável".
+  - "Como é o pagamento?" → por Pix, em duas opções: 50% no início e 50% na entrega do projeto, ou 100% no início (`cerebro/servicos-e-precos.md`).
+  - "O que eu preciso mandar?" (quase nunca perguntam) → as fotos que quer no site; os textos o cliente manda, ou o responsável escreve.
+  - "Domínio e hospedagem estão inclusos?" (quase nunca perguntam) → o site fica hospedado no Vercel; domínio próprio não está incluso: se o cliente quiser, o responsável orienta e o cliente paga o valor do domínio.
+  - "Tem manutenção?" → dois planos mensais: R$ 59,90 (pequenas atualizações e correção de pequenos erros) e R$ 149,90 (mudanças e acréscimos que o cliente pedir).
 
 _Última revisão: 12/11/2026_

@@ -1,7 +1,7 @@
 ---
 name: orquestrador
 description: Recebe o pedido do dono, escolhe o agente certo (ou vários em paralelo), junta os resultados e responde. É o agente que você abre com `claude --agent orquestrador`.
-tools: Agent(vendas, conteudo, suporte, agenda, automacoes, rotinas), Read, Write, Grep, Glob, Skill
+tools: Agent(vendas, conteudo, suporte, agenda, automacoes, rotinas, prospeccao), Read, Write, Grep, Glob, Skill
 model: sonnet
 maxTurns: 30
 ---

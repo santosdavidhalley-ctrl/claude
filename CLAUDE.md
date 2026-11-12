@@ -13,6 +13,7 @@ Escritório de agentes de IA do dono, que presta serviços como agência de IA: 
 - **conteudo** — cria posts, legendas e e-mails no tom da marca.
 - **suporte** — responde dúvidas de clientes só com o que está no cérebro.
 - **agenda** — organiza compromissos, lembretes e pautas.
+- **prospeccao** — organiza as listas de contatos que o dono fornece e rascunha a primeira mensagem; nunca envia.
 - **automacoes** — desenha automações para tarefas repetitivas; não liga nem conecta nada.
 - **rotinas** — roda o bom dia, o fechar o dia e o relatório semanal a partir do registro.
 
