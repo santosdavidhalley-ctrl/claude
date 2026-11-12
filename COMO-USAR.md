@@ -24,7 +24,7 @@ Na nuvem, os rascunhos (`saidas/`) e o registro de trabalho somem quando a conve
 
 ## O que falta você fazer
 - **Manter o cérebro em dia:** quando mudar preço, prazo ou serviço, diga numa conversa: `Atualize o cérebro: [o que mudou].`
-- **Prospecção:** o agente `prospeccao` só rascunha depois que o cérebro disser de onde vêm os seus contatos. Peça: `Use o agente prospeccao com esta lista: [contatos e de onde vieram].`
+- **Prospecção:** anote os negócios numa planilha com as colunas de `modelos/leads-modelo.csv` (a lista de verdade fica fora do repositório). Depois peça: `Use o agente prospeccao com esta lista: [negócio, canal, de onde veio o contato, o que você viu no perfil].` O passo a passo está em `cerebro/processos/prospeccao.md`.
 - **Conferir a obra:** `node scripts/obra.mjs` mostra as etapas. Elas foram testadas pelo Claude; a conferência final é sua.
 - **Rotinas agendadas e ferramentas externas** (agenda, e-mail, WhatsApp): nada foi ligado. Leia `guia/05-integracoes.md` e `guia/06-rotinas-e-agendamento.md` antes.
 - **O repositório está público** (decisão sua em 12/11/2026): qualquer pessoa vê o que está aqui. Antes de pôr no cérebro preço, dado de cliente ou outra informação reservada, torne-o privado (GitHub > Settings > General > Danger Zone > Change visibility).
