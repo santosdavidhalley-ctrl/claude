@@ -1,10 +1,10 @@
-# Regras da casa — Escritório de IA (nome do negócio a confirmar)
+# Regras da casa — Escritório de IA (negócio ainda sem nome)
 
 > Este arquivo é lido pelo Claude toda vez que ele começa a trabalhar nesta pasta. Escreva curto: cada linha aqui custa atenção em toda conversa.
 
 ## O que é este escritório
 
-Escritório de agentes de IA para o trabalho do próprio dono (negócio e cliente ideal: a confirmar em `cerebro/empresa.md`). A equipe responde interessados, rascunha propostas e posts, tira dúvidas de clientes, organiza a agenda e desenha automações. Tudo é rascunho: o dono aprova e envia.
+Escritório de agentes de IA do dono, que presta serviços como agência de IA: sites (landing pages, institucionais, cardápios digitais) e sistemas simples para pequenos negócios locais (detalhes em `cerebro/empresa.md`). A equipe responde interessados, rascunha propostas e posts, tira dúvidas de clientes, organiza a agenda e desenha automações. Tudo é rascunho: o dono aprova e envia.
 
 ## Equipe
 

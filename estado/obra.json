@@ -27,7 +27,8 @@
       "n": 4,
       "nome": "Cérebro",
       "criterio": "node scripts/brain-lint.mjs sem ERRO e sem aviso de campo em branco em cerebro/empresa.md e cerebro/clientes.md; perguntado algo fora do cérebro, o agente diz que precisa confirmar e, perguntado algo de dentro, cita o arquivo",
-      "passou": false
+      "passou": true,
+      "feito_em": "2026-11-12"
     },
     {
       "n": 5,

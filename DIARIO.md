@@ -34,3 +34,7 @@ _Formato: DD/MM/AAAA — etapa — o que mudou — quem aprovou_
 - `/auditar-escritorio` ainda não rodou.
 
 12/11/2026 — envio — o dono autorizou enviar com o repositório público ("pode enviar com ele público"). O cérebro não tem dado reservado. Antes de preencher o cérebro com preço ou dado de cliente: tornar o repositório privado.
+12/11/2026 — etapa 4 (Cérebro) — cérebro preenchido por entrevista com o dono; brain-lint sem erro e sem campo em branco em empresa.md e clientes.md; o agente vendas respondeu preço e pagamento citando os arquivos do cérebro e disse 'preciso confirmar com o responsável' para prazo em dias, aplicativo e manutenção — testado pelo Claude; falta a conferência do dono
+
+12/11/2026 — entrevista do cérebro — o dono respondeu 14 perguntas: negócio, cliente ideal, serviços e faixa de preço, diferenciais, tom de voz, o que nunca dizer, horários, ferramentas, quem decide, dores (hipóteses), objeções, perguntas frequentes e pagamento. Arquivo novo: `cerebro/servicos-e-precos.md` (lido por vendas e suporte). Ficaram fora do Git, de propósito, o nome, o contato e outros dados pessoais do dono.
+12/11/2026 — falta o dono dizer — prazo aproximado de entrega, meio de pagamento, valor e o que entra na manutenção, o que não está incluso (domínio, hospedagem, textos, fotos) e se faz aplicativo de celular. Sem isso os agentes respondem "preciso confirmar com o responsável".
