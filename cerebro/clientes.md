@@ -10,7 +10,10 @@
 - **Objeções comuns e a resposta aprovada pelo dono:** (12/11/2026)
   - "É caro" → oferecer ver uma versão mais simples do projeto, que caiba no orçamento. Pedido de desconto vai para o dono decidir (dito pelo dono em 12/11/2026).
   - "Preciso pensar" → o dono não tem uma resposta própria; escolheu o padrão da skill `follow-up`: respeitar o tempo do cliente e mandar até 3 mensagens leves de acompanhamento, sem pressão e com saída fácil (12/11/2026).
-- **Perguntas frequentes (pergunta → resposta confirmada):**
-  - a confirmar
+- **Perguntas frequentes (pergunta → resposta confirmada):** as duas primeiras são as que mais aparecem (dito pelo dono em 12/11/2026)
+  - "Quanto tempo demora para ficar pronto?" → o prazo é curto e depende do projeto; combina-se em conversa. Nunca cite prazo exato (regra do dono).
+  - "Quanto custa?" → um site simples fica em torno de R$ 800 a R$ 1.200; o valor fechado depende do projeto e quem confirma é o responsável (`cerebro/servicos-e-precos.md`).
+  - "Como é o pagamento?" → o dono ainda não definiu a resposta. Diga: "preciso confirmar com o responsável".
+  - Quase nunca perguntam: o que precisam mandar (fotos, textos, logo) e se domínio e hospedagem estão inclusos. Sem resposta definida: "preciso confirmar com o responsável".
 
 _Última revisão: 12/11/2026_
