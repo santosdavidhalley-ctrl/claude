@@ -23,6 +23,7 @@ Na nuvem, os rascunhos (`saidas/`) e o registro de trabalho somem quando a conve
 6. Parar tudo: `node scripts/pausar.mjs`. Voltar: `node scripts/pausar.mjs retomar`.
 
 ## Publicar a demonstração no Vercel
+Endereço atual: https://escritorio-ia-three.vercel.app (publicado em 13/11/2026).
 1. `node scripts/publicar-vercel.mjs` monta `.publicar/escritorio-ia/`: só o painel 3D em modo demonstração (equipe real, tarefas de exemplo, atividade simulada) e os modelos 3D que ele usa. Cérebro, estado, agentes e regras não vão junto.
 2. `npx vercel deploy .publicar/escritorio-ia --prod` publica. Na primeira vez o Vercel pede login.
 3. Mudou a equipe? Rode os dois comandos de novo.
