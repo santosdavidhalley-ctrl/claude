@@ -22,6 +22,11 @@ Na nuvem, os rascunhos (`saidas/`) e o registro de trabalho somem quando a conve
 5. Painel: `node visual/app/server.mjs` e abra http://localhost:4700 (2D) ou http://localhost:4700/3d/ (3D).
 6. Parar tudo: `node scripts/pausar.mjs`. Voltar: `node scripts/pausar.mjs retomar`.
 
+## Publicar a demonstração no Vercel
+1. `node scripts/publicar-vercel.mjs` monta `.publicar/escritorio-ia/`: só o painel 3D em modo demonstração (equipe real, tarefas de exemplo, atividade simulada) e os modelos 3D que ele usa. Cérebro, estado, agentes e regras não vão junto.
+2. `npx vercel deploy .publicar/escritorio-ia --prod` publica. Na primeira vez o Vercel pede login.
+3. Mudou a equipe? Rode os dois comandos de novo.
+
 ## O que falta você fazer
 - **Manter o cérebro em dia:** quando mudar preço, prazo ou serviço, diga numa conversa: `Atualize o cérebro: [o que mudou].`
 - **Prospecção:** anote os negócios numa planilha com as colunas de `modelos/leads-modelo.csv` (a lista de verdade fica fora do repositório). Depois peça: `Use o agente prospeccao com esta lista: [negócio, canal, de onde veio o contato, o que você viu no perfil].` O passo a passo está em `cerebro/processos/prospeccao.md`.

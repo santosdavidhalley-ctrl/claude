@@ -38,6 +38,7 @@ let geracao = 0; // muda a cada remontagem da cena (descarta o que ainda estava 
 let assinatura = null; // equipe + planta da última montagem
 let foco = null; // id do agente em destaque
 let recebeu = false; // já chegou o primeiro estado do servidor
+let demonstracao = false; // página publicada sem o servidor do escritório (ex.: Vercel): atividade simulada
 
 /* ---------------- utilidades (iguais às do painel 2D) ---------------- */
 function hash(s) { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0; return Math.abs(h); }
@@ -497,7 +498,9 @@ function atualizar() {
   $("#t-custo").textContent = usd(d.custo);
   $("#puxador-resumo").textContent = agora
     ? `${agora.ag.nome || agora.ag.id}: ${curto(agora.e.tarefa || "trabalhando", 60)}`
-    : `${ags.length} ${ags.length === 1 ? "agente" : "agentes"} · tarefas hoje: ${d.tarefas} · gasto hoje: ${usd(d.custo)}`;
+    : demonstracao
+      ? `${ags.length} ${ags.length === 1 ? "agente" : "agentes"} · demonstração`
+      : `${ags.length} ${ags.length === 1 ? "agente" : "agentes"} · tarefas hoje: ${d.tarefas} · gasto hoje: ${usd(d.custo)}`;
   listaEquipe(ags, d);
   listaFeed(ags);
   listaGastos(ags, d);
@@ -571,6 +574,63 @@ function conectar() {
     c.classList.remove("on");
   };
 }
+// Modo demonstração: quando a página é publicada sem o servidor do escritório (ex.: Vercel), o script
+// scripts/publicar-vercel.mjs põe um demo.json ao lado desta página. No computador ele não existe e o painel fica ao vivo.
+async function lerDemo() {
+  try {
+    const r = await fetch("./demo.json", { cache: "no-store" });
+    if (!r.ok) return null;
+    const j = await r.json();
+    return j && j.equipe && Array.isArray(j.equipe.agentes) ? j : null;
+  } catch {
+    return null;
+  }
+}
+function iniciarDemonstracao(demo) {
+  demonstracao = true;
+  document.body.classList.add("demo");
+  const c = $("#conexao");
+  c.textContent = "demonstração";
+  c.classList.add("on");
+  const aviso = $(".aviso");
+  if (aviso) aviso.textContent = typeof demo.aviso === "string" ? demo.aviso : "Demonstração: a atividade desta página é simulada.";
+  const link2d = document.querySelector('a.chip[href="../"]');
+  if (link2d) link2d.hidden = true; // o painel 2D precisa do servidor do escritório
+  dados = { equipe: demo.equipe, eventos: [] };
+  recebeu = true;
+  sincronizar();
+  const ids = agentes().map((a) => a.id).filter((id) => id !== "orquestrador");
+  if (!ids.length) return;
+  const temOrq = agentes().some((a) => a.id === "orquestrador");
+  const tarefas = demo.tarefas && typeof demo.tarefas === "object" ? demo.tarefas : {};
+  const sorteia = (l) => l[Math.floor(Math.random() * l.length)];
+  const tarefaDe = (id) => sorteia(Array.isArray(tarefas[id]) && tarefas[id].length ? tarefas[id] : ["Tarefa de exemplo"]);
+  const nomeDe = (id) => (agentes().find((a) => a.id === id) || {}).nome || id;
+  const ev = (o) => { // "teste": true = evento falso: aparece na tela, mas não conta como tarefa nem gasto
+    dados.eventos.push({ t: new Date().toISOString(), custo_usd: 0, teste: true, ...o });
+    if (dados.eventos.length > 80) dados.eventos.splice(0, dados.eventos.length - 80);
+    atualizar();
+  };
+  const ocupados = new Set();
+  const rodada = () => {
+    const livres = ids.filter((id) => !ocupados.has(id));
+    if (!livres.length) return;
+    const id = sorteia(livres), tarefa = tarefaDe(id);
+    ocupados.add(id);
+    if (temOrq) {
+      ev({ agente: "orquestrador", evento: "inicio", tarefa: "Distribuir: " + tarefa });
+      setTimeout(() => ev({ agente: "orquestrador", evento: "fim", tarefa: "Distribuir: " + tarefa, resultado: "Pedido entregue a " + nomeDe(id) }), 1500);
+    }
+    ev({ agente: id, evento: "inicio", tarefa });
+    setTimeout(() => {
+      ocupados.delete(id);
+      ev({ agente: id, evento: "fim", tarefa, resultado: "Rascunho pronto para o dono revisar" });
+    }, 5000 + Math.random() * 5000);
+  };
+  rodada();
+  setTimeout(rodada, 1800);
+  setInterval(rodada, 4500);
+}
 selPlanta.addEventListener("change", () => {
   salvarEscolha(selPlanta.value);
   if (recebeu) sincronizar();
@@ -590,6 +650,8 @@ selPlanta.addEventListener("change", () => {
     recado(["Não achei o pacote 3D em visual/app/public/escritorio-3d/. A lista ao lado continua funcionando; o ", ["painel 2D", "../"], " também."]);
     indice = []; // sem pacote não há cena: fica só a lista
   }
-  conectar();
+  const demo = await lerDemo();
+  if (demo) iniciarDemonstracao(demo);
+  else conectar();
   setInterval(atualizar, 2000); // estados que mudam com o tempo ("concluído" some em 8 s)
 })();
