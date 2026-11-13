@@ -1,0 +1,270 @@
+{
+ "versao": 1,
+ "unidade": "metro",
+ "eixos": "y para cima; origem entre os pés, no chão; frente para +z",
+ "juntas": {
+  "quadril": null,
+  "tronco": "quadril",
+  "cabeca": "tronco",
+  "ombro_E": "tronco",
+  "braco_E": "ombro_E",
+  "antebraco_E": "braco_E",
+  "ombro_D": "tronco",
+  "braco_D": "ombro_D",
+  "antebraco_D": "braco_D",
+  "coxa_E": "quadril",
+  "canela_E": "coxa_E",
+  "pe_E": "canela_E",
+  "coxa_D": "quadril",
+  "canela_D": "coxa_D",
+  "pe_D": "canela_D"
+ },
+ "sentado": "os clipes sentados foram gravados com assento a 0.47 m: posicione a raiz em y = chão + (altura do assento − 0.47)",
+ "pose_do_assento_para_clipe": {
+  "type": "digitando",
+  "laptop": "notebook",
+  "rest": "sentado",
+  "lounge": "sofa",
+  "stand": "digitando_em_pe"
+ },
+ "clipes": [
+  {
+   "nome": "parado",
+   "segundos": 8,
+   "loop": true,
+   "sentado": false,
+   "uso": "em pé, respirando e olhando em volta"
+  },
+  {
+   "nome": "andando",
+   "segundos": 0.867,
+   "loop": true,
+   "sentado": false,
+   "uso": "ciclo de caminhada (1,3 m/s): mova a raiz para frente (+z)"
+  },
+  {
+   "nome": "digitando",
+   "segundos": 8,
+   "loop": true,
+   "sentado": true,
+   "uso": "sentado na mesa, digitando"
+  },
+  {
+   "nome": "notebook",
+   "segundos": 6,
+   "loop": true,
+   "sentado": true,
+   "uso": "sentado, no notebook"
+  },
+  {
+   "nome": "sentado",
+   "segundos": 8,
+   "loop": true,
+   "sentado": true,
+   "uso": "sentado conversando (reunião, sem mesa)"
+  },
+  {
+   "nome": "sofa",
+   "segundos": 6,
+   "loop": true,
+   "sentado": true,
+   "uso": "recostado no sofá"
+  },
+  {
+   "nome": "digitando_em_pe",
+   "segundos": 8,
+   "loop": true,
+   "sentado": false,
+   "uso": "na mesa regulável em pé"
+  },
+  {
+   "nome": "conversando",
+   "segundos": 6,
+   "loop": true,
+   "sentado": false,
+   "uso": "em pé, falando e gesticulando"
+  },
+  {
+   "nome": "telefone",
+   "segundos": 6,
+   "loop": true,
+   "sentado": false,
+   "uso": "em pé, ao telefone"
+  },
+  {
+   "nome": "cafe",
+   "segundos": 8,
+   "loop": true,
+   "sentado": false,
+   "uso": "em pé, tomando café"
+  },
+  {
+   "nome": "apresentando",
+   "segundos": 8,
+   "loop": true,
+   "sentado": false,
+   "uso": "apontando para a tela / quadro"
+  },
+  {
+   "nome": "acenando",
+   "segundos": 3,
+   "loop": true,
+   "sentado": false,
+   "uso": "acenando (boas-vindas)"
+  }
+ ],
+ "funcionarios": [
+  {
+   "id": "funcionario-01",
+   "nome": "Blazer azul-marinho, cabelo longo",
+   "arquivo": "funcionarios/funcionario-01.glb",
+   "kb": 425,
+   "aparencia": {
+    "sexo": "feminino",
+    "pele": 1,
+    "cabelo": {
+     "estilo": 5,
+     "cor": 1
+    },
+    "roupa": {
+     "estilo": "blazer",
+     "cor": 1
+    },
+    "acessorio": "nenhum"
+   }
+  },
+  {
+   "id": "funcionario-02",
+   "nome": "Camisa social, óculos",
+   "arquivo": "funcionarios/funcionario-02.glb",
+   "kb": 335,
+   "aparencia": {
+    "sexo": "masculino",
+    "pele": 3,
+    "cabelo": {
+     "estilo": 0,
+     "cor": 0
+    },
+    "roupa": {
+     "estilo": "social",
+     "cor": 2
+    },
+    "acessorio": "oculos"
+   }
+  },
+  {
+   "id": "funcionario-03",
+   "nome": "Camiseta terracota, black power, fone",
+   "arquivo": "funcionarios/funcionario-03.glb",
+   "kb": 327,
+   "aparencia": {
+    "sexo": "feminino",
+    "pele": 5,
+    "cabelo": {
+     "estilo": 8,
+     "cor": 0
+    },
+    "roupa": {
+     "estilo": "casual",
+     "cor": 5
+    },
+    "acessorio": "fone"
+   }
+  },
+  {
+   "id": "funcionario-04",
+   "nome": "Terno grafite, relógio",
+   "arquivo": "funcionarios/funcionario-04.glb",
+   "kb": 403,
+   "aparencia": {
+    "sexo": "masculino",
+    "pele": 6,
+    "cabelo": {
+     "estilo": 1,
+     "cor": 0
+    },
+    "roupa": {
+     "estilo": "terno",
+     "cor": 0
+    },
+    "acessorio": "relogio"
+   }
+  },
+  {
+   "id": "funcionario-05",
+   "nome": "Gola alta preta, rabo de cavalo",
+   "arquivo": "funcionarios/funcionario-05.glb",
+   "kb": 325,
+   "aparencia": {
+    "sexo": "feminino",
+    "pele": 2,
+    "cabelo": {
+     "estilo": 6,
+     "cor": 3
+    },
+    "roupa": {
+     "estilo": "tech",
+     "cor": 10
+    },
+    "acessorio": "nenhum"
+   }
+  },
+  {
+   "id": "funcionario-06",
+   "nome": "Moletom sálvia, topete",
+   "arquivo": "funcionarios/funcionario-06.glb",
+   "kb": 335,
+   "aparencia": {
+    "sexo": "masculino",
+    "pele": 0,
+    "cabelo": {
+     "estilo": 2,
+     "cor": 4
+    },
+    "roupa": {
+     "estilo": "moletom",
+     "cor": 3
+    },
+    "acessorio": "fone"
+   }
+  },
+  {
+   "id": "funcionario-07",
+   "nome": "Vestido vinho, tranças",
+   "arquivo": "funcionarios/funcionario-07.glb",
+   "kb": 434,
+   "aparencia": {
+    "sexo": "feminino",
+    "pele": 4,
+    "cabelo": {
+     "estilo": 9,
+     "cor": 0
+    },
+    "roupa": {
+     "estilo": "vestido",
+     "cor": 4
+    },
+    "acessorio": "nenhum"
+   }
+  },
+  {
+   "id": "funcionario-08",
+   "nome": "Jaleco branco, cacheado, óculos",
+   "arquivo": "funcionarios/funcionario-08.glb",
+   "kb": 439,
+   "aparencia": {
+    "sexo": "masculino",
+    "pele": 2,
+    "cabelo": {
+     "estilo": 3,
+     "cor": 1
+    },
+    "roupa": {
+     "estilo": "jaleco",
+     "cor": 7
+    },
+    "acessorio": "oculos"
+   }
+  }
+ ]
+}

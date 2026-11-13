@@ -1,0 +1,8 @@
+{
+  "agentes": [
+    { "id": "orquestrador", "nome": "Orquestrador", "funcao": "Distribui o trabalho", "cor": "#3d66e6" },
+    { "id": "vendas", "nome": "Vendas", "funcao": "Responde leads e escreve propostas", "cor": "#12805c" },
+    { "id": "suporte", "nome": "Suporte", "funcao": "Responde dúvidas de clientes", "cor": "#9a6700" },
+    { "id": "conteudo", "nome": "Conteúdo", "funcao": "Cria posts e roteiros", "cor": "#8a3ffc" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "blockReadsOutsideWorkingDirectories": true,
+    "deny": [
+      "Bash(git push *)"
+    ]
+  },
+  "sandbox": { "enabled": true, "network": { "allowLocalBinding": true } }
+}

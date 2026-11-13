@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Escritório de IA</title>
+<style>
+:root { --ink:#0b1324; --muted:#5b6578; --line:#e4e8f0; --band:#f4f6fb; --acc:#3d66e6; --ok:#12805c; --warn:#9a6700; --bad:#b42318; --r:22px; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { font: 400 16px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: var(--band); overflow-x: clip; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px clamp(16px, 4vw, 32px); background: #fff; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 5; }
+h1 { margin: 0; font-size: 1.05rem; letter-spacing: -0.01em; }
+.tot { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; font-size: .85rem; }
+.tag { padding: 6px 12px; border-radius: 999px; background: var(--band); color: var(--muted); font-weight: 650; white-space: nowrap; }
+.tag b { color: var(--ink); }
+a.tag { display: inline-flex; align-items: center; min-height: 32px; color: #2f56d6; font-weight: 700; text-decoration: none; }
+a.tag:hover { background: #e6ecfb; }
+.ao-vivo::before { content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 7px; border-radius: 50%; background: var(--bad); vertical-align: 1px; }
+.ao-vivo.on::before { background: var(--ok); box-shadow: 0 0 0 4px rgb(18 128 92 / .18); }
+main { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 20px; padding: clamp(14px, 3vw, 28px); max-width: 1280px; margin-inline: auto; }
+.piso { border-radius: 28px; background-color: #fff; box-shadow: 0 0 0 1px var(--line); padding: clamp(14px, 2.4vw, 24px); background-image: linear-gradient(#f4f6fb 1px, transparent 1px), linear-gradient(90deg, #f4f6fb 1px, transparent 1px); background-size: 28px 28px; }
+.grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); gap: 14px; }
+.mesa { position: relative; display: grid; gap: 6px; justify-items: center; text-align: center; padding: 14px 10px; border-radius: var(--r); background: #fff; box-shadow: 0 0 0 1px var(--line); transition: box-shadow .4s, transform .4s; }
+.mesa.chefe { grid-column: 1 / -1; background: linear-gradient(180deg, #fff, #f1f5ff); }
+.mesa.trabalhando { box-shadow: 0 0 0 2px var(--acc), 0 18px 30px -18px rgb(61 102 230 / .6); transform: translateY(-2px); }
+.mesa.concluido { box-shadow: 0 0 0 2px var(--ok), 0 18px 30px -18px rgb(18 128 92 / .5); }
+.mesa.erro { box-shadow: 0 0 0 2px var(--bad); }
+.balao { min-height: 44px; max-width: 100%; display: grid; align-items: center; padding: 6px 10px; border-radius: 14px; background: var(--band); color: var(--muted); font-size: .8rem; line-height: 1.25; position: relative; overflow-wrap: anywhere; }
+.balao::after { content: ""; position: absolute; left: 50%; bottom: -5px; width: 10px; height: 10px; background: inherit; transform: translateX(-50%) rotate(45deg); }
+.trabalhando .balao { background: #eef3ff; color: #2f56d6; }
+.concluido .balao { background: #e7f6ef; color: #0b5d43; }
+.erro .balao { background: #fdecea; color: var(--bad); }
+.pessoa { width: 112px; height: 112px; }
+.nome { font-weight: 750; line-height: 1.2; }
+.funcao { font-size: .8rem; color: var(--muted); line-height: 1.25; }
+.status { font-size: .74rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; background: var(--band); color: var(--muted); }
+.trabalhando .status { background: var(--acc); color: #fff; }
+.concluido .status { background: var(--ok); color: #fff; }
+.erro .status { background: var(--bad); color: #fff; }
+.gasto { font-size: .78rem; color: var(--muted); }
+.corpo { transform-origin: 60px 100px; animation: respira 4s ease-in-out infinite; }
+.trabalhando .corpo { animation: digita .5s ease-in-out infinite; }
+.tela { fill: #cfd7ea; }
+.trabalhando .tela { fill: #7aa0ff; animation: brilha 1s ease-in-out infinite; }
+.concluido .tela { fill: #8fd6b6; }
+@keyframes respira { 50% { transform: translateY(1.5px); } }
+@keyframes digita { 50% { transform: translateY(2.5px); } }
+@keyframes brilha { 50% { opacity: .55; } }
+aside { display: grid; gap: 14px; align-content: start; }
+.cartao { border-radius: 24px; background: #fff; box-shadow: 0 0 0 1px var(--line); padding: 16px 18px; }
+.cartao h2 { margin: 0 0 10px; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.feed { display: grid; gap: 10px; max-height: 420px; overflow: auto; }
+.item { display: grid; grid-template-columns: 10px 1fr; gap: 10px; font-size: .88rem; line-height: 1.3; }
+.item i { width: 10px; height: 10px; margin-top: 5px; border-radius: 50%; background: var(--c, #98a2b3); }
+.item small { display: block; color: var(--muted); }
+.barra { display: grid; gap: 10px; }
+.barra .l { display: grid; grid-template-columns: 1fr auto; gap: 8px; font-size: .86rem; }
+.barra .b { height: 6px; border-radius: 6px; background: var(--band); overflow: hidden; margin-top: 4px; }
+.barra .b span { display: block; height: 100%; background: var(--c, var(--acc)); border-radius: 6px; transition: width .6s; }
+.vazio { padding: 28px 16px; text-align: center; color: var(--muted); }
+.aviso { font-size: .82rem; color: var(--muted); }
+@media (max-width: 900px) {
+  main { grid-template-columns: 1fr; }
+  .grade { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .pessoa { width: 96px; height: 96px; }
+  .feed { max-height: 320px; }
+  header { flex-direction: column; align-items: flex-start; }
+  a.tag { min-height: 44px; }
+  .tot { justify-content: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Escritório de IA</h1>
+  <div class="tot">
+    <span class="tag ao-vivo" id="conexao">conectando</span>
+    <span class="tag"><b id="t-ativos">0</b> trabalhando</span>
+    <span class="tag">Tarefas hoje: <b id="t-tarefas">0</b></span>
+    <span class="tag">Gasto hoje: <b id="t-custo">US$ 0,00</b></span>
+    <a class="tag" href="3d/">Ver em 3D</a>
+  </div>
+</header>
+<main>
+  <section class="piso" aria-label="Escritório"><div class="grade" id="grade"></div></section>
+  <aside>
+    <div class="cartao"><h2>Agora</h2><div class="feed" id="feed"></div></div>
+    <div class="cartao"><h2>Gasto de hoje por agente</h2><div class="barra" id="gastos"></div></div>
+    <div class="cartao aviso">Esta tela só observa. Para pausar tudo, rode <b>node scripts/pausar.mjs</b> no terminal.</div>
+  </aside>
+</main>
+<script>
+(function () {
+  "use strict";
+  var CORES = ["#3d66e6", "#12805c", "#9a6700", "#8a3ffc", "#c2410c", "#0e7490", "#be185d", "#4d7c0f"];
+  var PELES = ["#f2c9a5", "#e0a67a", "#c68a5f", "#8d5a3c", "#f6d7bd"];
+  var CABELOS = ["#2b1b12", "#5a3a22", "#1c1c1c", "#8a5a2b", "#3b2f2f"];
+  var dados = { equipe: { agentes: [] }, eventos: [] };
+  var DONE_MS = 8000;
+  var ROTULO = { livre: "Livre", trabalhando: "Trabalhando", concluido: "Concluído", erro: "Erro" };
+
+  function hash(s) { var h = 0; for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0; return Math.abs(h); }
+  function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
+  function usd(n) { return "US$ " + n.toFixed(2).replace(".", ","); }
+  function quando(t) {
+    var s = (Date.now() - new Date(t).getTime()) / 1000;
+    if (isNaN(s)) return "";
+    if (s < 60) return "agora há pouco";
+    if (s < 3600) return "há " + Math.floor(s / 60) + " min";
+    if (s < 86400) return "há " + Math.floor(s / 3600) + " h";
+    return "há " + Math.floor(s / 86400) + " d";
+  }
+  function hoje(t) { return new Date(t).toDateString() === new Date().toDateString(); }
+
+  // O desenho usa só cores internas (nunca texto de fora), então é seguro montar como SVG.
+  function pessoa(ag) {
+    var h = hash(ag.id || "x"), cor = /^#[0-9a-f]{6}$/i.test(ag.cor || "") ? ag.cor : CORES[h % CORES.length];
+    var pele = PELES[h % PELES.length], cab = CABELOS[(h >> 3) % CABELOS.length];
+    var cabelo = (h >> 5) % 2
+      ? '<path d="M38 40c0-14 10-22 22-22s22 8 22 22c-6-8-14-11-22-11s-16 3-22 11z" fill="' + cab + '"/>'
+      : '<path d="M37 44c-2-18 10-27 23-27s25 9 23 27c-3-9-12-14-23-14s-20 5-23 14z" fill="' + cab + '"/><circle cx="38" cy="46" r="6" fill="' + cab + '"/><circle cx="82" cy="46" r="6" fill="' + cab + '"/>';
+    return '<svg class="pessoa" viewBox="0 0 120 120" aria-hidden="true">' +
+      '<ellipse cx="60" cy="110" rx="42" ry="6" fill="#0b1324" opacity=".08"/>' +
+      '<g class="corpo"><rect x="30" y="64" width="60" height="38" rx="18" fill="' + cor + '"/>' +
+      '<circle cx="60" cy="44" r="21" fill="' + pele + '"/>' + cabelo +
+      '<circle cx="52" cy="46" r="2.2" fill="#0b1324"/><circle cx="68" cy="46" r="2.2" fill="#0b1324"/>' +
+      '<path d="M53 54q7 6 14 0" stroke="#0b1324" stroke-width="2" fill="none" stroke-linecap="round"/></g>' +
+      '<rect x="26" y="88" width="68" height="22" rx="6" fill="#d9c3a3"/>' +
+      '<rect x="40" y="70" width="40" height="26" rx="4" fill="#1c2740"/><rect class="tela" x="43" y="73" width="34" height="19" rx="2"/>' +
+      '</svg>';
+  }
+
+  function derivar() {
+    var ult = {}, gasto = {}, tarefas = 0, custo = 0;
+    dados.eventos.forEach(function (e) {
+      if (!e || !e.agente) return;
+      if (e.evento !== "custo") ult[e.agente] = e; // a linha de custo das rotinas não muda o status
+      if (e.t && hoje(e.t) && e.teste !== true) { // evento de teste ("teste": true) aparece no feed e muda o status, mas não soma em tarefas nem gasto de hoje
+        var c = Number(e.custo_usd) || 0;
+        gasto[e.agente] = (gasto[e.agente] || 0) + c; custo += c;
+        if (e.evento === "fim") tarefas++;
+      }
+    });
+    return { ult: ult, gasto: gasto, tarefas: tarefas, custo: custo };
+  }
+  function estadoDe(e) {
+    if (!e) return "livre";
+    if (e.evento === "inicio") return Date.now() - new Date(e.t).getTime() < 15 * 60 * 1000 ? "trabalhando" : "livre"; // sem fim há 15 min: provavelmente interrompido
+    if (e.evento === "erro") return "erro";
+    if (e.evento === "fim" && Date.now() - new Date(e.t).getTime() < DONE_MS) return "concluido";
+    return "livre";
+  }
+  function corDe(ag) { return /^#[0-9a-f]{6}$/i.test(ag.cor || "") ? ag.cor : CORES[hash(ag.id || "x") % CORES.length]; }
+
+  function desenhar() {
+    var d = derivar(), ags = (dados.equipe && dados.equipe.agentes) || [], grade = document.getElementById("grade"), ativos = 0;
+    grade.textContent = "";
+    if (!ags.length) grade.appendChild(el("div", "vazio", "Nenhum agente em estado/equipe.json ainda."));
+    ags.forEach(function (ag, i) {
+      var e = d.ult[ag.id], st = estadoDe(e); if (st === "trabalhando") ativos++;
+      var m = el("div", "mesa " + st + (i === 0 || ag.id === "orquestrador" ? " chefe" : ""));
+      var txt = st === "trabalhando" ? (e.tarefa || "Trabalhando…") : st === "concluido" ? (e.resultado || "Pronto") : st === "erro" ? (e.resultado || e.tarefa || "Algo deu errado") : (e ? "Última: " + (e.tarefa || "—") : "Aguardando pedido");
+      m.appendChild(el("div", "balao", String(txt).length > 90 ? String(txt).slice(0, 88) + "…" : String(txt)));
+      var p = el("div"); p.innerHTML = pessoa(ag); m.appendChild(p);
+      m.appendChild(el("div", "nome", ag.nome || ag.id));
+      if (ag.funcao) m.appendChild(el("div", "funcao", ag.funcao));
+      m.appendChild(el("span", "status", ROTULO[st]));
+      m.appendChild(el("div", "gasto", usd(d.gasto[ag.id] || 0) + " hoje"));
+      grade.appendChild(m);
+    });
+    document.getElementById("t-ativos").textContent = ativos;
+    document.getElementById("t-tarefas").textContent = d.tarefas;
+    document.getElementById("t-custo").textContent = usd(d.custo);
+
+    var feed = document.getElementById("feed"); feed.textContent = "";
+    var rec = dados.eventos.slice(-20).reverse();
+    if (!rec.length) feed.appendChild(el("div", "vazio", "Nenhum agente trabalhou ainda. Peça uma tarefa ao orquestrador."));
+    rec.forEach(function (e) {
+      var ag = ags.filter(function (a) { return a.id === e.agente; })[0] || {}, it = el("div", "item"), dot = el("i");
+      dot.style.setProperty("--c", corDe(ag.id ? ag : { id: e.agente })); it.appendChild(dot);
+      var tx = el("div"), verbo = e.evento === "inicio" ? "começou" : e.evento === "fim" ? "terminou" : e.evento === "erro" ? "teve um erro em" : e.evento === "custo" ? "gastou em" : (e.evento || "");
+      tx.appendChild(el("span", null, (ag.nome || e.agente) + " " + verbo + (e.tarefa ? ": " + e.tarefa : "")));
+      tx.appendChild(el("small", null, quando(e.t)));
+      it.appendChild(tx); feed.appendChild(it);
+    });
+
+    var gastos = document.getElementById("gastos"); gastos.textContent = "";
+    var max = Math.max.apply(null, [0.0001].concat(Object.keys(d.gasto).map(function (k) { return d.gasto[k]; })));
+    ags.forEach(function (ag) {
+      var v = d.gasto[ag.id] || 0, w = el("div"), l = el("div", "l");
+      l.appendChild(el("span", null, ag.nome || ag.id)); l.appendChild(el("b", null, usd(v))); w.appendChild(l);
+      var b = el("div", "b"), s = el("span"); s.style.width = Math.round((v / max) * 100) + "%"; s.style.setProperty("--c", corDe(ag)); b.appendChild(s); w.appendChild(b);
+      gastos.appendChild(w);
+    });
+  }
+
+  function conectar() {
+    var c = document.getElementById("conexao"), es = new EventSource("/api/stream");
+    es.onmessage = function (m) { try { dados = JSON.parse(m.data); c.textContent = "ao vivo"; c.classList.add("on"); desenhar(); } catch (e) { /* ignora mensagem quebrada */ } };
+    es.onerror = function () { c.textContent = "reconectando"; c.classList.remove("on"); };
+  }
+  setInterval(desenhar, 2000);
+  conectar();
+})();
+</script>
+</body>
+</html>

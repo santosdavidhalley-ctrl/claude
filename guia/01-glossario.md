@@ -1,0 +1,26 @@
+# Glossário
+
+- **Agente:** uma instância do Claude com função, instruções e ferramentas próprias. No Claude Code, é um arquivo `.md` em `.claude/agents/`.
+- **Subagente:** agente chamado por outro agente. Roda com contexto próprio e devolve só o resultado final.
+- **Orquestrador:** o agente que recebe o pedido e distribui o trabalho.
+- **Skill:** pasta com um `SKILL.md` que ensina um procedimento. A descrição fica sempre disponível; o texto completo carrega só quando é usada.
+- **Hook:** programa pequeno que o Claude Code roda em momentos fixos (antes de uma ferramenta, quando um subagente termina...). Pode bloquear. Roda sempre, independentemente do que o modelo "queira".
+- **MCP (Model Context Protocol):** padrão aberto para conectar o Claude a ferramentas e dados externos (arquivos, banco, agenda, navegador).
+- **Ferramenta (tool):** uma ação que o agente pode fazer: ler arquivo, escrever, buscar na web, rodar comando.
+- **Cérebro:** neste kit, a pasta `cerebro/` com o conhecimento da empresa e a memória dos agentes.
+- **CLAUDE.md:** arquivo lido toda vez que o Claude entra na pasta; guarda as regras da casa. Orienta, não obriga.
+- **Contexto:** tudo o que o modelo "tem na cabeça" naquela conversa. É limitado e custa dinheiro; por isso arquivos pequenos e carregamento sob demanda.
+- **Token:** pedaço de texto usado para medir tamanho e custo. Entrada e saída têm preços diferentes.
+- **Modelo (haiku, sonnet, opus):** o "cérebro de IA" por trás do agente. Haiku: rápido e barato. Sonnet: equilíbrio. Opus: mais capaz e mais caro.
+- **Permissão:** o que o agente pode fazer sem perguntar. Aplicada pelo programa.
+- **Modo de permissão:** `default` (pergunta), `acceptEdits`, `plan` (só planeja), `dontAsk` (nega o que perguntaria), `bypassPermissions` (pula tudo: evite), `auto` (um classificador decide).
+- **Sandbox:** isolamento dos comandos de terminal. Camada extra, não garantia.
+- **Prompt injection (injeção de prompt):** texto de fora (e-mail, site, PDF) com instruções escondidas para enganar o agente.
+- **Eval:** teste automático de um agente: pedido de exemplo + critérios de resposta boa.
+- **Rotina:** tarefa que roda sozinha em horário definido.
+- **Headless / `claude -p`:** modo sem interface: roda um pedido, devolve o resultado e sai.
+- **Agent SDK:** biblioteca para rodar o Claude Code como parte do seu programa (TypeScript e Python).
+- **Plugin:** pacote que reúne agentes, skills, hooks e MCP para distribuir.
+- **Log:** registro do que aconteceu (`estado/log.jsonl`).
+- **JSONL:** arquivo de texto com um objeto JSON por linha. Fácil de ler por programas e de acrescentar.
+- **LGPD:** Lei Geral de Proteção de Dados (Brasil). Veja `guia/08-legal-e-etica-br.md`.

@@ -1,0 +1,603 @@
+{
+ "id": "diretoria-equipe",
+ "nome": "Diretoria + equipe",
+ "descricao": "Sala da diretoria, sala de reunião de vidro e equipe de 6 lugares.",
+ "origem": "layouts prontos",
+ "arquivo": "escritorios/diretoria-equipe.glb",
+ "previa": "escritorios/diretoria-equipe.webp",
+ "andares": 1,
+ "altura_do_andar": 3.1,
+ "terreno": {
+  "w": 10,
+  "d": 8
+ },
+ "tamanho": {
+  "x": 12,
+  "y": 3.81,
+  "z": 10,
+  "min": [
+   -1,
+   -0.04,
+   -1
+  ],
+  "max": [
+   11,
+   3.77,
+   9
+  ]
+ },
+ "mb": 0.52,
+ "moveis": 38,
+ "postos_de_trabalho": 9,
+ "assentos": [
+  {
+   "id": "diretoria-equipe-i1:0",
+   "andar": 0,
+   "x": 2,
+   "y": 0.12,
+   "z": 0.75,
+   "yaw": 0,
+   "altura": 0.48,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-diretor"
+  },
+  {
+   "id": "diretoria-equipe-i3:0",
+   "andar": 0,
+   "x": 1.5,
+   "y": 0.12,
+   "z": 2.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "diretoria-equipe-i4:0",
+   "andar": 0,
+   "x": 2.5,
+   "y": 0.12,
+   "z": 2.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "diretoria-equipe-i12:0",
+   "andar": 0,
+   "x": 5.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Equipe",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "diretoria-equipe-i13:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Equipe",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "diretoria-equipe-i14:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Equipe",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "diretoria-equipe-i21:0",
+   "andar": 0,
+   "x": 5.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Equipe",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "diretoria-equipe-i22:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Equipe",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "diretoria-equipe-i23:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Equipe",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "diretoria-equipe-i34:0",
+   "andar": 0,
+   "x": 2,
+   "y": 0.12,
+   "z": 4.5,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "diretoria-equipe-i35:0",
+   "andar": 0,
+   "x": 2,
+   "y": 0.12,
+   "z": 6.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "diretoria-equipe-i36:0",
+   "andar": 0,
+   "x": 0.75,
+   "y": 0.12,
+   "z": 5.5,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Reunião",
+   "movel": "cadeira-reuniao"
+  }
+ ],
+ "pontos": [
+  {
+   "id": "diretoria-equipe-i5:0",
+   "andar": 0,
+   "x": 0.8,
+   "y": 0.12,
+   "z": 2.15,
+   "yaw": 4.712,
+   "tipo": "livros",
+   "par": null,
+   "atividade": "Procurando um livro",
+   "sala": "Diretoria",
+   "movel": "estante"
+  },
+  {
+   "id": "diretoria-equipe-i28:0",
+   "andar": 0,
+   "x": 4.75,
+   "y": 0.12,
+   "z": 4.8,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Equipe",
+   "movel": "bebedouro"
+  }
+ ],
+ "salas": [
+  {
+   "andar": 0,
+   "nome": "Diretoria",
+   "tipo": "diretoria",
+   "x": 0,
+   "z": 0,
+   "w": 4,
+   "d": 4,
+   "piso": "madeira"
+  },
+  {
+   "andar": 0,
+   "nome": "Reunião",
+   "tipo": "reuniao",
+   "x": 0,
+   "z": 4,
+   "w": 4,
+   "d": 3,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Equipe",
+   "tipo": "trabalho",
+   "x": 4,
+   "z": 0,
+   "w": 6,
+   "d": 7,
+   "piso": "carpete"
+  }
+ ],
+ "planta": {
+  "version": 1,
+  "terreno": {
+   "w": 10,
+   "d": 8
+  },
+  "floors": [
+   {
+    "andar": 0,
+    "rooms": [
+     {
+      "id": "diretoria-equipe-r0",
+      "nome": "Diretoria",
+      "tipo": "diretoria",
+      "x": 0,
+      "z": 0,
+      "w": 4,
+      "d": 4,
+      "piso": "madeira",
+      "corParede": 4,
+      "vidro": false
+     },
+     {
+      "id": "diretoria-equipe-r1",
+      "nome": "Reunião",
+      "tipo": "reuniao",
+      "x": 0,
+      "z": 4,
+      "w": 4,
+      "d": 3,
+      "piso": "carpete",
+      "corParede": 2,
+      "vidro": true
+     },
+     {
+      "id": "diretoria-equipe-r2",
+      "nome": "Equipe",
+      "tipo": "trabalho",
+      "x": 4,
+      "z": 0,
+      "w": 6,
+      "d": 7,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "diretoria-equipe-d0",
+      "x": 7,
+      "z": 7,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "diretoria-equipe-d1",
+      "x": 4,
+      "z": 3,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "diretoria-equipe-d2",
+      "x": 4,
+      "z": 6,
+      "eixo": "z",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "diretoria-equipe-i0",
+      "catalogId": "mesa-diretor",
+      "x": 2,
+      "z": 1.5,
+      "rot": 180
+     },
+     {
+      "id": "diretoria-equipe-i1",
+      "catalogId": "cadeira-diretor",
+      "x": 2,
+      "z": 0.75,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i2",
+      "catalogId": "laptop",
+      "x": 2,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "diretoria-equipe-i3",
+      "catalogId": "cadeira-reuniao",
+      "x": 1.5,
+      "z": 2.5,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "diretoria-equipe-i4",
+      "catalogId": "cadeira-reuniao",
+      "x": 2.5,
+      "z": 2.5,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "diretoria-equipe-i5",
+      "catalogId": "estante",
+      "x": 0.25,
+      "z": 2.25,
+      "rot": 90
+     },
+     {
+      "id": "diretoria-equipe-i6",
+      "catalogId": "luminaria-piso",
+      "x": 3.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i7",
+      "catalogId": "quadro-arte",
+      "x": 2,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i8",
+      "catalogId": "vaso-ficus",
+      "x": 0.25,
+      "z": 3.75,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i9",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "diretoria-equipe-i10",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "diretoria-equipe-i11",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "diretoria-equipe-i12",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "diretoria-equipe-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "diretoria-equipe-i14",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "diretoria-equipe-i15",
+      "catalogId": "monitor",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i16",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i17",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i18",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "diretoria-equipe-i19",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "diretoria-equipe-i20",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "diretoria-equipe-i21",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i22",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i23",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i24",
+      "catalogId": "monitor",
+      "x": 5.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "diretoria-equipe-i25",
+      "catalogId": "laptop",
+      "x": 6.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "diretoria-equipe-i26",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "diretoria-equipe-i27",
+      "catalogId": "tv-pedestal",
+      "x": 9.75,
+      "z": 5,
+      "rot": 270
+     },
+     {
+      "id": "diretoria-equipe-i28",
+      "catalogId": "bebedouro",
+      "x": 4.75,
+      "z": 4.25,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i29",
+      "catalogId": "impressora",
+      "x": 5.5,
+      "z": 6.75,
+      "rot": 180
+     },
+     {
+      "id": "diretoria-equipe-i30",
+      "catalogId": "luminaria-piso",
+      "x": 9.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i31",
+      "catalogId": "relogio-parede",
+      "x": 6.75,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i32",
+      "catalogId": "espada-sao-jorge",
+      "x": 9.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i33",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 2,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "diretoria-equipe-i34",
+      "catalogId": "cadeira-reuniao",
+      "x": 2,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "diretoria-equipe-i35",
+      "catalogId": "cadeira-reuniao",
+      "x": 2,
+      "z": 6.5,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "diretoria-equipe-i36",
+      "catalogId": "cadeira-reuniao",
+      "x": 0.75,
+      "z": 5.5,
+      "rot": 90,
+      "cor": 3
+     },
+     {
+      "id": "diretoria-equipe-i37",
+      "catalogId": "quadro-arte",
+      "x": 0.31,
+      "z": 6.25,
+      "rot": 90
+     }
+    ]
+   }
+  ],
+  "presetId": "diretoria-equipe"
+ }
+}

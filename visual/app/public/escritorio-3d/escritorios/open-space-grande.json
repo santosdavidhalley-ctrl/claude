@@ -1,0 +1,1973 @@
+{
+ "id": "open-space-grande",
+ "nome": "Open space grande",
+ "descricao": "33 lugares em ilhas, reunião de vidro, lounge, recepção e café. Para equipes grandes.",
+ "origem": "layouts prontos",
+ "arquivo": "escritorios/open-space-grande.glb",
+ "previa": "escritorios/open-space-grande.webp",
+ "andares": 1,
+ "altura_do_andar": 3.1,
+ "terreno": {
+  "w": 20,
+  "d": 14
+ },
+ "tamanho": {
+  "x": 22,
+  "y": 3.81,
+  "z": 16,
+  "min": [
+   -1,
+   -0.04,
+   -1
+  ],
+  "max": [
+   21,
+   3.77,
+   15
+  ]
+ },
+ "mb": 0.7,
+ "moveis": 137,
+ "postos_de_trabalho": 34,
+ "assentos": [
+  {
+   "id": "open-space-grande-i1:0",
+   "andar": 0,
+   "x": 0.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i4:0",
+   "andar": 0,
+   "x": 2.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i7:0",
+   "andar": 0,
+   "x": 3.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i10:0",
+   "andar": 0,
+   "x": 5.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i13:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i16:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i19:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i22:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i25:0",
+   "andar": 0,
+   "x": 12.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i28:0",
+   "andar": 0,
+   "x": 1.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i31:0",
+   "andar": 0,
+   "x": 2.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i34:0",
+   "andar": 0,
+   "x": 4.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i37:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i40:0",
+   "andar": 0,
+   "x": 1.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i43:0",
+   "andar": 0,
+   "x": 2.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i46:0",
+   "andar": 0,
+   "x": 4.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i49:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i52:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i55:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i58:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i61:0",
+   "andar": 0,
+   "x": 12.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i64:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i67:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i70:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i73:0",
+   "andar": 0,
+   "x": 12.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i76:0",
+   "andar": 0,
+   "x": 0.75,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i79:0",
+   "andar": 0,
+   "x": 2.25,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i82:0",
+   "andar": 0,
+   "x": 3.75,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i85:0",
+   "andar": 0,
+   "x": 6.25,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i88:0",
+   "andar": 0,
+   "x": 7.75,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i91:0",
+   "andar": 0,
+   "x": 9.25,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i94:0",
+   "andar": 0,
+   "x": 10.75,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i97:0",
+   "andar": 0,
+   "x": 13.25,
+   "y": 0.12,
+   "z": 7.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Open space",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i105:0",
+   "andar": 0,
+   "x": 17.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i106:0",
+   "andar": 0,
+   "x": 17.25,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i107:0",
+   "andar": 0,
+   "x": 16.25,
+   "y": 0.12,
+   "z": 2.25,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i108:0",
+   "andar": 0,
+   "x": 18.25,
+   "y": 0.12,
+   "z": 2.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i110:0",
+   "andar": 0,
+   "x": 19.4,
+   "y": 0.12,
+   "z": 5.55,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "open-space-grande-i110:1",
+   "andar": 0,
+   "x": 19.4,
+   "y": 0.12,
+   "z": 6.45,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "open-space-grande-i111:0",
+   "andar": 0,
+   "x": 19.4,
+   "y": 0.12,
+   "z": 7.55,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "open-space-grande-i111:1",
+   "andar": 0,
+   "x": 19.4,
+   "y": 0.12,
+   "z": 8.45,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "open-space-grande-i113:0",
+   "andar": 0,
+   "x": 15.5,
+   "y": 0.12,
+   "z": 8.05,
+   "yaw": 0,
+   "altura": 0.34,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "puff"
+  },
+  {
+   "id": "open-space-grande-i116:0",
+   "andar": 0,
+   "x": 7.25,
+   "y": 0.12,
+   "z": 9.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Recepção",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "open-space-grande-i118:0",
+   "andar": 0,
+   "x": 1.1,
+   "y": 0.12,
+   "z": 11.45,
+   "yaw": 1.571,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "open-space-grande-i118:1",
+   "andar": 0,
+   "x": 1.1,
+   "y": 0.12,
+   "z": 10.55,
+   "yaw": 1.571,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "open-space-grande-i128:0",
+   "andar": 0,
+   "x": 16.25,
+   "y": 0.12,
+   "z": 9.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i129:0",
+   "andar": 0,
+   "x": 16.25,
+   "y": 0.12,
+   "z": 11.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i130:0",
+   "andar": 0,
+   "x": 15.25,
+   "y": 0.12,
+   "z": 10.75,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i131:0",
+   "andar": 0,
+   "x": 17.25,
+   "y": 0.12,
+   "z": 10.75,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i133:0",
+   "andar": 0,
+   "x": 18.75,
+   "y": 0.12,
+   "z": 9.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i134:0",
+   "andar": 0,
+   "x": 18.75,
+   "y": 0.12,
+   "z": 11.75,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i135:0",
+   "andar": 0,
+   "x": 17.75,
+   "y": 0.12,
+   "z": 10.75,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "open-space-grande-i136:0",
+   "andar": 0,
+   "x": 19.75,
+   "y": 0.12,
+   "z": 10.75,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  }
+ ],
+ "pontos": [
+  {
+   "id": "open-space-grande-i124:0",
+   "andar": 0,
+   "x": 12.85,
+   "y": 0.12,
+   "z": 11.65,
+   "yaw": 6.283,
+   "tipo": "cafe",
+   "par": null,
+   "atividade": "Pegando um café",
+   "sala": "Café",
+   "movel": "balcao-cafe"
+  },
+  {
+   "id": "open-space-grande-i124:1",
+   "andar": 0,
+   "x": 11.65,
+   "y": 0.12,
+   "z": 11.65,
+   "yaw": 6.283,
+   "tipo": "cafe",
+   "par": null,
+   "atividade": "Pegando um café",
+   "sala": "Café",
+   "movel": "balcao-cafe"
+  },
+  {
+   "id": "open-space-grande-i125:0",
+   "andar": 0,
+   "x": 14,
+   "y": 0.12,
+   "z": 11.7,
+   "yaw": 6.283,
+   "tipo": "geladeira",
+   "par": null,
+   "atividade": "Pegando um lanche",
+   "sala": "Café",
+   "movel": "geladeira"
+  },
+  {
+   "id": "open-space-grande-i126:0",
+   "andar": 0,
+   "x": 19.75,
+   "y": 0.12,
+   "z": 13.3,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": null,
+   "movel": "bebedouro"
+  }
+ ],
+ "salas": [
+  {
+   "andar": 0,
+   "nome": "Open space",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 14,
+   "d": 9,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Sala de reunião",
+   "tipo": "reuniao",
+   "x": 14,
+   "z": 0,
+   "w": 6,
+   "d": 5,
+   "piso": "madeira"
+  },
+  {
+   "andar": 0,
+   "nome": "Lounge",
+   "tipo": "descanso",
+   "x": 14,
+   "z": 5,
+   "w": 6,
+   "d": 4,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Recepção",
+   "tipo": "recepcao",
+   "x": 0,
+   "z": 9,
+   "w": 10,
+   "d": 4,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 0,
+   "nome": "Café",
+   "tipo": "cafe",
+   "x": 10,
+   "z": 9,
+   "w": 10,
+   "d": 4,
+   "piso": "porcelanato"
+  }
+ ],
+ "planta": {
+  "version": 1,
+  "terreno": {
+   "w": 20,
+   "d": 14
+  },
+  "floors": [
+   {
+    "andar": 0,
+    "rooms": [
+     {
+      "id": "open-space-grande-r0",
+      "nome": "Open space",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 14,
+      "d": 9,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "open-space-grande-r1",
+      "nome": "Sala de reunião",
+      "tipo": "reuniao",
+      "x": 14,
+      "z": 0,
+      "w": 6,
+      "d": 5,
+      "piso": "madeira",
+      "corParede": 2,
+      "vidro": true
+     },
+     {
+      "id": "open-space-grande-r2",
+      "nome": "Lounge",
+      "tipo": "descanso",
+      "x": 14,
+      "z": 5,
+      "w": 6,
+      "d": 4,
+      "piso": "carpete",
+      "corParede": 3,
+      "vidro": false
+     },
+     {
+      "id": "open-space-grande-r3",
+      "nome": "Recepção",
+      "tipo": "recepcao",
+      "x": 0,
+      "z": 9,
+      "w": 10,
+      "d": 4,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "open-space-grande-r4",
+      "nome": "Café",
+      "tipo": "cafe",
+      "x": 10,
+      "z": 9,
+      "w": 10,
+      "d": 4,
+      "piso": "porcelanato",
+      "corParede": 0,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "open-space-grande-d0",
+      "x": 5,
+      "z": 13,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "open-space-grande-d1",
+      "x": 5,
+      "z": 9,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "open-space-grande-d2",
+      "x": 12,
+      "z": 9,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "open-space-grande-d3",
+      "x": 10,
+      "z": 11,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "open-space-grande-d4",
+      "x": 14,
+      "z": 2.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "open-space-grande-d5",
+      "x": 14,
+      "z": 7,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "open-space-grande-d6",
+      "x": 17,
+      "z": 9,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "open-space-grande-d7",
+      "x": 17,
+      "z": 5,
+      "eixo": "x",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "open-space-grande-i0",
+      "catalogId": "mesa-reta",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i1",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i2",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i3",
+      "catalogId": "mesa-reta",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i4",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i5",
+      "catalogId": "monitor",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i6",
+      "catalogId": "mesa-reta",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i7",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i8",
+      "catalogId": "laptop",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i9",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i10",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i11",
+      "catalogId": "monitor",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i12",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i14",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i15",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i16",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i17",
+      "catalogId": "laptop",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i18",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i19",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i20",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i21",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i22",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i23",
+      "catalogId": "monitor",
+      "x": 11.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i24",
+      "catalogId": "mesa-reta",
+      "x": 12.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i25",
+      "catalogId": "cadeira-escritorio",
+      "x": 12.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i26",
+      "catalogId": "laptop",
+      "x": 12.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i27",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i28",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i29",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i30",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i31",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i32",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i33",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i34",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i35",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i36",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i37",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i38",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i39",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i40",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i41",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i42",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i43",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i44",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i45",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i46",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i47",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i48",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i49",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i50",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i51",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i52",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i53",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i54",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i55",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i56",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i57",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i58",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i59",
+      "catalogId": "laptop",
+      "x": 11.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i60",
+      "catalogId": "mesa-reta",
+      "x": 12.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i61",
+      "catalogId": "cadeira-escritorio",
+      "x": 12.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i62",
+      "catalogId": "monitor",
+      "x": 12.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i63",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i64",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i65",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i66",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i67",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i68",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i69",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i70",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i71",
+      "catalogId": "laptop",
+      "x": 11.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i72",
+      "catalogId": "mesa-reta",
+      "x": 12.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i73",
+      "catalogId": "cadeira-escritorio",
+      "x": 12.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i74",
+      "catalogId": "monitor",
+      "x": 12.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i75",
+      "catalogId": "mesa-reta",
+      "x": 0.75,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i76",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 7.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i77",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 8.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i78",
+      "catalogId": "mesa-reta",
+      "x": 2.25,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i79",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.25,
+      "z": 7.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i80",
+      "catalogId": "monitor",
+      "x": 2.25,
+      "z": 8.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i81",
+      "catalogId": "mesa-reta",
+      "x": 3.75,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i82",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.75,
+      "z": 7.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i83",
+      "catalogId": "laptop",
+      "x": 3.75,
+      "z": 8.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i84",
+      "catalogId": "mesa-reta",
+      "x": 6.25,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i85",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.25,
+      "z": 7.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i86",
+      "catalogId": "monitor",
+      "x": 6.25,
+      "z": 8.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i87",
+      "catalogId": "mesa-reta",
+      "x": 7.75,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i88",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.75,
+      "z": 7.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i89",
+      "catalogId": "monitor",
+      "x": 7.75,
+      "z": 8.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i90",
+      "catalogId": "mesa-reta",
+      "x": 9.25,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i91",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.25,
+      "z": 7.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i92",
+      "catalogId": "laptop",
+      "x": 9.25,
+      "z": 8.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i93",
+      "catalogId": "mesa-reta",
+      "x": 10.75,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i94",
+      "catalogId": "cadeira-escritorio",
+      "x": 10.75,
+      "z": 7.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i95",
+      "catalogId": "monitor",
+      "x": 10.75,
+      "z": 8.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i96",
+      "catalogId": "mesa-reta",
+      "x": 13.25,
+      "z": 8.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "open-space-grande-i97",
+      "catalogId": "cadeira-escritorio",
+      "x": 13.25,
+      "z": 7.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i98",
+      "catalogId": "monitor",
+      "x": 13.25,
+      "z": 8.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i99",
+      "catalogId": "relogio-parede",
+      "x": 7,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i100",
+      "catalogId": "quadro-arte",
+      "x": 3,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i101",
+      "catalogId": "tv-parede",
+      "x": 0.31,
+      "z": 4.5,
+      "rot": 90
+     },
+     {
+      "id": "open-space-grande-i102",
+      "catalogId": "vaso-ficus",
+      "x": 13.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i103",
+      "catalogId": "palmeira",
+      "x": 0.5,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i104",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 17.25,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i105",
+      "catalogId": "cadeira-reuniao",
+      "x": 17.25,
+      "z": 1.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "open-space-grande-i106",
+      "catalogId": "cadeira-reuniao",
+      "x": 17.25,
+      "z": 3.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "open-space-grande-i107",
+      "catalogId": "cadeira-reuniao",
+      "x": 16.25,
+      "z": 2.25,
+      "rot": 90,
+      "cor": 3
+     },
+     {
+      "id": "open-space-grande-i108",
+      "catalogId": "cadeira-reuniao",
+      "x": 18.25,
+      "z": 2.25,
+      "rot": 270,
+      "cor": 3
+     },
+     {
+      "id": "open-space-grande-i109",
+      "catalogId": "tv-parede",
+      "x": 19.69,
+      "z": 2.25,
+      "rot": 270
+     },
+     {
+      "id": "open-space-grande-i110",
+      "catalogId": "sofa",
+      "x": 19.5,
+      "z": 6,
+      "rot": 270,
+      "cor": 5
+     },
+     {
+      "id": "open-space-grande-i111",
+      "catalogId": "sofa",
+      "x": 19.5,
+      "z": 8,
+      "rot": 270,
+      "cor": 5
+     },
+     {
+      "id": "open-space-grande-i112",
+      "catalogId": "mesa-centro",
+      "x": 17.75,
+      "z": 7,
+      "rot": 90
+     },
+     {
+      "id": "open-space-grande-i113",
+      "catalogId": "puff",
+      "x": 15.5,
+      "z": 8,
+      "rot": 0,
+      "cor": 9
+     },
+     {
+      "id": "open-space-grande-i114",
+      "catalogId": "palmeira",
+      "x": 15,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i115",
+      "catalogId": "mesa-reta",
+      "x": 7.25,
+      "z": 10.5,
+      "rot": 180,
+      "cor": 2
+     },
+     {
+      "id": "open-space-grande-i116",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 9.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i117",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 10.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i118",
+      "catalogId": "sofa",
+      "x": 1,
+      "z": 11,
+      "rot": 90,
+      "cor": 4
+     },
+     {
+      "id": "open-space-grande-i119",
+      "catalogId": "mesa-centro",
+      "x": 1.75,
+      "z": 11,
+      "rot": 90
+     },
+     {
+      "id": "open-space-grande-i120",
+      "catalogId": "jardineira",
+      "x": 3,
+      "z": 12.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i121",
+      "catalogId": "jardineira",
+      "x": 7,
+      "z": 12.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i122",
+      "catalogId": "palmeira",
+      "x": 9.5,
+      "z": 12.5,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i123",
+      "catalogId": "quadro-arte",
+      "x": 0.31,
+      "z": 10,
+      "rot": 90
+     },
+     {
+      "id": "open-space-grande-i124",
+      "catalogId": "balcao-cafe",
+      "x": 12.25,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i125",
+      "catalogId": "geladeira",
+      "x": 14,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "open-space-grande-i126",
+      "catalogId": "bebedouro",
+      "x": 19.75,
+      "z": 12.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i127",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 16.25,
+      "z": 10.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i128",
+      "catalogId": "cadeira-reuniao",
+      "x": 16.25,
+      "z": 9.75,
+      "rot": 0,
+      "cor": 6
+     },
+     {
+      "id": "open-space-grande-i129",
+      "catalogId": "cadeira-reuniao",
+      "x": 16.25,
+      "z": 11.75,
+      "rot": 180,
+      "cor": 6
+     },
+     {
+      "id": "open-space-grande-i130",
+      "catalogId": "cadeira-reuniao",
+      "x": 15.25,
+      "z": 10.75,
+      "rot": 90,
+      "cor": 6
+     },
+     {
+      "id": "open-space-grande-i131",
+      "catalogId": "cadeira-reuniao",
+      "x": 17.25,
+      "z": 10.75,
+      "rot": 270,
+      "cor": 6
+     },
+     {
+      "id": "open-space-grande-i132",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 18.75,
+      "z": 10.75,
+      "rot": 0
+     },
+     {
+      "id": "open-space-grande-i133",
+      "catalogId": "cadeira-reuniao",
+      "x": 18.75,
+      "z": 9.75,
+      "rot": 0,
+      "cor": 6
+     },
+     {
+      "id": "open-space-grande-i134",
+      "catalogId": "cadeira-reuniao",
+      "x": 18.75,
+      "z": 11.75,
+      "rot": 180,
+      "cor": 6
+     },
+     {
+      "id": "open-space-grande-i135",
+      "catalogId": "cadeira-reuniao",
+      "x": 17.75,
+      "z": 10.75,
+      "rot": 90,
+      "cor": 6
+     },
+     {
+      "id": "open-space-grande-i136",
+      "catalogId": "cadeira-reuniao",
+      "x": 19.75,
+      "z": 10.75,
+      "rot": 270,
+      "cor": 6
+     }
+    ]
+   }
+  ],
+  "presetId": "open-space-grande"
+ }
+}

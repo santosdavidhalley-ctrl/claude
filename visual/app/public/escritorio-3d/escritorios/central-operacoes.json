@@ -1,0 +1,2318 @@
+{
+ "id": "central-operacoes",
+ "nome": "Central de operações",
+ "descricao": "41 lugares em bancadas, reunião, diretoria, recepção, café e lounge. Para operação grande.",
+ "origem": "layouts prontos",
+ "arquivo": "escritorios/central-operacoes.glb",
+ "previa": "escritorios/central-operacoes.webp",
+ "andares": 1,
+ "altura_do_andar": 3.1,
+ "terreno": {
+  "w": 24,
+  "d": 16
+ },
+ "tamanho": {
+  "x": 26,
+  "y": 3.81,
+  "z": 18,
+  "min": [
+   -1,
+   -0.04,
+   -1
+  ],
+  "max": [
+   25,
+   3.77,
+   17
+  ]
+ },
+ "mb": 0.81,
+ "moveis": 150,
+ "postos_de_trabalho": 45,
+ "assentos": [
+  {
+   "id": "central-operacoes-i1:0",
+   "andar": 0,
+   "x": 1.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i2:0",
+   "andar": 0,
+   "x": 3.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i3:0",
+   "andar": 0,
+   "x": 1.75,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i4:0",
+   "andar": 0,
+   "x": 3.25,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i10:0",
+   "andar": 0,
+   "x": 1.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i11:0",
+   "andar": 0,
+   "x": 3.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i12:0",
+   "andar": 0,
+   "x": 1.75,
+   "y": 0.12,
+   "z": 7.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i13:0",
+   "andar": 0,
+   "x": 3.25,
+   "y": 0.12,
+   "z": 7.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i19:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i20:0",
+   "andar": 0,
+   "x": 7.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i21:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i22:0",
+   "andar": 0,
+   "x": 7.25,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i28:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i29:0",
+   "andar": 0,
+   "x": 7.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i30:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 7.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i31:0",
+   "andar": 0,
+   "x": 7.25,
+   "y": 0.12,
+   "z": 7.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i37:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i38:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i39:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i40:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i46:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i47:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i48:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 7.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i49:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 7.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i55:0",
+   "andar": 0,
+   "x": 13.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i56:0",
+   "andar": 0,
+   "x": 15.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i57:0",
+   "andar": 0,
+   "x": 13.75,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i58:0",
+   "andar": 0,
+   "x": 15.25,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i64:0",
+   "andar": 0,
+   "x": 13.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i65:0",
+   "andar": 0,
+   "x": 15.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i66:0",
+   "andar": 0,
+   "x": 13.75,
+   "y": 0.12,
+   "z": 7.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i67:0",
+   "andar": 0,
+   "x": 15.25,
+   "y": 0.12,
+   "z": 7.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i73:0",
+   "andar": 0,
+   "x": 0.75,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i76:0",
+   "andar": 0,
+   "x": 2.25,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i79:0",
+   "andar": 0,
+   "x": 5.25,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i82:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i85:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i88:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i91:0",
+   "andar": 0,
+   "x": 13.25,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i94:0",
+   "andar": 0,
+   "x": 14.75,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i97:0",
+   "andar": 0,
+   "x": 16.25,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Central de operações",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i106:0",
+   "andar": 0,
+   "x": 20,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i107:0",
+   "andar": 0,
+   "x": 20,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i108:0",
+   "andar": 0,
+   "x": 21,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i109:0",
+   "andar": 0,
+   "x": 21,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i110:0",
+   "andar": 0,
+   "x": 22,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i111:0",
+   "andar": 0,
+   "x": 22,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i112:0",
+   "andar": 0,
+   "x": 19.25,
+   "y": 0.12,
+   "z": 2.25,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i113:0",
+   "andar": 0,
+   "x": 22.75,
+   "y": 0.12,
+   "z": 2.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i116:0",
+   "andar": 0,
+   "x": 22,
+   "y": 0.12,
+   "z": 5.75,
+   "yaw": 0,
+   "altura": 0.48,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-diretor"
+  },
+  {
+   "id": "central-operacoes-i118:0",
+   "andar": 0,
+   "x": 21.5,
+   "y": 0.12,
+   "z": 7.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i119:0",
+   "andar": 0,
+   "x": 22.5,
+   "y": 0.12,
+   "z": 7.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i120:0",
+   "andar": 0,
+   "x": 23.4,
+   "y": 0.12,
+   "z": 8.05,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Diretoria",
+   "movel": "sofa"
+  },
+  {
+   "id": "central-operacoes-i120:1",
+   "andar": 0,
+   "x": 23.4,
+   "y": 0.12,
+   "z": 8.95,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Diretoria",
+   "movel": "sofa"
+  },
+  {
+   "id": "central-operacoes-i125:0",
+   "andar": 0,
+   "x": 6.25,
+   "y": 0.12,
+   "z": 10.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Recepção",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "central-operacoes-i127:0",
+   "andar": 0,
+   "x": 1.1,
+   "y": 0.12,
+   "z": 12.95,
+   "yaw": 1.571,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "central-operacoes-i127:1",
+   "andar": 0,
+   "x": 1.1,
+   "y": 0.12,
+   "z": 12.05,
+   "yaw": 1.571,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "central-operacoes-i135:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 11.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i136:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 13.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i137:0",
+   "andar": 0,
+   "x": 10.25,
+   "y": 0.12,
+   "z": 12.25,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i138:0",
+   "andar": 0,
+   "x": 12.25,
+   "y": 0.12,
+   "z": 12.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i140:0",
+   "andar": 0,
+   "x": 14.25,
+   "y": 0.12,
+   "z": 11.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i141:0",
+   "andar": 0,
+   "x": 14.25,
+   "y": 0.12,
+   "z": 13.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i142:0",
+   "andar": 0,
+   "x": 15.25,
+   "y": 0.12,
+   "z": 12.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "central-operacoes-i143:0",
+   "andar": 0,
+   "x": 23.4,
+   "y": 0.12,
+   "z": 11.05,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "central-operacoes-i143:1",
+   "andar": 0,
+   "x": 23.4,
+   "y": 0.12,
+   "z": 11.95,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "central-operacoes-i144:0",
+   "andar": 0,
+   "x": 23.4,
+   "y": 0.12,
+   "z": 13.05,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "central-operacoes-i144:1",
+   "andar": 0,
+   "x": 23.4,
+   "y": 0.12,
+   "z": 13.95,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "central-operacoes-i147:0",
+   "andar": 0,
+   "x": 17.5,
+   "y": 0.12,
+   "z": 11.55,
+   "yaw": 0,
+   "altura": 0.34,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "puff"
+  },
+  {
+   "id": "central-operacoes-i148:0",
+   "andar": 0,
+   "x": 17.5,
+   "y": 0.12,
+   "z": 13.55,
+   "yaw": 0,
+   "altura": 0.34,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "puff"
+  }
+ ],
+ "pontos": [
+  {
+   "id": "central-operacoes-i121:0",
+   "andar": 0,
+   "x": 23.2,
+   "y": 0.12,
+   "z": 6.35,
+   "yaw": 7.854,
+   "tipo": "livros",
+   "par": null,
+   "atividade": "Procurando um livro",
+   "sala": "Diretoria",
+   "movel": "estante"
+  },
+  {
+   "id": "central-operacoes-i131:0",
+   "andar": 0,
+   "x": 11.85,
+   "y": 0.12,
+   "z": 13.65,
+   "yaw": 6.283,
+   "tipo": "cafe",
+   "par": null,
+   "atividade": "Pegando um café",
+   "sala": "Café",
+   "movel": "balcao-cafe"
+  },
+  {
+   "id": "central-operacoes-i131:1",
+   "andar": 0,
+   "x": 10.65,
+   "y": 0.12,
+   "z": 13.65,
+   "yaw": 6.283,
+   "tipo": "cafe",
+   "par": null,
+   "atividade": "Pegando um café",
+   "sala": "Café",
+   "movel": "balcao-cafe"
+  },
+  {
+   "id": "central-operacoes-i132:0",
+   "andar": 0,
+   "x": 13,
+   "y": 0.12,
+   "z": 13.7,
+   "yaw": 6.283,
+   "tipo": "geladeira",
+   "par": null,
+   "atividade": "Pegando um lanche",
+   "sala": "Café",
+   "movel": "geladeira"
+  },
+  {
+   "id": "central-operacoes-i133:0",
+   "andar": 0,
+   "x": 15.75,
+   "y": 0.12,
+   "z": 15.3,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": null,
+   "movel": "bebedouro"
+  }
+ ],
+ "salas": [
+  {
+   "andar": 0,
+   "nome": "Central de operações",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 18,
+   "d": 10,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Sala de reunião",
+   "tipo": "reuniao",
+   "x": 18,
+   "z": 0,
+   "w": 6,
+   "d": 5,
+   "piso": "madeira"
+  },
+  {
+   "andar": 0,
+   "nome": "Diretoria",
+   "tipo": "diretoria",
+   "x": 18,
+   "z": 5,
+   "w": 6,
+   "d": 5,
+   "piso": "madeira"
+  },
+  {
+   "andar": 0,
+   "nome": "Recepção",
+   "tipo": "recepcao",
+   "x": 0,
+   "z": 10,
+   "w": 8,
+   "d": 5,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 0,
+   "nome": "Café",
+   "tipo": "cafe",
+   "x": 8,
+   "z": 10,
+   "w": 8,
+   "d": 5,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 0,
+   "nome": "Lounge",
+   "tipo": "descanso",
+   "x": 16,
+   "z": 10,
+   "w": 8,
+   "d": 5,
+   "piso": "carpete"
+  }
+ ],
+ "planta": {
+  "version": 1,
+  "terreno": {
+   "w": 24,
+   "d": 16
+  },
+  "floors": [
+   {
+    "andar": 0,
+    "rooms": [
+     {
+      "id": "central-operacoes-r0",
+      "nome": "Central de operações",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 18,
+      "d": 10,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "central-operacoes-r1",
+      "nome": "Sala de reunião",
+      "tipo": "reuniao",
+      "x": 18,
+      "z": 0,
+      "w": 6,
+      "d": 5,
+      "piso": "madeira",
+      "corParede": 2,
+      "vidro": true
+     },
+     {
+      "id": "central-operacoes-r2",
+      "nome": "Diretoria",
+      "tipo": "diretoria",
+      "x": 18,
+      "z": 5,
+      "w": 6,
+      "d": 5,
+      "piso": "madeira",
+      "corParede": 4,
+      "vidro": false
+     },
+     {
+      "id": "central-operacoes-r3",
+      "nome": "Recepção",
+      "tipo": "recepcao",
+      "x": 0,
+      "z": 10,
+      "w": 8,
+      "d": 5,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "central-operacoes-r4",
+      "nome": "Café",
+      "tipo": "cafe",
+      "x": 8,
+      "z": 10,
+      "w": 8,
+      "d": 5,
+      "piso": "porcelanato",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "central-operacoes-r5",
+      "nome": "Lounge",
+      "tipo": "descanso",
+      "x": 16,
+      "z": 10,
+      "w": 8,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 3,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "central-operacoes-d0",
+      "x": 4,
+      "z": 15,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "central-operacoes-d1",
+      "x": 20,
+      "z": 15,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "central-operacoes-d2",
+      "x": 4,
+      "z": 10,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "central-operacoes-d3",
+      "x": 12,
+      "z": 10,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "central-operacoes-d4",
+      "x": 8,
+      "z": 12.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "central-operacoes-d5",
+      "x": 16,
+      "z": 12.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "central-operacoes-d6",
+      "x": 21,
+      "z": 10,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "central-operacoes-d7",
+      "x": 18,
+      "z": 2.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "central-operacoes-d8",
+      "x": 18,
+      "z": 7.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "central-operacoes-d9",
+      "x": 21,
+      "z": 5,
+      "eixo": "x",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "central-operacoes-i0",
+      "catalogId": "mesa-bancada",
+      "x": 2.5,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i1",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i2",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i3",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i4",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i5",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i6",
+      "catalogId": "monitor",
+      "x": 3.25,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i7",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i8",
+      "catalogId": "laptop",
+      "x": 3.25,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i9",
+      "catalogId": "mesa-bancada",
+      "x": 2.5,
+      "z": 6.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i10",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 5.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i11",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 5.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i12",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.75,
+      "z": 7.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.25,
+      "z": 7.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i14",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 6,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i15",
+      "catalogId": "monitor",
+      "x": 3.25,
+      "z": 6,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i16",
+      "catalogId": "monitor",
+      "x": 1.75,
+      "z": 6.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i17",
+      "catalogId": "laptop",
+      "x": 3.25,
+      "z": 6.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i18",
+      "catalogId": "mesa-bancada",
+      "x": 6.5,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i19",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i20",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i21",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i22",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i23",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i24",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i25",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i26",
+      "catalogId": "laptop",
+      "x": 7.25,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i27",
+      "catalogId": "mesa-bancada",
+      "x": 6.5,
+      "z": 6.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i28",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 5.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i29",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 5.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i30",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 7.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i31",
+      "catalogId": "cadeira-escritorio",
+      "x": 7.25,
+      "z": 7.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i32",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 6,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i33",
+      "catalogId": "monitor",
+      "x": 7.25,
+      "z": 6,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i34",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 6.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i35",
+      "catalogId": "laptop",
+      "x": 7.25,
+      "z": 6.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i36",
+      "catalogId": "mesa-bancada",
+      "x": 10.5,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i37",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i38",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i39",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i40",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i41",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i42",
+      "catalogId": "monitor",
+      "x": 11.25,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i43",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i44",
+      "catalogId": "laptop",
+      "x": 11.25,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i45",
+      "catalogId": "mesa-bancada",
+      "x": 10.5,
+      "z": 6.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i46",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 5.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i47",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 5.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i48",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 7.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i49",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 7.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i50",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 6,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i51",
+      "catalogId": "monitor",
+      "x": 11.25,
+      "z": 6,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i52",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 6.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i53",
+      "catalogId": "laptop",
+      "x": 11.25,
+      "z": 6.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i54",
+      "catalogId": "mesa-bancada",
+      "x": 14.5,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i55",
+      "catalogId": "cadeira-escritorio",
+      "x": 13.75,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i56",
+      "catalogId": "cadeira-escritorio",
+      "x": 15.25,
+      "z": 1.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i57",
+      "catalogId": "cadeira-escritorio",
+      "x": 13.75,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i58",
+      "catalogId": "cadeira-escritorio",
+      "x": 15.25,
+      "z": 3.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i59",
+      "catalogId": "monitor",
+      "x": 13.75,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i60",
+      "catalogId": "monitor",
+      "x": 15.25,
+      "z": 2,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i61",
+      "catalogId": "monitor",
+      "x": 13.75,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i62",
+      "catalogId": "laptop",
+      "x": 15.25,
+      "z": 2.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i63",
+      "catalogId": "mesa-bancada",
+      "x": 14.5,
+      "z": 6.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i64",
+      "catalogId": "cadeira-escritorio",
+      "x": 13.75,
+      "z": 5.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i65",
+      "catalogId": "cadeira-escritorio",
+      "x": 15.25,
+      "z": 5.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i66",
+      "catalogId": "cadeira-escritorio",
+      "x": 13.75,
+      "z": 7.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i67",
+      "catalogId": "cadeira-escritorio",
+      "x": 15.25,
+      "z": 7.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i68",
+      "catalogId": "monitor",
+      "x": 13.75,
+      "z": 6,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i69",
+      "catalogId": "monitor",
+      "x": 15.25,
+      "z": 6,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i70",
+      "catalogId": "monitor",
+      "x": 13.75,
+      "z": 6.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i71",
+      "catalogId": "laptop",
+      "x": 15.25,
+      "z": 6.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i72",
+      "catalogId": "mesa-reta",
+      "x": 0.75,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "central-operacoes-i73",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i74",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i75",
+      "catalogId": "mesa-reta",
+      "x": 2.25,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "central-operacoes-i76",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.25,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i77",
+      "catalogId": "monitor",
+      "x": 2.25,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i78",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "central-operacoes-i79",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i80",
+      "catalogId": "laptop",
+      "x": 5.25,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i81",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "central-operacoes-i82",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i83",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i84",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "central-operacoes-i85",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i86",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i87",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "central-operacoes-i88",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i89",
+      "catalogId": "laptop",
+      "x": 9.75,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i90",
+      "catalogId": "mesa-reta",
+      "x": 13.25,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "central-operacoes-i91",
+      "catalogId": "cadeira-escritorio",
+      "x": 13.25,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i92",
+      "catalogId": "monitor",
+      "x": 13.25,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i93",
+      "catalogId": "mesa-reta",
+      "x": 14.75,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "central-operacoes-i94",
+      "catalogId": "cadeira-escritorio",
+      "x": 14.75,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i95",
+      "catalogId": "monitor",
+      "x": 14.75,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i96",
+      "catalogId": "mesa-reta",
+      "x": 16.25,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "central-operacoes-i97",
+      "catalogId": "cadeira-escritorio",
+      "x": 16.25,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i98",
+      "catalogId": "laptop",
+      "x": 16.25,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i99",
+      "catalogId": "jardineira",
+      "x": 2,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i100",
+      "catalogId": "jardineira",
+      "x": 12,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i101",
+      "catalogId": "relogio-parede",
+      "x": 8,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i102",
+      "catalogId": "quadro-arte",
+      "x": 15,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i103",
+      "catalogId": "tv-parede",
+      "x": 0.31,
+      "z": 4.5,
+      "rot": 90
+     },
+     {
+      "id": "central-operacoes-i104",
+      "catalogId": "vaso-ficus",
+      "x": 17.75,
+      "z": 9.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i105",
+      "catalogId": "mesa-reuniao-longa",
+      "x": 21,
+      "z": 2.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i106",
+      "catalogId": "cadeira-reuniao",
+      "x": 20,
+      "z": 1.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "central-operacoes-i107",
+      "catalogId": "cadeira-reuniao",
+      "x": 20,
+      "z": 3.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "central-operacoes-i108",
+      "catalogId": "cadeira-reuniao",
+      "x": 21,
+      "z": 1.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "central-operacoes-i109",
+      "catalogId": "cadeira-reuniao",
+      "x": 21,
+      "z": 3.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "central-operacoes-i110",
+      "catalogId": "cadeira-reuniao",
+      "x": 22,
+      "z": 1.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "central-operacoes-i111",
+      "catalogId": "cadeira-reuniao",
+      "x": 22,
+      "z": 3.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "central-operacoes-i112",
+      "catalogId": "cadeira-reuniao",
+      "x": 19.25,
+      "z": 2.25,
+      "rot": 90,
+      "cor": 3
+     },
+     {
+      "id": "central-operacoes-i113",
+      "catalogId": "cadeira-reuniao",
+      "x": 22.75,
+      "z": 2.25,
+      "rot": 270,
+      "cor": 3
+     },
+     {
+      "id": "central-operacoes-i114",
+      "catalogId": "tv-parede",
+      "x": 21,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i115",
+      "catalogId": "mesa-diretor",
+      "x": 22,
+      "z": 6.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i116",
+      "catalogId": "cadeira-diretor",
+      "x": 22,
+      "z": 5.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i117",
+      "catalogId": "laptop",
+      "x": 22,
+      "z": 6.25,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i118",
+      "catalogId": "cadeira-reuniao",
+      "x": 21.5,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "central-operacoes-i119",
+      "catalogId": "cadeira-reuniao",
+      "x": 22.5,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "central-operacoes-i120",
+      "catalogId": "sofa",
+      "x": 23.5,
+      "z": 8.5,
+      "rot": 270,
+      "cor": 4
+     },
+     {
+      "id": "central-operacoes-i121",
+      "catalogId": "estante",
+      "x": 23.75,
+      "z": 6.25,
+      "rot": 270
+     },
+     {
+      "id": "central-operacoes-i122",
+      "catalogId": "vaso-ficus",
+      "x": 18.25,
+      "z": 9.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i123",
+      "catalogId": "quadro-arte",
+      "x": 19,
+      "z": 9.69,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i124",
+      "catalogId": "mesa-reta",
+      "x": 6.25,
+      "z": 11.5,
+      "rot": 180,
+      "cor": 2
+     },
+     {
+      "id": "central-operacoes-i125",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.25,
+      "z": 10.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i126",
+      "catalogId": "monitor",
+      "x": 6.25,
+      "z": 11.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i127",
+      "catalogId": "sofa",
+      "x": 1,
+      "z": 12.5,
+      "rot": 90,
+      "cor": 4
+     },
+     {
+      "id": "central-operacoes-i128",
+      "catalogId": "mesa-centro",
+      "x": 1.75,
+      "z": 12.5,
+      "rot": 90
+     },
+     {
+      "id": "central-operacoes-i129",
+      "catalogId": "palmeira",
+      "x": 0.5,
+      "z": 10.5,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i130",
+      "catalogId": "jardineira",
+      "x": 6,
+      "z": 14.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i131",
+      "catalogId": "balcao-cafe",
+      "x": 11.25,
+      "z": 14.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i132",
+      "catalogId": "geladeira",
+      "x": 13,
+      "z": 14.5,
+      "rot": 180
+     },
+     {
+      "id": "central-operacoes-i133",
+      "catalogId": "bebedouro",
+      "x": 15.75,
+      "z": 14.75,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i134",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 11.25,
+      "z": 12.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i135",
+      "catalogId": "cadeira-reuniao",
+      "x": 11.25,
+      "z": 11.25,
+      "rot": 0,
+      "cor": 6
+     },
+     {
+      "id": "central-operacoes-i136",
+      "catalogId": "cadeira-reuniao",
+      "x": 11.25,
+      "z": 13.25,
+      "rot": 180,
+      "cor": 6
+     },
+     {
+      "id": "central-operacoes-i137",
+      "catalogId": "cadeira-reuniao",
+      "x": 10.25,
+      "z": 12.25,
+      "rot": 90,
+      "cor": 6
+     },
+     {
+      "id": "central-operacoes-i138",
+      "catalogId": "cadeira-reuniao",
+      "x": 12.25,
+      "z": 12.25,
+      "rot": 270,
+      "cor": 6
+     },
+     {
+      "id": "central-operacoes-i139",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 14.25,
+      "z": 12.25,
+      "rot": 0
+     },
+     {
+      "id": "central-operacoes-i140",
+      "catalogId": "cadeira-reuniao",
+      "x": 14.25,
+      "z": 11.25,
+      "rot": 0,
+      "cor": 6
+     },
+     {
+      "id": "central-operacoes-i141",
+      "catalogId": "cadeira-reuniao",
+      "x": 14.25,
+      "z": 13.25,
+      "rot": 180,
+      "cor": 6
+     },
+     {
+      "id": "central-operacoes-i142",
+      "catalogId": "cadeira-reuniao",
+      "x": 15.25,
+      "z": 12.25,
+      "rot": 270,
+      "cor": 6
+     },
+     {
+      "id": "central-operacoes-i143",
+      "catalogId": "sofa",
+      "x": 23.5,
+      "z": 11.5,
+      "rot": 270,
+      "cor": 5
+     },
+     {
+      "id": "central-operacoes-i144",
+      "catalogId": "sofa",
+      "x": 23.5,
+      "z": 13.5,
+      "rot": 270,
+      "cor": 5
+     },
+     {
+      "id": "central-operacoes-i145",
+      "catalogId": "mesa-centro",
+      "x": 21.75,
+      "z": 12.5,
+      "rot": 90
+     },
+     {
+      "id": "central-operacoes-i146",
+      "catalogId": "tapete-redondo",
+      "x": 21.5,
+      "z": 12.5,
+      "rot": 0,
+      "cor": 7
+     },
+     {
+      "id": "central-operacoes-i147",
+      "catalogId": "puff",
+      "x": 17.5,
+      "z": 11.5,
+      "rot": 0,
+      "cor": 9
+     },
+     {
+      "id": "central-operacoes-i148",
+      "catalogId": "puff",
+      "x": 17.5,
+      "z": 13.5,
+      "rot": 0,
+      "cor": 9
+     },
+     {
+      "id": "central-operacoes-i149",
+      "catalogId": "palmeira",
+      "x": 16.5,
+      "z": 14.5,
+      "rot": 0
+     }
+    ]
+   }
+  ],
+  "presetId": "central-operacoes"
+ }
+}

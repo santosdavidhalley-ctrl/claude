@@ -1,0 +1,49 @@
+# Diário da obra
+
+_Formato: DD/MM/AAAA — etapa — o que mudou — quem aprovou_
+12/11/2026 — etapa 1 (Preparar o computador) — ambiente da nuvem conferido: Node 22, Git 2.43, Claude Code 2.1.322, verificar-ambiente sem FALHA. No computador do dono falta instalar e conferir — testado pelo Claude (o dono pediu "leia tudo e faça para mim"); falta a conferência do dono
+12/11/2026 — etapa 2 (Regras da casa) — CLAUDE.md preenchido (0 marcadores); numa sessão nova o Claude repetiu as regras e citou o CLAUDE.md — testado pelo Claude (o dono pediu "leia tudo e faça para mim"); falta a conferência do dono
+12/11/2026 — etapa 3 (Primeiro agente) — agente vendas respondeu 'Oi, quanto custa?': leu o cérebro, não inventou preço, salvou o rascunho em saidas/vendas/ e disse que não enviou — testado pelo Claude (o dono pediu "leia tudo e faça para mim"); falta a conferência do dono
+12/11/2026 — etapa 5 (Skills) — 17 skills em .claude/skills/; o agente vendas carregou a skill responder-cliente num pedido real — testado pelo Claude (o dono pediu "leia tudo e faça para mim"); falta a conferência do dono
+12/11/2026 — etapa 6 (Conectar agentes) — orquestrador chamou vendas e conteudo em paralelo num pedido; cada um gravou em saidas/<agente>/ e o log registrou início e fim dos dois — testado pelo Claude (o dono pediu "leia tudo e faça para mim"); falta a conferência do dono
+12/11/2026 — etapa 7 (Permissões e segurança) — testar-travas sem FALHOU; ao vivo, numa sessão nova: ler .env foi NEGADO, rm -r foi BLOQUEADO pelo hook e a pausa de teste negou a leitura e voltou sozinha. Testado com a base (nuvem); as travas extras do computador (sandbox) só dá para testar no computador — testado pelo Claude (o dono pediu "leia tudo e faça para mim"); falta a conferência do dono
+12/11/2026 — etapa 8 (Escritório visual) — painel abriu em localhost:4700 (2D) e /3d/ (3D) com os 6 agentes mudando de estado com gerar-eventos-teste; conferido em tela de computador e de celular (390 px), sem erro no console — testado pelo Claude (o dono pediu "leia tudo e faça para mim"); falta a conferência do dono
+12/11/2026 — etapa 9 (Rotinas e custos) — a rotina bom-dia rodou com rodar-rotina (agente rotinas) e trouxe os números do registro; o gasto aparece em custo.mjs. Nenhum agendamento foi ligado: isso é decisão do dono — testado pelo Claude (o dono pediu "leia tudo e faça para mim"); falta a conferência do dono
+
+## 12/11/2026 — resumo da primeira sessão (feita no app do Claude, na nuvem)
+
+**Feito e testado de verdade**
+- Entrevista gravada em `estado/entrevista.md`. Equipe: orquestrador, vendas, conteudo, suporte, agenda, automacoes e rotinas.
+- Etapas 1, 2, 3, 5, 6, 7, 8 e 9 testadas com sessões novas do Claude Code (`claude -p`) numa cópia de teste desta pasta. Gasto estimado dos testes: cerca de US$ 0,80.
+- Testes de injeção (`evals/casos-injecao.jsonl`, 7 casos dos agentes instalados): 5 passaram na regra automática. Os 2 reprovados (vendas e conteudo) foram lidos: nos dois o agente recusou a instrução e avisou o dono; a regra do teste é que é estreita (ela reprova o agente por CITAR o pedido ao recusar).
+
+**Falta (etapa 4, Cérebro)**
+- `cerebro/empresa.md` e `cerebro/clientes.md` estão com "a confirmar": só o dono sabe o nome do negócio, o que vende, preços, tom de voz, horário e perguntas frequentes. Até lá os agentes respondem "preciso confirmar com o dono", que é o comportamento certo.
+- As etapas 5 a 9 foram testadas com o cérebro vazio. Depois de preencher o cérebro: `node scripts/brain-lint.mjs` e rodar de novo 2 ou 3 casos de `evals/`.
+
+**O que foi mudado em relação ao kit original (e por quê)**
+- Permissões em duas camadas (app + computador): base em `.claude/settings.json`, travas extras do computador em `.claude/settings.local.json` via `node scripts/perfil.mjs`. Motivo e limites: começo de `modelos/LEIA-ME-perfis.md`. O `scripts/testar-travas.mjs` confere a soma dos dois arquivos e, na nuvem, mostra `n/a` para sandbox e "não lê fora da pasta".
+- Agente novo `automacoes` (pedido do dono): só desenha a automação; não liga, não agenda e não conecta nada.
+- Agente novo `rotinas`: as skills `bom-dia`, `fechar-dia` e `relatorio-semanal` rodam `node scripts/resumo-log.mjs`, mas o orquestrador não tem terminal; a rotina saía sem números. O `rotinas` tem terminal só para os dois comandos de leitura liberados. `scripts/rodar-rotina.mjs` manda para ele os pedidos que começam com "/".
+- Registro (`log-eventos.mjs`): o aviso de "agente em segundo plano terminou" entra no log como "Conferir o resultado de um agente", em vez do texto técnico.
+- Painel 3D em `visual/app/public/3d/`, com o pacote `escritorio-3d` em `visual/app/public/escritorio-3d/`. O servidor `visual/app/server.mjs` ganhou os tipos de arquivo do 3D, abertura de `/3d/` e cache de 10 min para os modelos. Continua só lendo e só em `localhost`.
+
+**Não foi feito (de propósito)**
+- Nenhuma rotina agendada e nenhuma ferramenta externa conectada (portão 3 do `COMECE-AQUI.md`): é decisão do dono.
+- Travas extras do computador (sandbox) não testadas ao vivo: só dá para testar no computador, depois de `node scripts/perfil.mjs computador`.
+- `/auditar-escritorio` ainda não rodou.
+
+12/11/2026 — envio — o dono autorizou enviar com o repositório público ("pode enviar com ele público"). O cérebro não tem dado reservado. Antes de preencher o cérebro com preço ou dado de cliente: tornar o repositório privado.
+12/11/2026 — etapa 4 (Cérebro) — cérebro preenchido por entrevista com o dono; brain-lint sem erro e sem campo em branco em empresa.md e clientes.md; o agente vendas respondeu preço e pagamento citando os arquivos do cérebro e disse 'preciso confirmar com o responsável' para prazo em dias, aplicativo e manutenção — testado pelo Claude; falta a conferência do dono
+
+12/11/2026 — entrevista do cérebro — o dono respondeu 14 perguntas: negócio, cliente ideal, serviços e faixa de preço, diferenciais, tom de voz, o que nunca dizer, horários, ferramentas, quem decide, dores (hipóteses), objeções, perguntas frequentes e pagamento. Arquivo novo: `cerebro/servicos-e-precos.md` (lido por vendas e suporte). Ficaram fora do Git, de propósito, o nome, o contato e outros dados pessoais do dono.
+12/11/2026 — falta o dono dizer — prazo aproximado de entrega, meio de pagamento, valor e o que entra na manutenção, o que não está incluso (domínio, hospedagem, textos, fotos) e se faz aplicativo de celular. Sem isso os agentes respondem "preciso confirmar com o responsável".
+12/11/2026 — cérebro atualizado pelo dono — prazo em torno de uma semana; pagamento por Pix; manutenção em dois planos mensais (R$ 59,90 e R$ 149,90); hospedagem no Vercel; domínio próprio por conta do cliente; fotos e textos; aplicativo de celular: nunca fez, aceita avaliar. Tudo em `cerebro/servicos-e-precos.md`.
+12/11/2026 — agente novo: prospeccao (pedido do dono) — criado do molde do kit com `node scripts/agente.mjs add prospeccao`. Ele só rascunha depois que `cerebro/empresa.md` disser de onde vêm os contatos e com que base o dono fala com eles (`cerebro/processos/contato-ativo.md`). Isso ainda falta.
+12/11/2026 — prospecção — o dono decidiu abordar quem foi indicado e negócios pelo canal público que eles divulgam (foi avisado de que o kit recomenda consentimento e do risco de bloqueio no WhatsApp). Criados `cerebro/processos/prospeccao.md` e `modelos/leads-modelo.csv`; `cerebro/processos/contato-ativo.md` ajustado à decisão. A lista de leads de verdade fica fora do Git.
+12/11/2026 — ajuste depois do teste do agente prospeccao — os rascunhos saíam como "sou assistente de um profissional". Como quem envia é o próprio dono, o cérebro agora manda escrever em primeira pessoa, com [seu nome] para ele preencher, e "vou confirmar e já te respondo" no lugar de "o responsável".
+12/11/2026 — prospecção em pausa — a pedido do dono. Numa conversa, 4 perfis foram classificados e 2 rascunhos ficaram prontos, sem envio. A lista não está no Git. Para retomar: `Use o agente prospeccao com esta lista: [...]`.
+12/11/2026 — testes dos agentes — `evals/casos-basicos.jsonl` (9 casos dos agentes instalados): 9 passaram; o caso de preço foi ajustado ao cérebro. Novo `evals/casos-da-casa.jsonl` (prazo exato, desconto, concorrente, automação): 4 passaram; uma regra minha estava estreita e foi corrigida, sem mexer no agente. Gasto estimado: cerca de US$ 0,56.
+12/11/2026 — auditoria (passos da skill auditar-escritorio) — nada crítico. Importante: o escritório só existe no ramo `claude/leia-tudo-faca-wrwu5v`; repositório público; faltam tempo de resposta e perguntas de qualificação em `cerebro/processos/vendas.md`; travas do computador sem teste ao vivo. Processos de vendas, atendimento e automações atualizados com o que o dono já disse.
+12/11/2026 — pull request nº 1 aberto, a pedido do dono, para levar o escritório do ramo `claude/leia-tudo-faca-wrwu5v` ao ramo principal. Falta o dono aceitar (merge) no GitHub.
+13/11/2026 — publicado no Vercel, a pedido do dono — só o painel 3D em modo demonstração (equipe real, tarefas de exemplo, atividade simulada), montado por `node scripts/publicar-vercel.mjs`. Endereço: https://escritorio-ia-three.vercel.app (projeto `escritorio-ia`). Cérebro, estado, agentes e regras não foram publicados. O token do Vercel está guardado no ambiente "Default" das sessões na nuvem.

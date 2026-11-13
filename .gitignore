@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+estado/log.jsonl
+estado/PAUSA
+estado/.pendente.json
+estado/agendador.log
+estado/arquivo/
+estado/removidos/
+saidas/
+dados/
+evals/resultados/
+.claude/settings.local.json
+node_modules/
+.publicar/

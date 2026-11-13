@@ -1,0 +1,665 @@
+{
+ "id": "comercial",
+ "nome": "Comercial",
+ "descricao": "Time de vendas com painel ao vivo, sala de fechamento, recepção e copa.",
+ "origem": "layouts prontos",
+ "arquivo": "escritorios/comercial.glb",
+ "previa": "escritorios/comercial.webp",
+ "andares": 1,
+ "altura_do_andar": 3.1,
+ "terreno": {
+  "w": 10,
+  "d": 8
+ },
+ "tamanho": {
+  "x": 12,
+  "y": 3.81,
+  "z": 10,
+  "min": [
+   -1,
+   -0.04,
+   -1
+  ],
+  "max": [
+   11,
+   3.77,
+   9
+  ]
+ },
+ "mb": 0.52,
+ "moveis": 39,
+ "postos_de_trabalho": 7,
+ "assentos": [
+  {
+   "id": "comercial-i4:0",
+   "andar": 0,
+   "x": 0.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Time comercial",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "comercial-i5:0",
+   "andar": 0,
+   "x": 2.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Time comercial",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "comercial-i6:0",
+   "andar": 0,
+   "x": 3.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Time comercial",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "comercial-i7:0",
+   "andar": 0,
+   "x": 5.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Time comercial",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "comercial-i14:0",
+   "andar": 0,
+   "x": 3.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Time comercial",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "comercial-i15:0",
+   "andar": 0,
+   "x": 5.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Time comercial",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "comercial-i22:0",
+   "andar": 0,
+   "x": 8.5,
+   "y": 0.12,
+   "z": 0.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de fechamento",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "comercial-i23:0",
+   "andar": 0,
+   "x": 8.5,
+   "y": 0.12,
+   "z": 3.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de fechamento",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "comercial-i24:0",
+   "andar": 0,
+   "x": 9.5,
+   "y": 0.12,
+   "z": 2,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de fechamento",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "comercial-i27:0",
+   "andar": 0,
+   "x": 3.75,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Recepção",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "comercial-i29:0",
+   "andar": 0,
+   "x": 1.1,
+   "y": 0.12,
+   "z": 5.95,
+   "yaw": 1.571,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "comercial-i29:1",
+   "andar": 0,
+   "x": 1.1,
+   "y": 0.12,
+   "z": 5.05,
+   "yaw": 1.571,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "comercial-i34:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 5.75,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Copa",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "comercial-i35:0",
+   "andar": 0,
+   "x": 8.75,
+   "y": 0.12,
+   "z": 5.75,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Copa",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "comercial-i36:0",
+   "andar": 0,
+   "x": 7.75,
+   "y": 0.12,
+   "z": 4.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Copa",
+   "movel": "cadeira-reuniao"
+  }
+ ],
+ "pontos": [
+  {
+   "id": "comercial-i37:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 4.8,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Copa",
+   "movel": "bebedouro"
+  }
+ ],
+ "salas": [
+  {
+   "andar": 0,
+   "nome": "Time comercial",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 7,
+   "d": 4,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Sala de fechamento",
+   "tipo": "reuniao",
+   "x": 7,
+   "z": 0,
+   "w": 3,
+   "d": 4,
+   "piso": "madeira"
+  },
+  {
+   "andar": 0,
+   "nome": "Recepção",
+   "tipo": "recepcao",
+   "x": 0,
+   "z": 4,
+   "w": 5,
+   "d": 3,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 0,
+   "nome": "Copa",
+   "tipo": "cafe",
+   "x": 5,
+   "z": 4,
+   "w": 5,
+   "d": 3,
+   "piso": "porcelanato"
+  }
+ ],
+ "planta": {
+  "version": 1,
+  "terreno": {
+   "w": 10,
+   "d": 8
+  },
+  "floors": [
+   {
+    "andar": 0,
+    "rooms": [
+     {
+      "id": "comercial-r0",
+      "nome": "Time comercial",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 7,
+      "d": 4,
+      "piso": "carpete",
+      "corParede": 2,
+      "vidro": false
+     },
+     {
+      "id": "comercial-r1",
+      "nome": "Sala de fechamento",
+      "tipo": "reuniao",
+      "x": 7,
+      "z": 0,
+      "w": 3,
+      "d": 4,
+      "piso": "madeira",
+      "corParede": 11,
+      "vidro": true
+     },
+     {
+      "id": "comercial-r2",
+      "nome": "Recepção",
+      "tipo": "recepcao",
+      "x": 0,
+      "z": 4,
+      "w": 5,
+      "d": 3,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "comercial-r3",
+      "nome": "Copa",
+      "tipo": "cafe",
+      "x": 5,
+      "z": 4,
+      "w": 5,
+      "d": 3,
+      "piso": "porcelanato",
+      "corParede": 0,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "comercial-d0",
+      "x": 2.5,
+      "z": 7,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "comercial-d1",
+      "x": 2.5,
+      "z": 4,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "comercial-d2",
+      "x": 7,
+      "z": 2,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "comercial-d3",
+      "x": 6.5,
+      "z": 4,
+      "eixo": "x",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "comercial-i0",
+      "catalogId": "mesa-reta",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "comercial-i1",
+      "catalogId": "mesa-reta",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "comercial-i2",
+      "catalogId": "mesa-reta",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "comercial-i3",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 2
+     },
+     {
+      "id": "comercial-i4",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "comercial-i5",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "comercial-i6",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "comercial-i7",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "comercial-i8",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i9",
+      "catalogId": "monitor",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i10",
+      "catalogId": "monitor",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i11",
+      "catalogId": "monitor",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i12",
+      "catalogId": "mesa-reta",
+      "x": 3.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 2
+     },
+     {
+      "id": "comercial-i13",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 2
+     },
+     {
+      "id": "comercial-i14",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i15",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i16",
+      "catalogId": "monitor",
+      "x": 3.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "comercial-i17",
+      "catalogId": "laptop",
+      "x": 5.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "comercial-i18",
+      "catalogId": "tv-pedestal",
+      "x": 0.25,
+      "z": 3,
+      "rot": 90
+     },
+     {
+      "id": "comercial-i19",
+      "catalogId": "arquivo",
+      "x": 6.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i20",
+      "catalogId": "relogio-parede",
+      "x": 3,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i21",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 8.5,
+      "z": 2,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i22",
+      "catalogId": "cadeira-reuniao",
+      "x": 8.5,
+      "z": 0.75,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "comercial-i23",
+      "catalogId": "cadeira-reuniao",
+      "x": 8.5,
+      "z": 3.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "comercial-i24",
+      "catalogId": "cadeira-reuniao",
+      "x": 9.5,
+      "z": 2,
+      "rot": 270,
+      "cor": 3
+     },
+     {
+      "id": "comercial-i25",
+      "catalogId": "quadro-arte",
+      "x": 8.5,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i26",
+      "catalogId": "mesa-reta",
+      "x": 3.75,
+      "z": 5.5,
+      "rot": 180,
+      "cor": 2
+     },
+     {
+      "id": "comercial-i27",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.75,
+      "z": 4.75,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i28",
+      "catalogId": "monitor",
+      "x": 3.75,
+      "z": 5.5,
+      "rot": 180
+     },
+     {
+      "id": "comercial-i29",
+      "catalogId": "sofa",
+      "x": 1,
+      "z": 5.5,
+      "rot": 90,
+      "cor": 4
+     },
+     {
+      "id": "comercial-i30",
+      "catalogId": "mesa-centro",
+      "x": 1.75,
+      "z": 5.5,
+      "rot": 90
+     },
+     {
+      "id": "comercial-i31",
+      "catalogId": "vaso-ficus",
+      "x": 0.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i32",
+      "catalogId": "quadro-arte",
+      "x": 1,
+      "z": 4.31,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i33",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 7.75,
+      "z": 5.75,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i34",
+      "catalogId": "cadeira-reuniao",
+      "x": 6.75,
+      "z": 5.75,
+      "rot": 90
+     },
+     {
+      "id": "comercial-i35",
+      "catalogId": "cadeira-reuniao",
+      "x": 8.75,
+      "z": 5.75,
+      "rot": 270
+     },
+     {
+      "id": "comercial-i36",
+      "catalogId": "cadeira-reuniao",
+      "x": 7.75,
+      "z": 4.75,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i37",
+      "catalogId": "bebedouro",
+      "x": 9.75,
+      "z": 4.25,
+      "rot": 0
+     },
+     {
+      "id": "comercial-i38",
+      "catalogId": "espada-sao-jorge",
+      "x": 9.75,
+      "z": 6.75,
+      "rot": 0
+     }
+    ]
+   }
+  ],
+  "presetId": "comercial"
+ }
+}

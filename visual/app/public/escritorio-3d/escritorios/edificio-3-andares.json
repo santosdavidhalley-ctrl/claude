@@ -1,0 +1,4727 @@
+{
+ "id": "edificio-3-andares",
+ "nome": "Edifício 3 andares",
+ "descricao": "Térreo com recepção e café, operação ampla no 1º andar, diretoria no 2º. Elevador e 60+ lugares.",
+ "origem": "layouts prontos",
+ "arquivo": "escritorios/edificio-3-andares.glb",
+ "previa": "escritorios/edificio-3-andares.webp",
+ "andares": 3,
+ "altura_do_andar": 3.1,
+ "terreno": {
+  "w": 20,
+  "d": 14
+ },
+ "tamanho": {
+  "x": 22,
+  "y": 10.01,
+  "z": 16,
+  "min": [
+   -1,
+   -0.04,
+   -1
+  ],
+  "max": [
+   21,
+   9.97,
+   15
+  ]
+ },
+ "mb": 1.27,
+ "moveis": 336,
+ "postos_de_trabalho": 82,
+ "assentos": [
+  {
+   "id": "edificio-3-andares-i1:0",
+   "andar": 0,
+   "x": 0.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i4:0",
+   "andar": 0,
+   "x": 2.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i7:0",
+   "andar": 0,
+   "x": 3.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i10:0",
+   "andar": 0,
+   "x": 5.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i13:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i16:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i19:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i22:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i25:0",
+   "andar": 0,
+   "x": 1.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i28:0",
+   "andar": 0,
+   "x": 2.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i31:0",
+   "andar": 0,
+   "x": 4.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i34:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i37:0",
+   "andar": 0,
+   "x": 1.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i40:0",
+   "andar": 0,
+   "x": 2.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i43:0",
+   "andar": 0,
+   "x": 4.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i46:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i49:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i52:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i55:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i58:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i61:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i64:0",
+   "andar": 0,
+   "x": 11.25,
+   "y": 0.12,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i67:0",
+   "andar": 0,
+   "x": 0.75,
+   "y": 0.12,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i70:0",
+   "andar": 0,
+   "x": 2.25,
+   "y": 0.12,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i73:0",
+   "andar": 0,
+   "x": 5.25,
+   "y": 0.12,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i76:0",
+   "andar": 0,
+   "x": 6.75,
+   "y": 0.12,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i79:0",
+   "andar": 0,
+   "x": 8.25,
+   "y": 0.12,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i82:0",
+   "andar": 0,
+   "x": 9.75,
+   "y": 0.12,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i85:0",
+   "andar": 0,
+   "x": 12.25,
+   "y": 0.12,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i96:0",
+   "andar": 0,
+   "x": 5.75,
+   "y": 0.12,
+   "z": 8.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Recepção",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-i98:0",
+   "andar": 0,
+   "x": 1.1,
+   "y": 0.12,
+   "z": 11.95,
+   "yaw": 1.571,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-i98:1",
+   "andar": 0,
+   "x": 1.1,
+   "y": 0.12,
+   "z": 11.05,
+   "yaw": 1.571,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Recepção",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-i108:0",
+   "andar": 0,
+   "x": 11,
+   "y": 0.12,
+   "z": 9.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-i109:0",
+   "andar": 0,
+   "x": 11,
+   "y": 0.12,
+   "z": 11.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-i110:0",
+   "andar": 0,
+   "x": 10,
+   "y": 0.12,
+   "z": 10.25,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-i111:0",
+   "andar": 0,
+   "x": 12,
+   "y": 0.12,
+   "z": 10.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Café",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-i112:0",
+   "andar": 0,
+   "x": 19.4,
+   "y": 0.12,
+   "z": 9.05,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-i112:1",
+   "andar": 0,
+   "x": 19.4,
+   "y": 0.12,
+   "z": 9.95,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-i113:0",
+   "andar": 0,
+   "x": 19.4,
+   "y": 0.12,
+   "z": 11.05,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-i113:1",
+   "andar": 0,
+   "x": 19.4,
+   "y": 0.12,
+   "z": 11.95,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-i114:0",
+   "andar": 0,
+   "x": 15.5,
+   "y": 0.12,
+   "z": 9.55,
+   "yaw": 0,
+   "altura": 0.34,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "puff"
+  },
+  {
+   "id": "edificio-3-andares-i115:0",
+   "andar": 0,
+   "x": 15.5,
+   "y": 0.12,
+   "z": 12.05,
+   "yaw": 0,
+   "altura": 0.34,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge",
+   "movel": "puff"
+  },
+  {
+   "id": "edificio-3-andares-a1-i1:0",
+   "andar": 1,
+   "x": 0.75,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i4:0",
+   "andar": 1,
+   "x": 2.25,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i7:0",
+   "andar": 1,
+   "x": 3.75,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i10:0",
+   "andar": 1,
+   "x": 5.25,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i13:0",
+   "andar": 1,
+   "x": 6.75,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i16:0",
+   "andar": 1,
+   "x": 8.25,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i19:0",
+   "andar": 1,
+   "x": 9.75,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i22:0",
+   "andar": 1,
+   "x": 11.25,
+   "y": 3.22,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i25:0",
+   "andar": 1,
+   "x": 1.25,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i28:0",
+   "andar": 1,
+   "x": 2.75,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i31:0",
+   "andar": 1,
+   "x": 4.25,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i34:0",
+   "andar": 1,
+   "x": 5.75,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i37:0",
+   "andar": 1,
+   "x": 1.25,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i40:0",
+   "andar": 1,
+   "x": 2.75,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i43:0",
+   "andar": 1,
+   "x": 4.25,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i46:0",
+   "andar": 1,
+   "x": 5.75,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i49:0",
+   "andar": 1,
+   "x": 8.25,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i52:0",
+   "andar": 1,
+   "x": 9.75,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i55:0",
+   "andar": 1,
+   "x": 11.25,
+   "y": 3.22,
+   "z": 2.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i58:0",
+   "andar": 1,
+   "x": 8.25,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i61:0",
+   "andar": 1,
+   "x": 9.75,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i64:0",
+   "andar": 1,
+   "x": 11.25,
+   "y": 3.22,
+   "z": 5.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i67:0",
+   "andar": 1,
+   "x": 1.25,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i70:0",
+   "andar": 1,
+   "x": 2.75,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i73:0",
+   "andar": 1,
+   "x": 4.25,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i76:0",
+   "andar": 1,
+   "x": 5.75,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i79:0",
+   "andar": 1,
+   "x": 1.25,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i82:0",
+   "andar": 1,
+   "x": 2.75,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i85:0",
+   "andar": 1,
+   "x": 4.25,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i88:0",
+   "andar": 1,
+   "x": 5.75,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i91:0",
+   "andar": 1,
+   "x": 8.25,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i94:0",
+   "andar": 1,
+   "x": 9.75,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i97:0",
+   "andar": 1,
+   "x": 11.25,
+   "y": 3.22,
+   "z": 6.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i100:0",
+   "andar": 1,
+   "x": 8.25,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i103:0",
+   "andar": 1,
+   "x": 9.75,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i106:0",
+   "andar": 1,
+   "x": 11.25,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i109:0",
+   "andar": 1,
+   "x": 0.75,
+   "y": 3.22,
+   "z": 11.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i112:0",
+   "andar": 1,
+   "x": 2.25,
+   "y": 3.22,
+   "z": 11.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i115:0",
+   "andar": 1,
+   "x": 3.75,
+   "y": 3.22,
+   "z": 11.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i118:0",
+   "andar": 1,
+   "x": 5.25,
+   "y": 3.22,
+   "z": 11.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i121:0",
+   "andar": 1,
+   "x": 6.75,
+   "y": 3.22,
+   "z": 11.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i124:0",
+   "andar": 1,
+   "x": 8.25,
+   "y": 3.22,
+   "z": 11.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i127:0",
+   "andar": 1,
+   "x": 9.75,
+   "y": 3.22,
+   "z": 11.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i130:0",
+   "andar": 1,
+   "x": 11.25,
+   "y": 3.22,
+   "z": 11.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Operação ampla",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a1-i144:0",
+   "andar": 1,
+   "x": 15.5,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a1-i145:0",
+   "andar": 1,
+   "x": 15.5,
+   "y": 3.22,
+   "z": 11.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a1-i146:0",
+   "andar": 1,
+   "x": 16.5,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a1-i147:0",
+   "andar": 1,
+   "x": 16.5,
+   "y": 3.22,
+   "z": 11.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a1-i148:0",
+   "andar": 1,
+   "x": 17.5,
+   "y": 3.22,
+   "z": 9.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a1-i149:0",
+   "andar": 1,
+   "x": 17.5,
+   "y": 3.22,
+   "z": 11.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a1-i150:0",
+   "andar": 1,
+   "x": 14.75,
+   "y": 3.22,
+   "z": 10.25,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a1-i151:0",
+   "andar": 1,
+   "x": 18.25,
+   "y": 3.22,
+   "z": 10.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala de reunião",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i1:0",
+   "andar": 2,
+   "x": 4,
+   "y": 6.32,
+   "z": 0.75,
+   "yaw": 0,
+   "altura": 0.48,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-diretor"
+  },
+  {
+   "id": "edificio-3-andares-a2-i3:0",
+   "andar": 2,
+   "x": 3.5,
+   "y": 6.32,
+   "z": 2.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i4:0",
+   "andar": 2,
+   "x": 4.5,
+   "y": 6.32,
+   "z": 2.5,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Diretoria",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i7:0",
+   "andar": 2,
+   "x": 2.45,
+   "y": 6.32,
+   "z": 5.4,
+   "yaw": 3.142,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Diretoria",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-a2-i7:1",
+   "andar": 2,
+   "x": 1.55,
+   "y": 6.32,
+   "z": 5.4,
+   "yaw": 3.142,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Diretoria",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-a2-i14:0",
+   "andar": 2,
+   "x": 8.75,
+   "y": 6.32,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Assessoria",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a2-i17:0",
+   "andar": 2,
+   "x": 10.25,
+   "y": 6.32,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Assessoria",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a2-i20:0",
+   "andar": 2,
+   "x": 11.75,
+   "y": 6.32,
+   "z": 1.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "laptop",
+   "trabalho": true,
+   "sala": "Assessoria",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a2-i23:0",
+   "andar": 2,
+   "x": 8.75,
+   "y": 6.32,
+   "z": 4.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Assessoria",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a2-i26:0",
+   "andar": 2,
+   "x": 12.25,
+   "y": 6.32,
+   "z": 4.75,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "type",
+   "trabalho": true,
+   "sala": "Assessoria",
+   "movel": "cadeira-escritorio"
+  },
+  {
+   "id": "edificio-3-andares-a2-i31:0",
+   "andar": 2,
+   "x": 3.5,
+   "y": 6.32,
+   "z": 9.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i32:0",
+   "andar": 2,
+   "x": 3.5,
+   "y": 6.32,
+   "z": 11.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i33:0",
+   "andar": 2,
+   "x": 4.5,
+   "y": 6.32,
+   "z": 9.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i34:0",
+   "andar": 2,
+   "x": 4.5,
+   "y": 6.32,
+   "z": 11.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i35:0",
+   "andar": 2,
+   "x": 5.5,
+   "y": 6.32,
+   "z": 9.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i36:0",
+   "andar": 2,
+   "x": 5.5,
+   "y": 6.32,
+   "z": 11.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i38:0",
+   "andar": 2,
+   "x": 6.5,
+   "y": 6.32,
+   "z": 9.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i39:0",
+   "andar": 2,
+   "x": 6.5,
+   "y": 6.32,
+   "z": 11.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i40:0",
+   "andar": 2,
+   "x": 7.5,
+   "y": 6.32,
+   "z": 9.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i41:0",
+   "andar": 2,
+   "x": 7.5,
+   "y": 6.32,
+   "z": 11.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i42:0",
+   "andar": 2,
+   "x": 8.5,
+   "y": 6.32,
+   "z": 9.25,
+   "yaw": 0,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i43:0",
+   "andar": 2,
+   "x": 8.5,
+   "y": 6.32,
+   "z": 11.25,
+   "yaw": 3.142,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i44:0",
+   "andar": 2,
+   "x": 2.75,
+   "y": 6.32,
+   "z": 10.25,
+   "yaw": 1.571,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i45:0",
+   "andar": 2,
+   "x": 9.25,
+   "y": 6.32,
+   "z": 10.25,
+   "yaw": 4.712,
+   "altura": 0.47,
+   "pose": "rest",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "cadeira-reuniao"
+  },
+  {
+   "id": "edificio-3-andares-a2-i49:0",
+   "andar": 2,
+   "x": 11.5,
+   "y": 6.32,
+   "z": 8.58,
+   "yaw": 0,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Sala do conselho",
+   "movel": "poltrona"
+  },
+  {
+   "id": "edificio-3-andares-a2-i55:0",
+   "andar": 2,
+   "x": 19.4,
+   "y": 6.32,
+   "z": 9.05,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge executivo",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-a2-i55:1",
+   "andar": 2,
+   "x": 19.4,
+   "y": 6.32,
+   "z": 9.95,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge executivo",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-a2-i56:0",
+   "andar": 2,
+   "x": 19.4,
+   "y": 6.32,
+   "z": 11.05,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge executivo",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-a2-i56:1",
+   "andar": 2,
+   "x": 19.4,
+   "y": 6.32,
+   "z": 11.95,
+   "yaw": 4.712,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge executivo",
+   "movel": "sofa"
+  },
+  {
+   "id": "edificio-3-andares-a2-i59:0",
+   "andar": 2,
+   "x": 15.5,
+   "y": 6.32,
+   "z": 9.58,
+   "yaw": 0,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge executivo",
+   "movel": "poltrona"
+  },
+  {
+   "id": "edificio-3-andares-a2-i60:0",
+   "andar": 2,
+   "x": 15.5,
+   "y": 6.32,
+   "z": 12.08,
+   "yaw": 0,
+   "altura": 0.5,
+   "pose": "lounge",
+   "trabalho": false,
+   "sala": "Lounge executivo",
+   "movel": "poltrona"
+  }
+ ],
+ "pontos": [
+  {
+   "id": "edificio-3-andares-i94:0",
+   "andar": 0,
+   "x": 19.75,
+   "y": 0.12,
+   "z": 3.55,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Hall dos elevadores",
+   "movel": "bebedouro"
+  },
+  {
+   "id": "edificio-3-andares-i103:0",
+   "andar": 0,
+   "x": 11.35,
+   "y": 0.12,
+   "z": 11.65,
+   "yaw": 6.283,
+   "tipo": "cafe",
+   "par": null,
+   "atividade": "Pegando um café",
+   "sala": "Café",
+   "movel": "balcao-cafe"
+  },
+  {
+   "id": "edificio-3-andares-i103:1",
+   "andar": 0,
+   "x": 10.15,
+   "y": 0.12,
+   "z": 11.65,
+   "yaw": 6.283,
+   "tipo": "cafe",
+   "par": null,
+   "atividade": "Pegando um café",
+   "sala": "Café",
+   "movel": "balcao-cafe"
+  },
+  {
+   "id": "edificio-3-andares-i104:0",
+   "andar": 0,
+   "x": 13.5,
+   "y": 0.12,
+   "z": 11.7,
+   "yaw": 6.283,
+   "tipo": "geladeira",
+   "par": null,
+   "atividade": "Pegando um lanche",
+   "sala": "Café",
+   "movel": "geladeira"
+  },
+  {
+   "id": "edificio-3-andares-i105:0",
+   "andar": 0,
+   "x": 8.75,
+   "y": 0.12,
+   "z": 13.3,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": null,
+   "movel": "bebedouro"
+  },
+  {
+   "id": "edificio-3-andares-i106:0",
+   "andar": 0,
+   "x": 13.5,
+   "y": 0.12,
+   "z": 9.6,
+   "yaw": 3.142,
+   "tipo": "cafe",
+   "par": null,
+   "atividade": "Tirando um espresso",
+   "sala": "Café",
+   "movel": "cafeteira"
+  },
+  {
+   "id": "edificio-3-andares-a1-i140:0",
+   "andar": 1,
+   "x": 19.75,
+   "y": 3.22,
+   "z": 3.55,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Hall dos elevadores",
+   "movel": "bebedouro"
+  },
+  {
+   "id": "edificio-3-andares-a2-i5:0",
+   "andar": 2,
+   "x": 0.8,
+   "y": 6.32,
+   "z": 1.4,
+   "yaw": 4.712,
+   "tipo": "livros",
+   "par": null,
+   "atividade": "Procurando um livro",
+   "sala": "Diretoria",
+   "movel": "estante"
+  },
+  {
+   "id": "edificio-3-andares-a2-i6:0",
+   "andar": 2,
+   "x": 0.8,
+   "y": 6.32,
+   "z": 3.15,
+   "yaw": 4.712,
+   "tipo": "livros",
+   "par": null,
+   "atividade": "Procurando um livro",
+   "sala": "Diretoria",
+   "movel": "estante"
+  },
+  {
+   "id": "edificio-3-andares-a2-i54:0",
+   "andar": 2,
+   "x": 19.75,
+   "y": 6.32,
+   "z": 3.55,
+   "yaw": 3.142,
+   "tipo": "agua",
+   "par": null,
+   "atividade": "Pegando água",
+   "sala": "Hall dos elevadores",
+   "movel": "bebedouro"
+  },
+  {
+   "id": "edificio-3-andares-a2-i61:0",
+   "andar": 2,
+   "x": 15.95,
+   "y": 6.32,
+   "z": 12.13,
+   "yaw": 6.283,
+   "tipo": "aquario",
+   "par": null,
+   "atividade": "Olhando os peixes",
+   "sala": "Lounge executivo",
+   "movel": "aquario"
+  }
+ ],
+ "salas": [
+  {
+   "andar": 0,
+   "nome": "Operação",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 13,
+   "d": 8,
+   "piso": "carpete"
+  },
+  {
+   "andar": 0,
+   "nome": "Hall dos elevadores",
+   "tipo": "corredor",
+   "x": 13,
+   "z": 0,
+   "w": 7,
+   "d": 8,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 0,
+   "nome": "Recepção",
+   "tipo": "recepcao",
+   "x": 0,
+   "z": 8,
+   "w": 8,
+   "d": 5,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 0,
+   "nome": "Café",
+   "tipo": "cafe",
+   "x": 8,
+   "z": 8,
+   "w": 6,
+   "d": 5,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 0,
+   "nome": "Lounge",
+   "tipo": "descanso",
+   "x": 14,
+   "z": 8,
+   "w": 6,
+   "d": 5,
+   "piso": "carpete"
+  },
+  {
+   "andar": 1,
+   "nome": "Operação ampla",
+   "tipo": "trabalho",
+   "x": 0,
+   "z": 0,
+   "w": 13,
+   "d": 13,
+   "piso": "carpete"
+  },
+  {
+   "andar": 1,
+   "nome": "Hall dos elevadores",
+   "tipo": "corredor",
+   "x": 13,
+   "z": 0,
+   "w": 7,
+   "d": 8,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 1,
+   "nome": "Sala de reunião",
+   "tipo": "reuniao",
+   "x": 13,
+   "z": 8,
+   "w": 7,
+   "d": 5,
+   "piso": "madeira"
+  },
+  {
+   "andar": 2,
+   "nome": "Diretoria",
+   "tipo": "diretoria",
+   "x": 0,
+   "z": 0,
+   "w": 8,
+   "d": 6,
+   "piso": "madeira"
+  },
+  {
+   "andar": 2,
+   "nome": "Assessoria",
+   "tipo": "trabalho",
+   "x": 8,
+   "z": 0,
+   "w": 5,
+   "d": 6,
+   "piso": "carpete"
+  },
+  {
+   "andar": 2,
+   "nome": "Sala do conselho",
+   "tipo": "reuniao",
+   "x": 0,
+   "z": 6,
+   "w": 13,
+   "d": 7,
+   "piso": "madeira"
+  },
+  {
+   "andar": 2,
+   "nome": "Hall dos elevadores",
+   "tipo": "corredor",
+   "x": 13,
+   "z": 0,
+   "w": 7,
+   "d": 8,
+   "piso": "porcelanato"
+  },
+  {
+   "andar": 2,
+   "nome": "Lounge executivo",
+   "tipo": "descanso",
+   "x": 13,
+   "z": 8,
+   "w": 7,
+   "d": 5,
+   "piso": "carpete"
+  }
+ ],
+ "planta": {
+  "version": 1,
+  "terreno": {
+   "w": 20,
+   "d": 14
+  },
+  "floors": [
+   {
+    "andar": 0,
+    "rooms": [
+     {
+      "id": "edificio-3-andares-r0",
+      "nome": "Operação",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 13,
+      "d": 8,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "edificio-3-andares-r1",
+      "nome": "Hall dos elevadores",
+      "tipo": "corredor",
+      "x": 13,
+      "z": 0,
+      "w": 7,
+      "d": 8,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "edificio-3-andares-r2",
+      "nome": "Recepção",
+      "tipo": "recepcao",
+      "x": 0,
+      "z": 8,
+      "w": 8,
+      "d": 5,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "edificio-3-andares-r3",
+      "nome": "Café",
+      "tipo": "cafe",
+      "x": 8,
+      "z": 8,
+      "w": 6,
+      "d": 5,
+      "piso": "porcelanato",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "edificio-3-andares-r4",
+      "nome": "Lounge",
+      "tipo": "descanso",
+      "x": 14,
+      "z": 8,
+      "w": 6,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 3,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "edificio-3-andares-d0",
+      "x": 4,
+      "z": 13,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-d1",
+      "x": 17,
+      "z": 13,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-d2",
+      "x": 4,
+      "z": 8,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-d3",
+      "x": 11,
+      "z": 8,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-d4",
+      "x": 8,
+      "z": 10.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-d5",
+      "x": 14,
+      "z": 10.5,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-d6",
+      "x": 13,
+      "z": 4,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-d7",
+      "x": 17,
+      "z": 8,
+      "eixo": "x",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "edificio-3-andares-i0",
+      "catalogId": "mesa-reta",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i1",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i2",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i3",
+      "catalogId": "mesa-reta",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i4",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i5",
+      "catalogId": "monitor",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i6",
+      "catalogId": "mesa-reta",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i7",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i8",
+      "catalogId": "laptop",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i9",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i10",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i11",
+      "catalogId": "monitor",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i12",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i14",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i15",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i16",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i17",
+      "catalogId": "laptop",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i18",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i19",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i20",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i21",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i22",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i23",
+      "catalogId": "monitor",
+      "x": 11.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i24",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i25",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i26",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i27",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i28",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i29",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i30",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i31",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i32",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i33",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i34",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i35",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i36",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i37",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i38",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i39",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i40",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i41",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i42",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i43",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i44",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i45",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i46",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i47",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i48",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i49",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i50",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i51",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i52",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i53",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i54",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i55",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i56",
+      "catalogId": "laptop",
+      "x": 11.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i57",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i58",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i59",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i60",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i61",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i62",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i63",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i64",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i65",
+      "catalogId": "laptop",
+      "x": 11.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i66",
+      "catalogId": "mesa-reta",
+      "x": 0.75,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i67",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i68",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i69",
+      "catalogId": "mesa-reta",
+      "x": 2.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i70",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i71",
+      "catalogId": "monitor",
+      "x": 2.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i72",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i73",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i74",
+      "catalogId": "laptop",
+      "x": 5.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i75",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i76",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i77",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i78",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i79",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i80",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i81",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i82",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i83",
+      "catalogId": "laptop",
+      "x": 9.75,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i84",
+      "catalogId": "mesa-reta",
+      "x": 12.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-i85",
+      "catalogId": "cadeira-escritorio",
+      "x": 12.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i86",
+      "catalogId": "monitor",
+      "x": 12.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i87",
+      "catalogId": "vaso-ficus",
+      "x": 12.5,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i88",
+      "catalogId": "quadro-arte",
+      "x": 6,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i89",
+      "catalogId": "relogio-parede",
+      "x": 10,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i90",
+      "catalogId": "tv-parede",
+      "x": 0.31,
+      "z": 4,
+      "rot": 90
+     },
+     {
+      "id": "edificio-3-andares-i91",
+      "catalogId": "elevador",
+      "x": 16.5,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i92",
+      "catalogId": "palmeira",
+      "x": 19.5,
+      "z": 7.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i93",
+      "catalogId": "vaso-ficus",
+      "x": 13.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i94",
+      "catalogId": "bebedouro",
+      "x": 19.75,
+      "z": 3,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i95",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 9.5,
+      "rot": 180,
+      "cor": 2
+     },
+     {
+      "id": "edificio-3-andares-i96",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i97",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 9.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i98",
+      "catalogId": "sofa",
+      "x": 1,
+      "z": 11.5,
+      "rot": 90,
+      "cor": 4
+     },
+     {
+      "id": "edificio-3-andares-i99",
+      "catalogId": "mesa-centro",
+      "x": 1.75,
+      "z": 11.5,
+      "rot": 90
+     },
+     {
+      "id": "edificio-3-andares-i100",
+      "catalogId": "vaso-ficus",
+      "x": 0.25,
+      "z": 8.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i101",
+      "catalogId": "palmeira",
+      "x": 7.5,
+      "z": 12.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i102",
+      "catalogId": "quadro-arte",
+      "x": 0.31,
+      "z": 9.5,
+      "rot": 90
+     },
+     {
+      "id": "edificio-3-andares-i103",
+      "catalogId": "balcao-cafe",
+      "x": 10.75,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i104",
+      "catalogId": "geladeira",
+      "x": 13.5,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-i105",
+      "catalogId": "bebedouro",
+      "x": 8.75,
+      "z": 12.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i106",
+      "catalogId": "cafeteira",
+      "x": 13.5,
+      "z": 9,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i107",
+      "catalogId": "mesa-reuniao-redonda",
+      "x": 11,
+      "z": 10.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i108",
+      "catalogId": "cadeira-reuniao",
+      "x": 11,
+      "z": 9.25,
+      "rot": 0,
+      "cor": 6
+     },
+     {
+      "id": "edificio-3-andares-i109",
+      "catalogId": "cadeira-reuniao",
+      "x": 11,
+      "z": 11.25,
+      "rot": 180,
+      "cor": 6
+     },
+     {
+      "id": "edificio-3-andares-i110",
+      "catalogId": "cadeira-reuniao",
+      "x": 10,
+      "z": 10.25,
+      "rot": 90,
+      "cor": 6
+     },
+     {
+      "id": "edificio-3-andares-i111",
+      "catalogId": "cadeira-reuniao",
+      "x": 12,
+      "z": 10.25,
+      "rot": 270,
+      "cor": 6
+     },
+     {
+      "id": "edificio-3-andares-i112",
+      "catalogId": "sofa",
+      "x": 19.5,
+      "z": 9.5,
+      "rot": 270,
+      "cor": 5
+     },
+     {
+      "id": "edificio-3-andares-i113",
+      "catalogId": "sofa",
+      "x": 19.5,
+      "z": 11.5,
+      "rot": 270,
+      "cor": 5
+     },
+     {
+      "id": "edificio-3-andares-i114",
+      "catalogId": "puff",
+      "x": 15.5,
+      "z": 9.5,
+      "rot": 0,
+      "cor": 9
+     },
+     {
+      "id": "edificio-3-andares-i115",
+      "catalogId": "puff",
+      "x": 15.5,
+      "z": 12,
+      "rot": 0,
+      "cor": 9
+     },
+     {
+      "id": "edificio-3-andares-i116",
+      "catalogId": "mesa-centro",
+      "x": 17.75,
+      "z": 10.5,
+      "rot": 90
+     },
+     {
+      "id": "edificio-3-andares-i117",
+      "catalogId": "tapete-redondo",
+      "x": 17.5,
+      "z": 10.5,
+      "rot": 0,
+      "cor": 7
+     },
+     {
+      "id": "edificio-3-andares-i118",
+      "catalogId": "palmeira",
+      "x": 14.5,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-i119",
+      "catalogId": "quadro-arte",
+      "x": 19.69,
+      "z": 10.5,
+      "rot": 270
+     }
+    ]
+   },
+   {
+    "andar": 1,
+    "rooms": [
+     {
+      "id": "edificio-3-andares-a1-r0",
+      "nome": "Operação ampla",
+      "tipo": "trabalho",
+      "x": 0,
+      "z": 0,
+      "w": 13,
+      "d": 13,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "edificio-3-andares-a1-r1",
+      "nome": "Hall dos elevadores",
+      "tipo": "corredor",
+      "x": 13,
+      "z": 0,
+      "w": 7,
+      "d": 8,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "edificio-3-andares-a1-r2",
+      "nome": "Sala de reunião",
+      "tipo": "reuniao",
+      "x": 13,
+      "z": 8,
+      "w": 7,
+      "d": 5,
+      "piso": "madeira",
+      "corParede": 2,
+      "vidro": true
+     }
+    ],
+    "doors": [
+     {
+      "id": "edificio-3-andares-a1-d0",
+      "x": 13,
+      "z": 4,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-a1-d1",
+      "x": 17,
+      "z": 8,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-a1-d2",
+      "x": 13,
+      "z": 10.5,
+      "eixo": "z",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "edificio-3-andares-a1-i0",
+      "catalogId": "mesa-reta",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i1",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i2",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i3",
+      "catalogId": "mesa-reta",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i4",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i5",
+      "catalogId": "monitor",
+      "x": 2.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i6",
+      "catalogId": "mesa-reta",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i7",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i8",
+      "catalogId": "laptop",
+      "x": 3.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i9",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i10",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i11",
+      "catalogId": "monitor",
+      "x": 5.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i12",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i13",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i14",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i15",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i16",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i17",
+      "catalogId": "laptop",
+      "x": 8.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i18",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i19",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i20",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i21",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i22",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i23",
+      "catalogId": "monitor",
+      "x": 11.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i24",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i25",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i26",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i27",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i28",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i29",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i30",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i31",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i32",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i33",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i34",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i35",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i36",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i37",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i38",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i39",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i40",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i41",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i42",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i43",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i44",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i45",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i46",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i47",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i48",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i49",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i50",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i51",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i52",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i53",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i54",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 3.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i55",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 2.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i56",
+      "catalogId": "laptop",
+      "x": 11.25,
+      "z": 3.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i57",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i58",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i59",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i60",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i61",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i62",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i63",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 4.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i64",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 5.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i65",
+      "catalogId": "laptop",
+      "x": 11.25,
+      "z": 4.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i66",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i67",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i68",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i69",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i70",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i71",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i72",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i73",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i74",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i75",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i76",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i77",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i78",
+      "catalogId": "mesa-reta",
+      "x": 1.25,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i79",
+      "catalogId": "cadeira-escritorio",
+      "x": 1.25,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i80",
+      "catalogId": "monitor",
+      "x": 1.25,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i81",
+      "catalogId": "mesa-reta",
+      "x": 2.75,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i82",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.75,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i83",
+      "catalogId": "monitor",
+      "x": 2.75,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i84",
+      "catalogId": "mesa-reta",
+      "x": 4.25,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i85",
+      "catalogId": "cadeira-escritorio",
+      "x": 4.25,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i86",
+      "catalogId": "laptop",
+      "x": 4.25,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i87",
+      "catalogId": "mesa-reta",
+      "x": 5.75,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i88",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.75,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i89",
+      "catalogId": "monitor",
+      "x": 5.75,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i90",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i91",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i92",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i93",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i94",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i95",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i96",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 7.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i97",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i98",
+      "catalogId": "laptop",
+      "x": 11.25,
+      "z": 7.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i99",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i100",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i101",
+      "catalogId": "monitor",
+      "x": 8.25,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i102",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i103",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i104",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i105",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i106",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 9.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i107",
+      "catalogId": "laptop",
+      "x": 11.25,
+      "z": 8.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i108",
+      "catalogId": "mesa-reta",
+      "x": 0.75,
+      "z": 12.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i109",
+      "catalogId": "cadeira-escritorio",
+      "x": 0.75,
+      "z": 11.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i110",
+      "catalogId": "monitor",
+      "x": 0.75,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i111",
+      "catalogId": "mesa-reta",
+      "x": 2.25,
+      "z": 12.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i112",
+      "catalogId": "cadeira-escritorio",
+      "x": 2.25,
+      "z": 11.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i113",
+      "catalogId": "monitor",
+      "x": 2.25,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i114",
+      "catalogId": "mesa-reta",
+      "x": 3.75,
+      "z": 12.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i115",
+      "catalogId": "cadeira-escritorio",
+      "x": 3.75,
+      "z": 11.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i116",
+      "catalogId": "laptop",
+      "x": 3.75,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i117",
+      "catalogId": "mesa-reta",
+      "x": 5.25,
+      "z": 12.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i118",
+      "catalogId": "cadeira-escritorio",
+      "x": 5.25,
+      "z": 11.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i119",
+      "catalogId": "monitor",
+      "x": 5.25,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i120",
+      "catalogId": "mesa-reta",
+      "x": 6.75,
+      "z": 12.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i121",
+      "catalogId": "cadeira-escritorio",
+      "x": 6.75,
+      "z": 11.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i122",
+      "catalogId": "monitor",
+      "x": 6.75,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i123",
+      "catalogId": "mesa-reta",
+      "x": 8.25,
+      "z": 12.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i124",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.25,
+      "z": 11.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i125",
+      "catalogId": "laptop",
+      "x": 8.25,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i126",
+      "catalogId": "mesa-reta",
+      "x": 9.75,
+      "z": 12.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i127",
+      "catalogId": "cadeira-escritorio",
+      "x": 9.75,
+      "z": 11.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i128",
+      "catalogId": "monitor",
+      "x": 9.75,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i129",
+      "catalogId": "mesa-reta",
+      "x": 11.25,
+      "z": 12.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i130",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.25,
+      "z": 11.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i131",
+      "catalogId": "monitor",
+      "x": 11.25,
+      "z": 12.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i132",
+      "catalogId": "relogio-parede",
+      "x": 6,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i133",
+      "catalogId": "tv-parede",
+      "x": 0.31,
+      "z": 4,
+      "rot": 90
+     },
+     {
+      "id": "edificio-3-andares-a1-i134",
+      "catalogId": "quadro-arte",
+      "x": 0.31,
+      "z": 10,
+      "rot": 90
+     },
+     {
+      "id": "edificio-3-andares-a1-i135",
+      "catalogId": "vaso-ficus",
+      "x": 12.5,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i136",
+      "catalogId": "palmeira",
+      "x": 12.5,
+      "z": 12.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i137",
+      "catalogId": "elevador",
+      "x": 16.5,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i138",
+      "catalogId": "palmeira",
+      "x": 19.5,
+      "z": 7.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i139",
+      "catalogId": "vaso-ficus",
+      "x": 13.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i140",
+      "catalogId": "bebedouro",
+      "x": 19.75,
+      "z": 3,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i141",
+      "catalogId": "impressora",
+      "x": 19.75,
+      "z": 5.5,
+      "rot": 270
+     },
+     {
+      "id": "edificio-3-andares-a1-i142",
+      "catalogId": "arquivo",
+      "x": 19.75,
+      "z": 6.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i143",
+      "catalogId": "mesa-reuniao-longa",
+      "x": 16.5,
+      "z": 10.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a1-i144",
+      "catalogId": "cadeira-reuniao",
+      "x": 15.5,
+      "z": 9.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a1-i145",
+      "catalogId": "cadeira-reuniao",
+      "x": 15.5,
+      "z": 11.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a1-i146",
+      "catalogId": "cadeira-reuniao",
+      "x": 16.5,
+      "z": 9.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a1-i147",
+      "catalogId": "cadeira-reuniao",
+      "x": 16.5,
+      "z": 11.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a1-i148",
+      "catalogId": "cadeira-reuniao",
+      "x": 17.5,
+      "z": 9.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a1-i149",
+      "catalogId": "cadeira-reuniao",
+      "x": 17.5,
+      "z": 11.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a1-i150",
+      "catalogId": "cadeira-reuniao",
+      "x": 14.75,
+      "z": 10.25,
+      "rot": 90,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a1-i151",
+      "catalogId": "cadeira-reuniao",
+      "x": 18.25,
+      "z": 10.25,
+      "rot": 270,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a1-i152",
+      "catalogId": "tv-parede",
+      "x": 16.5,
+      "z": 12.69,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a1-i153",
+      "catalogId": "quadro-parede",
+      "x": 19.69,
+      "z": 10.5,
+      "rot": 270
+     }
+    ]
+   },
+   {
+    "andar": 2,
+    "rooms": [
+     {
+      "id": "edificio-3-andares-a2-r0",
+      "nome": "Diretoria",
+      "tipo": "diretoria",
+      "x": 0,
+      "z": 0,
+      "w": 8,
+      "d": 6,
+      "piso": "madeira",
+      "corParede": 4,
+      "vidro": false
+     },
+     {
+      "id": "edificio-3-andares-a2-r1",
+      "nome": "Assessoria",
+      "tipo": "trabalho",
+      "x": 8,
+      "z": 0,
+      "w": 5,
+      "d": 6,
+      "piso": "carpete",
+      "corParede": 0,
+      "vidro": false
+     },
+     {
+      "id": "edificio-3-andares-a2-r2",
+      "nome": "Sala do conselho",
+      "tipo": "reuniao",
+      "x": 0,
+      "z": 6,
+      "w": 13,
+      "d": 7,
+      "piso": "madeira",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "edificio-3-andares-a2-r3",
+      "nome": "Hall dos elevadores",
+      "tipo": "corredor",
+      "x": 13,
+      "z": 0,
+      "w": 7,
+      "d": 8,
+      "piso": "porcelanato",
+      "corParede": 11,
+      "vidro": false
+     },
+     {
+      "id": "edificio-3-andares-a2-r4",
+      "nome": "Lounge executivo",
+      "tipo": "descanso",
+      "x": 13,
+      "z": 8,
+      "w": 7,
+      "d": 5,
+      "piso": "carpete",
+      "corParede": 3,
+      "vidro": false
+     }
+    ],
+    "doors": [
+     {
+      "id": "edificio-3-andares-a2-d0",
+      "x": 4,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-d1",
+      "x": 11,
+      "z": 6,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-d2",
+      "x": 8,
+      "z": 3,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-d3",
+      "x": 13,
+      "z": 3,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-d4",
+      "x": 13,
+      "z": 7,
+      "eixo": "z",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-d5",
+      "x": 17,
+      "z": 8,
+      "eixo": "x",
+      "largura": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-d6",
+      "x": 13,
+      "z": 10.5,
+      "eixo": "z",
+      "largura": 1
+     }
+    ],
+    "items": [
+     {
+      "id": "edificio-3-andares-a2-i0",
+      "catalogId": "mesa-diretor",
+      "x": 4,
+      "z": 1.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a2-i1",
+      "catalogId": "cadeira-diretor",
+      "x": 4,
+      "z": 0.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i2",
+      "catalogId": "laptop",
+      "x": 4,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a2-i3",
+      "catalogId": "cadeira-reuniao",
+      "x": 3.5,
+      "z": 2.5,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-i4",
+      "catalogId": "cadeira-reuniao",
+      "x": 4.5,
+      "z": 2.5,
+      "rot": 180,
+      "cor": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-i5",
+      "catalogId": "estante",
+      "x": 0.25,
+      "z": 1.5,
+      "rot": 90
+     },
+     {
+      "id": "edificio-3-andares-a2-i6",
+      "catalogId": "estante",
+      "x": 0.25,
+      "z": 3.25,
+      "rot": 90
+     },
+     {
+      "id": "edificio-3-andares-a2-i7",
+      "catalogId": "sofa",
+      "x": 2,
+      "z": 5.5,
+      "rot": 180,
+      "cor": 4
+     },
+     {
+      "id": "edificio-3-andares-a2-i8",
+      "catalogId": "mesa-centro",
+      "x": 2,
+      "z": 4.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i9",
+      "catalogId": "luminaria-arco",
+      "x": 7.5,
+      "z": 5.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i10",
+      "catalogId": "vaso-ficus",
+      "x": 7.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i11",
+      "catalogId": "estante-trofeus",
+      "x": 6.5,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i12",
+      "catalogId": "quadro-arte",
+      "x": 4,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i13",
+      "catalogId": "mesa-reta",
+      "x": 8.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i14",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a2-i15",
+      "catalogId": "monitor",
+      "x": 8.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i16",
+      "catalogId": "mesa-reta",
+      "x": 10.25,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i17",
+      "catalogId": "cadeira-escritorio",
+      "x": 10.25,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a2-i18",
+      "catalogId": "monitor",
+      "x": 10.25,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i19",
+      "catalogId": "mesa-reta",
+      "x": 11.75,
+      "z": 0.5,
+      "rot": 0,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i20",
+      "catalogId": "cadeira-escritorio",
+      "x": 11.75,
+      "z": 1.25,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a2-i21",
+      "catalogId": "laptop",
+      "x": 11.75,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i22",
+      "catalogId": "mesa-reta",
+      "x": 8.75,
+      "z": 5.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i23",
+      "catalogId": "cadeira-escritorio",
+      "x": 8.75,
+      "z": 4.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i24",
+      "catalogId": "monitor",
+      "x": 8.75,
+      "z": 5.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a2-i25",
+      "catalogId": "mesa-reta",
+      "x": 12.25,
+      "z": 5.5,
+      "rot": 180,
+      "cor": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i26",
+      "catalogId": "cadeira-escritorio",
+      "x": 12.25,
+      "z": 4.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i27",
+      "catalogId": "monitor",
+      "x": 12.25,
+      "z": 5.5,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a2-i28",
+      "catalogId": "arquivo",
+      "x": 12.75,
+      "z": 1.75,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i29",
+      "catalogId": "relogio-parede",
+      "x": 10.5,
+      "z": 0.31,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i30",
+      "catalogId": "mesa-reuniao-longa",
+      "x": 4.5,
+      "z": 10.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i31",
+      "catalogId": "cadeira-reuniao",
+      "x": 3.5,
+      "z": 9.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i32",
+      "catalogId": "cadeira-reuniao",
+      "x": 3.5,
+      "z": 11.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i33",
+      "catalogId": "cadeira-reuniao",
+      "x": 4.5,
+      "z": 9.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i34",
+      "catalogId": "cadeira-reuniao",
+      "x": 4.5,
+      "z": 11.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i35",
+      "catalogId": "cadeira-reuniao",
+      "x": 5.5,
+      "z": 9.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i36",
+      "catalogId": "cadeira-reuniao",
+      "x": 5.5,
+      "z": 11.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i37",
+      "catalogId": "mesa-reuniao-longa",
+      "x": 7.5,
+      "z": 10.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i38",
+      "catalogId": "cadeira-reuniao",
+      "x": 6.5,
+      "z": 9.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i39",
+      "catalogId": "cadeira-reuniao",
+      "x": 6.5,
+      "z": 11.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i40",
+      "catalogId": "cadeira-reuniao",
+      "x": 7.5,
+      "z": 9.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i41",
+      "catalogId": "cadeira-reuniao",
+      "x": 7.5,
+      "z": 11.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i42",
+      "catalogId": "cadeira-reuniao",
+      "x": 8.5,
+      "z": 9.25,
+      "rot": 0,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i43",
+      "catalogId": "cadeira-reuniao",
+      "x": 8.5,
+      "z": 11.25,
+      "rot": 180,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i44",
+      "catalogId": "cadeira-reuniao",
+      "x": 2.75,
+      "z": 10.25,
+      "rot": 90,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i45",
+      "catalogId": "cadeira-reuniao",
+      "x": 9.25,
+      "z": 10.25,
+      "rot": 270,
+      "cor": 3
+     },
+     {
+      "id": "edificio-3-andares-a2-i46",
+      "catalogId": "tv-parede",
+      "x": 4.5,
+      "z": 12.69,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a2-i47",
+      "catalogId": "painel-dashboard",
+      "x": 9,
+      "z": 12.69,
+      "rot": 180
+     },
+     {
+      "id": "edificio-3-andares-a2-i48",
+      "catalogId": "quadro-parede",
+      "x": 0.31,
+      "z": 9,
+      "rot": 90
+     },
+     {
+      "id": "edificio-3-andares-a2-i49",
+      "catalogId": "poltrona",
+      "x": 11.5,
+      "z": 8.5,
+      "rot": 0,
+      "cor": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-i50",
+      "catalogId": "palmeira",
+      "x": 11.5,
+      "z": 12,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i51",
+      "catalogId": "elevador",
+      "x": 16.5,
+      "z": 0.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i52",
+      "catalogId": "palmeira",
+      "x": 19.5,
+      "z": 7.5,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i53",
+      "catalogId": "vaso-ficus",
+      "x": 13.75,
+      "z": 0.25,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i54",
+      "catalogId": "bebedouro",
+      "x": 19.75,
+      "z": 3,
+      "rot": 0
+     },
+     {
+      "id": "edificio-3-andares-a2-i55",
+      "catalogId": "sofa",
+      "x": 19.5,
+      "z": 9.5,
+      "rot": 270,
+      "cor": 4
+     },
+     {
+      "id": "edificio-3-andares-a2-i56",
+      "catalogId": "sofa",
+      "x": 19.5,
+      "z": 11.5,
+      "rot": 270,
+      "cor": 4
+     },
+     {
+      "id": "edificio-3-andares-a2-i57",
+      "catalogId": "mesa-centro",
+      "x": 17.75,
+      "z": 10.5,
+      "rot": 90
+     },
+     {
+      "id": "edificio-3-andares-a2-i58",
+      "catalogId": "tapete-redondo",
+      "x": 17.5,
+      "z": 10.5,
+      "rot": 0,
+      "cor": 7
+     },
+     {
+      "id": "edificio-3-andares-a2-i59",
+      "catalogId": "poltrona",
+      "x": 15.5,
+      "z": 9.5,
+      "rot": 0,
+      "cor": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-i60",
+      "catalogId": "poltrona",
+      "x": 15.5,
+      "z": 12,
+      "rot": 0,
+      "cor": 1
+     },
+     {
+      "id": "edificio-3-andares-a2-i61",
+      "catalogId": "aquario",
+      "x": 16.25,
+      "z": 12.75,
+      "rot": 180
+     }
+    ]
+   }
+  ],
+  "presetId": "edificio-3-andares"
+ }
+}

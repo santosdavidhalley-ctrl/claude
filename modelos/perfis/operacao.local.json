@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "defaultMode": "dontAsk",
+    "blockReadsOutsideWorkingDirectories": true,
+    "allow": [
+      "Agent"
+    ],
+    "deny": [
+      "Bash(git push *)",
+      "Bash(git reset *)",
+      "Bash(chmod *)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      { "matcher": "Write|Edit", "hooks": [ { "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/so-dentro-da-pasta.mjs\"" } ] }
+    ]
+  },
+  "sandbox": { "enabled": true, "autoAllowBashIfSandboxed": false }
+}
